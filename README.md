@@ -14,14 +14,6 @@ Not every nation is ready to fight together. Illyria and Aerothia still carry ol
 
 At the same time, the newly formed Northwing Kingdom is emerging as a prominent puppet state. Its leaders are beginning to question their loyalty and consider independence, potentially by forming alliances with other aligned states.
 
-## Features
-
-- Community-inspired alternate history scenario
-- Coalition warfare against the rising threat of The Crimson Hand
-- Political tension between unity, revenge, and independence
-- Puppet states and factional intrigue
-- Rich narrative backdrop for both multiplayer and single-player play
-
 ## Join the Community
 
 Connect with the mod's Discord to stay updated, share strategies, and help shape the world of Northwing Universalis.
