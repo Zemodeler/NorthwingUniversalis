@@ -1,0 +1,686 @@
+country_event = {
+    id = TCS_event.1
+    title = TCS_event.1.title
+    desc = TCS_event.1.desc
+    option = {
+        name = TCS_event.1.a
+        add_political_power = 50
+        add_stability = 0.02
+        add_to_variable = { var = TCS_internal_legitimacy value = 5 }
+    }
+    option = {
+        name = TCS_event.1.b
+        add_stability = 0.01
+        add_war_support = 0.03
+        add_to_variable = { var = TCS_internal_legitimacy value = 3 }
+        set_country_flag = TCS_monarchist_sentiment_strengthened
+    }
+}
+
+country_event = {
+    id = TCS_event.2
+    title = TCS_event.2.title
+    desc = TCS_event.2.desc
+    option = {
+        name = TCS_event.2.a
+        add_command_power = 50
+        add_war_support = 0.03
+        add_to_variable = { var = TCS_internal_faction_tension value = 5 }
+    }
+    option = {
+        name = TCS_event.2.b
+        add_stability = 0.03
+        add_to_variable = { var = TCS_internal_legitimacy value = 5 }
+        add_to_variable = { var = TCS_internal_faction_tension value = -3 }
+    }
+    option = {
+        name = TCS_event.2.c
+        add_political_power = 75
+        add_to_variable = { var = TCS_internal_faction_tension value = 8 }
+        set_country_flag = TCS_inner_council_government
+    }
+}
+
+country_event = {
+    id = TCS_event.3
+    title = TCS_event.3.title
+    desc = TCS_event.3.desc
+    option = {
+        name = TCS_event.3.a
+        add_stability = 0.05
+        add_war_support = 0.05
+        add_to_variable = { var = TCS_internal_legitimacy value = 10 }
+    }
+    option = {
+        name = TCS_event.3.b
+        add_to_variable = { var = TCS_coalition_authority value = 10 }
+        add_to_variable = { var = TCS_internal_legitimacy value = 5 }
+    }
+}
+
+country_event = {
+    id = TCS_event.10
+    title = TCS_event.10.title
+    desc = TCS_event.10.desc
+    option = {
+        name = TCS_event.10.a
+        add_stability = 0.03
+        add_to_variable = { var = TCS_internal_legitimacy value = 5 }
+        add_to_variable = { var = TCS_internal_faction_tension value = -5 }
+    }
+    option = {
+        name = TCS_event.10.b
+        add_political_power = 50
+        add_to_variable = { var = TCS_internal_faction_tension value = 5 }
+    }
+    option = {
+        name = TCS_event.10.c
+        add_to_variable = { var = TCS_internal_legitimacy value = 3 }
+        set_country_flag = TCS_promised_royal_settlement
+    }
+}
+
+country_event = {
+    id = TCS_event.11
+    title = TCS_event.11.title
+    desc = TCS_event.11.desc
+    option = {
+        name = TCS_event.11.a
+        add_stability = 0.02
+        add_to_variable = { var = TCS_internal_faction_tension value = -5 }
+    }
+    option = {
+        name = TCS_event.11.b
+        add_political_power = 50
+        add_to_variable = { var = TCS_internal_faction_tension value = 5 }
+    }
+    option = {
+        name = TCS_event.11.c
+        add_to_variable = { var = TCS_internal_legitimacy value = 5 }
+        add_to_variable = { var = TCS_internal_faction_tension value = -3 }
+    }
+}
+
+country_event = {
+    id = TCS_event.12
+    title = TCS_event.12.title
+    desc = TCS_event.12.desc
+    option = {
+        name = TCS_event.12.a
+        army_experience = 20
+        add_to_variable = { var = TCS_internal_faction_tension value = -5 }
+        add_political_power = -25
+    }
+    option = {
+        name = TCS_event.12.b
+        add_command_power = 50
+        add_to_variable = { var = TCS_internal_faction_tension value = 5 }
+    }
+    option = {
+        name = TCS_event.12.c
+        army_experience = 10
+        add_to_variable = { var = TCS_internal_faction_tension value = -8 }
+        add_political_power = -50
+    }
+}
+
+country_event = {
+    id = TCS_event.13
+    title = TCS_event.13.title
+    desc = TCS_event.13.desc
+    option = {
+        name = TCS_event.13.a
+        add_stability = 0.03
+        add_to_variable = { var = TCS_internal_faction_tension value = -8 }
+        add_political_power = -50
+    }
+    option = {
+        name = TCS_event.13.b
+        add_to_variable = { var = TCS_internal_faction_tension value = 5 }
+        add_political_power = 50
+    }
+    option = {
+        name = TCS_event.13.c
+        add_stability = 0.02
+        add_to_variable = { var = TCS_internal_faction_tension value = -5 }
+        set_country_flag = TCS_limited_provincial_autonomy
+    }
+}
+
+country_event = {
+    id = TCS_event.14
+    title = TCS_event.14.title
+    desc = TCS_event.14.desc
+    option = {
+        name = TCS_event.14.a
+        add_stability = 0.03
+        add_to_variable = { var = TCS_internal_faction_tension value = -8 }
+        add_to_variable = { var = TCS_tch_escalation value = 5 }
+    }
+    option = {
+        name = TCS_event.14.b
+        add_to_variable = { var = TCS_tch_escalation value = 3 }
+        set_country_flag = TCS_tracking_crimson_money
+    }
+    option = {
+        name = TCS_event.14.c
+        add_war_support = 0.05
+        add_to_variable = { var = TCS_internal_legitimacy value = 5 }
+        add_to_variable = { var = TCS_tch_escalation value = 5 }
+    }
+}
+
+country_event = {
+    id = TCS_event.30
+    title = TCS_event.30.title
+    desc = TCS_event.30.desc
+    option = {
+        name = TCS_event.30.a
+        add_to_variable = { var = TCS_internal_legitimacy value = 5 }
+        set_country_flag = TCS_blames_weak_crown
+    }
+    option = {
+        name = TCS_event.30.b
+        add_stability = 0.03
+        set_country_flag = TCS_blames_factionalism
+    }
+    option = {
+        name = TCS_event.30.c
+        army_experience = 25
+        add_war_support = 0.03
+        set_country_flag = TCS_blames_military_hesitation
+    }
+    option = {
+        name = TCS_event.30.d
+        add_to_variable = { var = TCS_tch_escalation value = 5 }
+        add_war_support = 0.03
+        set_country_flag = TCS_blames_foreign_subversion
+    }
+}
+
+country_event = {
+    id = TCS_event.31
+    title = TCS_event.31.title
+    desc = TCS_event.31.desc
+    option = {
+        name = TCS_event.31.a
+        add_command_power = 50
+        add_war_support = 0.03
+        set_country_flag = TCS_founder_military_leader
+    }
+    option = {
+        name = TCS_event.31.b
+        add_stability = 0.03
+        add_to_variable = { var = TCS_internal_legitimacy value = 5 }
+        set_country_flag = TCS_founder_protector
+    }
+    option = {
+        name = TCS_event.31.c
+        add_to_variable = { var = TCS_coalition_authority value = 5 }
+        add_to_variable = { var = TCS_internal_legitimacy value = 5 }
+        set_country_flag = TCS_founder_civilian_legitimacy
+    }
+}
+
+country_event = {
+    id = TCS_event.32
+    title = TCS_event.32.title
+    desc = TCS_event.32.desc
+    option = {
+        name = TCS_event.32.a
+        add_stability = 0.05
+        add_war_support = 0.03
+        set_country_flag = TCS_founders_list_wins
+    }
+    option = {
+        name = TCS_event.32.b
+        add_stability = 0.03
+        add_to_variable = { var = TCS_coalition_authority value = 5 }
+        set_country_flag = TCS_reform_bloc_wins
+    }
+    option = {
+        name = TCS_event.32.c
+        army_experience = 30
+        add_stability = 0.03
+        set_country_flag = TCS_veterans_coalition_wins
+    }
+}
+
+country_event = {
+    id = TCS_event.33
+    title = TCS_event.33.title
+    desc = TCS_event.33.desc
+    option = {
+        name = TCS_event.33.a
+        add_stability = 0.05
+        add_war_support = 0.05
+        set_country_flag = TCS_crown_protector
+    }
+    option = {
+        name = TCS_event.33.b
+        add_stability = 0.07
+        add_political_power = -50
+        set_country_flag = TCS_invited_cobalt_heir
+    }
+    option = {
+        name = TCS_event.33.c
+        add_stability = 0.04
+        add_to_variable = { var = TCS_internal_faction_tension value = -5 }
+        set_country_flag = TCS_regency_council_created
+    }
+}
+
+country_event = {
+    id = TCS_event.34
+    title = TCS_event.34.title
+    desc = TCS_event.34.desc
+    option = {
+        name = TCS_event.34.a
+        add_stability = 0.05
+        add_to_variable = { var = TCS_internal_faction_tension value = -5 }
+    }
+    option = {
+        name = TCS_event.34.b
+        add_war_support = 0.05
+        add_to_variable = { var = TCS_internal_faction_tension value = 3 }
+    }
+    option = {
+        name = TCS_event.34.c
+        add_to_variable = { var = TCS_coalition_authority value = 5 }
+        add_to_variable = { var = TCS_internal_legitimacy value = 5 }
+    }
+}
+
+country_event = {
+    id = TCS_event.50
+    title = TCS_event.50.title
+    desc = TCS_event.50.desc
+    option = {
+        name = TCS_event.50.a
+        add_to_variable = { var = TCS_coalition_authority value = 10 }
+        add_political_power = 25
+    }
+    option = {
+        name = TCS_event.50.b
+        add_to_variable = { var = TCS_coalition_authority value = 5 }
+        add_stability = 0.02
+    }
+}
+
+country_event = {
+    id = TCS_event.51
+    title = TCS_event.51.title
+    desc = TCS_event.51.desc
+    option = {
+        name = TCS_event.51.a
+        army_experience = 25
+        add_to_variable = { var = TCS_coalition_authority value = 10 }
+    }
+    option = {
+        name = TCS_event.51.b
+        add_to_variable = { var = TCS_coalition_authority value = 5 }
+        add_political_power = 25
+    }
+}
+
+country_event = {
+    id = TCS_event.52
+    title = TCS_event.52.title
+    desc = TCS_event.52.desc
+    option = {
+        name = TCS_event.52.a
+        add_to_variable = { var = TCS_coalition_authority value = 8 }
+        set_country_flag = TCS_brotherhood_invited
+    }
+    option = {
+        name = TCS_event.52.b
+        add_to_variable = { var = TCS_coalition_authority value = 4 }
+        set_country_flag = TCS_brotherhood_observer
+    }
+}
+
+country_event = {
+    id = TCS_event.53
+    title = TCS_event.53.title
+    desc = TCS_event.53.desc
+    option = {
+        name = TCS_event.53.a
+        add_to_variable = { var = TCS_coalition_authority value = 8 }
+        set_country_flag = TCS_iswandians_invited
+    }
+    option = {
+        name = TCS_event.53.b
+        army_experience = 20
+        add_to_variable = { var = TCS_coalition_authority value = 4 }
+    }
+}
+
+country_event = {
+    id = TCS_event.54
+    title = TCS_event.54.title
+    desc = TCS_event.54.desc
+    option = {
+        name = TCS_event.54.a
+        add_research_slot = 1
+        add_to_variable = { var = TCS_coalition_authority value = 5 }
+    }
+    option = {
+        name = TCS_event.54.b
+        add_ideas = TCS_coder_cyber_support
+        add_to_variable = { var = TCS_coalition_authority value = 5 }
+    }
+}
+
+country_event = {
+    id = TCS_event.55
+    title = TCS_event.55.title
+    desc = TCS_event.55.desc
+    option = {
+        name = TCS_event.55.a
+        add_to_variable = { var = TCS_coalition_authority value = 5 }
+        add_to_variable = { var = TCS_internal_faction_tension value = 3 }
+    }
+    option = {
+        name = TCS_event.55.b
+        add_stability = 0.02
+        add_to_variable = { var = TCS_coalition_authority value = -3 }
+    }
+    option = {
+        name = TCS_event.55.c
+        add_to_variable = { var = TCS_coalition_authority value = 3 }
+        add_war_support = 0.03
+    }
+}
+
+country_event = {
+    id = TCS_event.56
+    title = TCS_event.56.title
+    desc = TCS_event.56.desc
+    option = {
+        name = TCS_event.56.a
+        army_experience = 30
+        add_to_variable = { var = TCS_coalition_authority value = 5 }
+    }
+    option = {
+        name = TCS_event.56.b
+        add_ideas = TCS_greek_musketeer_volunteers
+        add_to_variable = { var = TCS_coalition_authority value = 5 }
+    }
+}
+
+country_event = {
+    id = TCS_event.57
+    title = TCS_event.57.title
+    desc = TCS_event.57.desc
+    option = {
+        name = TCS_event.57.a
+        add_war_support = 0.05
+        add_to_variable = { var = TCS_coalition_authority value = 10 }
+    }
+    option = {
+        name = TCS_event.57.b
+        add_to_variable = { var = TCS_tch_escalation value = 10 }
+        add_to_variable = { var = TCS_coalition_authority value = 10 }
+    }
+}
+
+country_event = {
+    id = TCS_event.58
+    title = TCS_event.58.title
+    desc = TCS_event.58.desc
+    option = {
+        name = TCS_event.58.a
+        add_political_power = 100
+        add_war_support = 0.05
+        add_to_variable = { var = TCS_coalition_authority value = 15 }
+    }
+    option = {
+        name = TCS_event.58.b
+        add_stability = 0.03
+        add_to_variable = { var = TCS_coalition_authority value = 10 }
+    }
+}
+
+country_event = {
+    id = TCS_event.70
+    title = TCS_event.70.title
+    desc = TCS_event.70.desc
+    option = {
+        name = TCS_event.70.a
+        add_stability = 0.03
+        add_to_variable = { var = TCS_internal_faction_tension value = -8 }
+        add_to_variable = { var = TCS_tch_escalation value = 5 }
+    }
+    option = {
+        name = TCS_event.70.b
+        add_to_variable = { var = TCS_tch_escalation value = 5 }
+        set_country_flag = TCS_tch_double_agents_active
+    }
+    option = {
+        name = TCS_event.70.c
+        add_war_support = 0.05
+        add_to_variable = { var = TCS_internal_legitimacy value = 5 }
+        add_to_variable = { var = TCS_tch_escalation value = 5 }
+    }
+}
+
+country_event = {
+    id = TCS_event.71
+    title = TCS_event.71.title
+    desc = TCS_event.71.desc
+    option = {
+        name = TCS_event.71.a
+        add_stability = 0.04
+        add_war_support = 0.03
+        add_to_variable = { var = TCS_internal_legitimacy value = 5 }
+    }
+    option = {
+        name = TCS_event.71.b
+        add_to_variable = { var = TCS_coalition_authority value = 10 }
+        add_to_variable = { var = TCS_tch_escalation value = 5 }
+    }
+    option = {
+        name = TCS_event.71.c
+        add_to_variable = { var = TCS_tch_escalation value = 10 }
+        add_political_power = 50
+    }
+}
+
+country_event = {
+    id = TCS_event.72
+    title = TCS_event.72.title
+    desc = TCS_event.72.desc
+    option = {
+        name = TCS_event.72.a
+        add_stability = 0.03
+        add_war_support = -0.03
+        add_to_variable = { var = TCS_tch_escalation value = -10 }
+    }
+    option = {
+        name = TCS_event.72.b
+        add_war_support = 0.05
+        add_to_variable = { var = TCS_tch_escalation value = 5 }
+        set_country_flag = TCS_border_forces_mobilized
+    }
+    option = {
+        name = TCS_event.72.c
+        add_to_variable = { var = TCS_coalition_authority value = 5 }
+        add_to_variable = { var = TCS_tch_escalation value = 5 }
+        country_event = { id = TCS_event.74 days = 3 }
+    }
+    option = {
+        name = TCS_event.72.d
+        add_war_support = 0.05
+        add_to_variable = { var = TCS_tch_escalation value = 15 }
+        set_country_flag = TCS_limited_retaliation_authorized
+    }
+}
+
+country_event = {
+    id = TCS_event.73
+    title = TCS_event.73.title
+    desc = TCS_event.73.desc
+    option = {
+        name = TCS_event.73.a
+        add_ideas = TCS_cyberattack_response
+        add_to_variable = { var = TCS_tch_escalation value = 5 }
+    }
+    option = {
+        name = TCS_event.73.b
+        add_to_variable = { var = TCS_tch_escalation value = 15 }
+        set_country_flag = TCS_cyber_retaliation_launched
+    }
+    option = {
+        name = TCS_event.73.c
+        add_stability = -0.02
+        add_to_variable = { var = TCS_internal_faction_tension value = 8 }
+        add_war_support = 0.05
+    }
+}
+
+country_event = {
+    id = TCS_event.74
+    title = TCS_event.74.title
+    desc = TCS_event.74.desc
+    option = {
+        name = TCS_event.74.a
+        add_to_variable = { var = TCS_coalition_authority value = 5 }
+        add_war_support = 0.05
+        set_country_flag = TCS_coalition_support_requested
+    }
+    option = {
+        name = TCS_event.74.b
+        add_to_variable = { var = TCS_tch_escalation value = 5 }
+        add_to_variable = { var = TCS_coalition_authority value = 3 }
+        set_country_flag = TCS_coalition_sanctions_requested
+    }
+    option = {
+        name = TCS_event.74.c
+        add_stability = 0.02
+        add_to_variable = { var = TCS_coalition_authority value = -5 }
+    }
+}
+
+country_event = {
+    id = TCS_event.75
+    title = TCS_event.75.title
+    desc = TCS_event.75.desc
+    option = {
+        name = TCS_event.75.a
+        add_war_support = 0.05
+        add_to_variable = { var = TCS_tch_escalation value = 10 }
+        set_country_flag = TCS_memelburg_red_line_hard
+    }
+    option = {
+        name = TCS_event.75.b
+        add_stability = 0.03
+        set_country_flag = TCS_memelburg_red_line_flexible
+    }
+    option = {
+        name = TCS_event.75.c
+        add_to_variable = { var = TCS_coalition_authority value = 10 }
+        add_to_variable = { var = TCS_tch_escalation value = 5 }
+    }
+}
+
+country_event = {
+    id = TCS_event.76
+    title = TCS_event.76.title
+    desc = TCS_event.76.desc
+    option = {
+        name = TCS_event.76.a
+        add_war_support = 0.10
+        add_to_variable = { var = TCS_tch_escalation value = 10 }
+        set_country_flag = TCS_rejected_tch_ultimatum
+    }
+    option = {
+        name = TCS_event.76.b
+        add_stability = 0.02
+        add_to_variable = { var = TCS_tch_escalation value = -5 }
+        add_political_power = -50
+    }
+    option = {
+        name = TCS_event.76.c
+        add_to_variable = { var = TCS_coalition_authority value = 5 }
+        add_war_support = 0.05
+        set_country_flag = TCS_mobilizing_coalition_against_tch
+    }
+}
+
+country_event = {
+    id = TCS_event.77
+    title = TCS_event.77.title
+    desc = TCS_event.77.desc
+    option = {
+        name = TCS_event.77.a
+        add_war_support = 0.10
+        add_command_power = 100
+        declare_war_on = {
+            target = TCH
+            type = annex_everything
+        }
+        set_country_flag = TCS_second_coalition_war_started
+    }
+    option = {
+        name = TCS_event.77.b
+        add_political_power = -75
+        add_to_variable = { var = TCS_tch_escalation value = -10 }
+        country_event = { id = TCS_event.74 days = 2 }
+    }
+    option = {
+        name = TCS_event.77.c
+        add_war_support = 0.05
+        add_ideas = TCS_defensive_mobilization_against_tch
+        set_country_flag = TCS_defensive_mobilization_against_tch
+    }
+}
+
+country_event = {
+    id = TCS_event.78
+    title = TCS_event.78.title
+    desc = TCS_event.78.desc
+    option = {
+        name = TCS_event.78.a
+        add_stability = 0.05
+        add_war_support = 0.05
+        set_country_flag = TCS_tch_defeated
+    }
+    option = {
+        name = TCS_event.78.b
+        add_stability = 0.07
+        set_country_flag = TCS_tch_forced_to_treaty
+    }
+    option = {
+        name = TCS_event.78.c
+        add_to_variable = { var = TCS_coalition_authority value = 10 }
+        set_country_flag = TCS_tch_coalition_occupation
+    }
+    option = {
+        name = TCS_event.78.d
+        add_political_power = 100
+        set_country_flag = TCS_tch_isolated
+    }
+}
+
+country_event = {
+    id = TCS_event.79
+    title = TCS_event.79.title
+    desc = TCS_event.79.desc
+    option = {
+        name = TCS_event.79.a
+        add_stability = 0.05
+        add_war_support = 0.05
+        add_to_variable = { var = TCS_internal_legitimacy value = 10 }
+    }
+    option = {
+        name = TCS_event.79.b
+        add_to_variable = { var = TCS_coalition_authority value = 15 }
+        add_stability = 0.03
+    }
+    option = {
+        name = TCS_event.79.c
+        add_war_support = 0.07
+        add_political_power = 100
+        add_to_variable = { var = TCS_internal_legitimacy value = 5 }
+    }
+}

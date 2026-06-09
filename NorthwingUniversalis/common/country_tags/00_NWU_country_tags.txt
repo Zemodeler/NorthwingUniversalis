@@ -1,0 +1,2 @@
+# Northwing Universalis country tag definitions
+TCS = "history/countries/TCS.txt"

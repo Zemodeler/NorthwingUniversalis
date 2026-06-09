@@ -1,0 +1,39 @@
+TCS_add_legitimacy_small = {
+    add_to_variable = { var = TCS_internal_legitimacy value = 5 }
+    clamp_variable = { var = TCS_internal_legitimacy min = 0 max = 100 }
+}
+
+TCS_add_legitimacy_medium = {
+    add_to_variable = { var = TCS_internal_legitimacy value = 10 }
+    clamp_variable = { var = TCS_internal_legitimacy min = 0 max = 100 }
+}
+
+TCS_reduce_faction_tension_small = {
+    add_to_variable = { var = TCS_internal_faction_tension value = -5 }
+    clamp_variable = { var = TCS_internal_faction_tension min = 0 max = 100 }
+}
+
+TCS_reduce_faction_tension_medium = {
+    add_to_variable = { var = TCS_internal_faction_tension value = -10 }
+    clamp_variable = { var = TCS_internal_faction_tension min = 0 max = 100 }
+}
+
+TCS_add_coalition_authority_small = {
+    add_to_variable = { var = TCS_coalition_authority value = 5 }
+    clamp_variable = { var = TCS_coalition_authority min = 0 max = 100 }
+}
+
+TCS_add_coalition_authority_medium = {
+    add_to_variable = { var = TCS_coalition_authority value = 10 }
+    clamp_variable = { var = TCS_coalition_authority min = 0 max = 100 }
+}
+
+TCS_add_tch_escalation_small = {
+    add_to_variable = { var = TCS_tch_escalation value = 5 }
+    clamp_variable = { var = TCS_tch_escalation min = 0 max = 100 }
+}
+
+TCS_add_tch_escalation_medium = {
+    add_to_variable = { var = TCS_tch_escalation value = 10 }
+    clamp_variable = { var = TCS_tch_escalation min = 0 max = 100 }
+}

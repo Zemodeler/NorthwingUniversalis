@@ -1,0 +1,191 @@
+decisions = {
+    TCS_monitor_royal_continuists = {
+        picture = GFX_decision_generic_political_reform
+        allowed = { tag = TCS }
+        available = { }
+        cost = 35
+        complete_effect = {
+            add_to_variable = { var = TCS_internal_faction_tension value = -3 }
+            add_to_variable = { var = TCS_internal_legitimacy value = 2 }
+        }
+    }
+    TCS_negotiate_with_republican_committees = {
+        picture = GFX_decision_generic_political_reform
+        allowed = { tag = TCS }
+        available = { }
+        cost = 50
+        complete_effect = {
+            add_stability = 0.01
+            add_to_variable = { var = TCS_internal_faction_tension value = -5 }
+        }
+    }
+    TCS_pressure_provincial_assemblies = {
+        picture = GFX_decision_generic_political_reform
+        allowed = { tag = TCS }
+        available = { }
+        cost = 40
+        complete_effect = {
+            add_to_variable = { var = TCS_internal_faction_tension value = -3 }
+            add_stability = -0.01
+        }
+    }
+    TCS_offer_reconstruction_grants = {
+        picture = GFX_decision_generic_economy
+        allowed = { tag = TCS }
+        available = { }
+        cost = 75
+        complete_effect = {
+            add_stability = 0.02
+            add_to_variable = { var = TCS_internal_faction_tension value = -7 }
+        }
+    }
+    TCS_investigate_officer_league = {
+        picture = GFX_decision_generic_political_reform
+        allowed = { tag = TCS }
+        available = { }
+        cost = 50
+        complete_effect = {
+            add_to_variable = { var = TCS_internal_faction_tension value = -5 }
+            army_experience = 10
+        }
+    }
+    TCS_hold_unity_rally = {
+        picture = GFX_decision_generic_political_reform
+        allowed = { tag = TCS }
+        available = { }
+        cost = 50
+        complete_effect = {
+            add_stability = 0.02
+            add_war_support = 0.02
+            add_to_variable = { var = TCS_internal_legitimacy value = 3 }
+        }
+    }
+    TCS_invite_coalition_partner = {
+        picture = GFX_decision_generic_diplomacy
+        allowed = { tag = TCS }
+        available = { }
+        cost = 75
+        complete_effect = {
+            add_to_variable = { var = TCS_coalition_authority value = 3 }
+        }
+    }
+    TCS_hold_coalition_summit = {
+        picture = GFX_decision_generic_diplomacy
+        allowed = { tag = TCS }
+        available = { }
+        cost = 100
+        complete_effect = {
+            add_to_variable = { var = TCS_coalition_authority value = 7 }
+            add_political_power = 25
+        }
+    }
+    TCS_organize_joint_exercises = {
+        picture = GFX_decision_generic_army
+        allowed = { tag = TCS }
+        available = { }
+        cost = 75
+        complete_effect = {
+            army_experience = 20
+            add_to_variable = { var = TCS_coalition_authority value = 5 }
+        }
+    }
+    TCS_mediate_member_dispute = {
+        picture = GFX_decision_generic_political_reform
+        allowed = { tag = TCS }
+        available = { }
+        cost = 50
+        complete_effect = {
+            add_to_variable = { var = TCS_coalition_authority value = 5 }
+        }
+    }
+    TCS_request_coalition_volunteers = {
+        picture = GFX_decision_generic_political_reform
+        allowed = { tag = TCS }
+        available = { }
+        cost = 50
+        complete_effect = {
+            add_war_support = 0.02
+            set_country_flag = TCS_requested_coalition_volunteers
+        }
+    }
+    TCS_send_coalition_arms = {
+        picture = GFX_decision_generic_economy
+        allowed = { tag = TCS }
+        available = { }
+        cost = 50
+        complete_effect = {
+            add_to_variable = { var = TCS_coalition_authority value = 4 }
+            add_political_power = -25
+        }
+    }
+    TCS_expose_crimson_cell = {
+        picture = GFX_decision_generic_political_reform
+        allowed = { tag = TCS }
+        available = { }
+        cost = 50
+        complete_effect = {
+            add_to_variable = { var = TCS_internal_faction_tension value = -5 }
+            add_to_variable = { var = TCS_tch_escalation value = 3 }
+        }
+    }
+    TCS_counter_tch_propaganda = {
+        picture = GFX_decision_generic_political_reform
+        allowed = { tag = TCS }
+        available = { }
+        cost = 40
+        complete_effect = {
+            add_stability = 0.02
+            add_war_support = 0.01
+        }
+    }
+    TCS_launch_cyber_probe = {
+        picture = GFX_decision_generic_political_reform
+        allowed = { tag = TCS }
+        available = { }
+        cost = 50
+        complete_effect = {
+            add_to_variable = { var = TCS_tch_escalation value = 5 }
+            set_country_flag = TCS_launched_cyber_probe
+        }
+    }
+    TCS_sanction_tch_fronts = {
+        picture = GFX_decision_generic_political_reform
+        allowed = { tag = TCS }
+        available = { }
+        cost = 75
+        complete_effect = {
+            add_to_variable = { var = TCS_tch_escalation value = 5 }
+            add_war_support = 0.02
+        }
+    }
+    TCS_fund_anti_tch_opposition = {
+        picture = GFX_decision_generic_political_reform
+        allowed = { tag = TCS }
+        available = { }
+        cost = 75
+        complete_effect = {
+            add_to_variable = { var = TCS_tch_escalation value = 7 }
+            set_country_flag = TCS_funding_anti_tch_opposition
+        }
+    }
+    TCS_raise_border_alert = {
+        picture = GFX_decision_generic_army
+        allowed = { tag = TCS }
+        available = { }
+        cost = 50
+        complete_effect = {
+            add_war_support = 0.02
+            add_to_variable = { var = TCS_tch_escalation value = 3 }
+        }
+    }
+    TCS_call_emergency_coalition_session = {
+        picture = GFX_decision_generic_political_reform
+        allowed = { tag = TCS }
+        available = { }
+        cost = 75
+        complete_effect = {
+            add_to_variable = { var = TCS_coalition_authority value = 5 }
+            country_event = { id = TCS_event.74 days = 1 }
+        }
+    }
+}
