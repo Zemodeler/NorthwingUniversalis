@@ -1,0 +1,53 @@
+﻿division_template = {
+	name = "Regiment D'Artillerie"
+
+	division_names_group = NWK_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		artillery_brigade = { x = 1 y = 2 }
+		artillery_brigade = { x = 2 y = 0 }
+		artillery_brigade = { x = 2 y = 1 }
+		artillery_brigade = { x = 2 y = 2 }
+		artillery_brigade = { x = 0 y = 3 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+	priority = 1
+}
+}
+
+units = {
+	#Royal Garde Army
+	division = {
+		name = "1st Memelburg Artillery Company"
+		location = 3288 # Memelburg
+		division_template = "Memelburg Taurent Company"
+		start_equipment_factor = 1.0
+		start_experience_factor = 1.0
+	}
+	division = {
+		name = "2nd Memelburg Artillery Company"
+		location = 3288 # Memelburg
+		division_template = "Memelburg Taurent Company"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.5
+	}
+	
+	division = {
+		name = "3rd Memelburg Artillery Company"
+		location = 3288 # Memelburg
+		division_template = "Memelburg Taurent Company"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.5
+	}
+
+	
+	
+}
+
