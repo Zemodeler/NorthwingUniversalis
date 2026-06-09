@@ -1,0 +1,21 @@
+WILDERNESS = {
+    color = { 80 80 80 }
+    graphical_culture = western_european_gfx
+    graphical_culture_2d = western_european_2d_gfx
+    is_neutral = yes
+    leader_names = {
+        "Wilderness"
+    }
+    female_names = {
+        "Wilderness"
+    }
+    ship_names = {
+        "Wilderness"
+    }
+    general_names = {
+        "Wilderness"
+    }
+    admiral_names = {
+        "Wilderness"
+    }
+}

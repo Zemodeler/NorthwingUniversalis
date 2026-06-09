@@ -1,6 +1,8 @@
 l_english:
  TCS:0 "The Crimson Succession"
  TCS_DEF:0 "The Crimson Succession"
+ WILDERNESS:0 "Wilderness"
+ WILDERNESS_DEF:0 "Wilderness"
 
  # Focuses
  TCS_the_kingdom_has_fallen:0 "The Kingdom Has Fallen"

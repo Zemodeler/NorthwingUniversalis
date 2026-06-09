@@ -1,0 +1,4 @@
+# Placeholder country for map regions not in play.
+1780.1.1 = {
+    capital = 1
+}

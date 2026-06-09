@@ -1,0 +1,8 @@
+# TCS starting state ownership.
+# Memelburg is referenced in the mod as state 3288, so this state is assigned to TCS at start.
+3288 = {
+    owner = TCS
+    controller = TCS
+}
+
+# Add additional purple-state IDs here as needed.
