@@ -13,7 +13,7 @@ state = {
 
 	history = {
 
-		owner = USA
+		owner = UNK
 		add_core_of = USA
 
 		buildings = {

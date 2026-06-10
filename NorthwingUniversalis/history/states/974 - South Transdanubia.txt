@@ -13,7 +13,7 @@ state = {
 
 	history = {
 
-		owner = HUN
+		owner = UNK
 		add_core_of = HUN
 
 		victory_points = {

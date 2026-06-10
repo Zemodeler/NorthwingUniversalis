@@ -9,7 +9,7 @@ state = {
 	}
 
 	history = {
-		owner = ALB
+		owner = UNK
         victory_points = {
             9780 3 
         }
@@ -20,8 +20,8 @@ state = {
 		add_core_of = ALB
 		add_claim_by = ITA
 		1939.4.12 = {
-		    owner = ITA
-		    controller = ITA
+		    owner = UNK
+		    controller = UNK
 		    remove_claim_by = ITA
 		}
 

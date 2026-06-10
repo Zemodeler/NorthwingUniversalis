@@ -8,7 +8,7 @@ state={
 
 	history = {
 
-		owner = CHI
+		owner = UNK
 		add_core_of = CHI
 		add_core_of = PRC
 
@@ -54,8 +54,8 @@ state={
 		}
 
 		1938.10.25 = {
-			owner = CHI
-			controller = JAP
+			owner = UNK
+			controller = UNK
 		}
 	}
 

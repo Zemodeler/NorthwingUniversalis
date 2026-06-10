@@ -6,4 +6,3 @@ tags={
 name="Northwing Universalis"
 picture="thumb.jpg"
 supported_version="1.18.*"
-remote_file_id="2664989740"
