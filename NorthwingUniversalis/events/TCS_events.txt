@@ -1,3 +1,5 @@
+add_namespace = TCS_event
+
 country_event = {
     id = TCS_event.1
     title = TCS_event.1.title

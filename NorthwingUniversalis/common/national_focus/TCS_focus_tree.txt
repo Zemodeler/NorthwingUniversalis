@@ -7,7 +7,7 @@ focus_tree = {
     focus = {
         id = TCS_the_kingdom_has_fallen
         icon = GFX_goal_generic_political_reform
-        x = 0
+        x = 15
         y = 0
         cost = 10
         completion_reward = {
@@ -25,7 +25,7 @@ focus_tree = {
         id = TCS_secure_memelburg
         icon = GFX_goal_generic_construct_civilian
         prerequisite = { focus = TCS_the_kingdom_has_fallen }
-        x = 0
+        x = 11
         y = 1
         cost = 10
         completion_reward = {
@@ -52,8 +52,8 @@ focus_tree = {
         id = TCS_emergency_military_council
         icon = GFX_goal_generic_army
         prerequisite = { focus = TCS_the_kingdom_has_fallen }
-        x = 0
-        y = 2
+        x = 13
+        y = 1
         cost = 10
         completion_reward = {
             add_political_power = 75
@@ -70,8 +70,8 @@ focus_tree = {
         id = TCS_preserve_royal_archives
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_the_kingdom_has_fallen }
-        x = 0
-        y = 3
+        x = 15
+        y = 1
         cost = 10
         completion_reward = {
             add_political_power = 25
@@ -87,8 +87,8 @@ focus_tree = {
         id = TCS_seal_ministry_district
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_the_kingdom_has_fallen }
-        x = 0
-        y = 4
+        x = 17
+        y = 1
         cost = 10
         completion_reward = {
             add_political_power = 50
@@ -107,8 +107,8 @@ focus_tree = {
         id = TCS_rally_officer_corps
         icon = GFX_goal_generic_army
         prerequisite = { focus = TCS_the_kingdom_has_fallen }
-        x = 0
-        y = 5
+        x = 19
+        y = 1
         cost = 10
         completion_reward = {
             army_experience = 35
@@ -123,8 +123,8 @@ focus_tree = {
         id = TCS_declare_the_rebirth
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_the_kingdom_has_fallen }
-        x = 0
-        y = 6
+        x = 13
+        y = 2
         cost = 10
         completion_reward = {
             add_political_power = 75
@@ -146,8 +146,8 @@ focus_tree = {
         id = TCS_reopen_command_bunkers
         icon = GFX_goal_generic_army
         prerequisite = { focus = TCS_the_kingdom_has_fallen }
-        x = 0
-        y = 7
+        x = 15
+        y = 2
         cost = 10
         completion_reward = {
             army_experience = 25
@@ -161,8 +161,8 @@ focus_tree = {
         id = TCS_stabilize_the_military
         icon = GFX_goal_generic_army
         prerequisite = { focus = TCS_the_kingdom_has_fallen }
-        x = 0
-        y = 8
+        x = 17
+        y = 2
         cost = 10
         completion_reward = {
             army_experience = 30
@@ -180,8 +180,8 @@ focus_tree = {
         id = TCS_a_state_not_a_remnant
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_the_kingdom_has_fallen }
-        x = 0
-        y = 9
+        x = 15
+        y = 3
         cost = 10
         completion_reward = {
             remove_ideas = TCS_shock_of_collapse
@@ -197,8 +197,8 @@ focus_tree = {
         id = TCS_the_successor_state
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_a_state_not_a_remnant }
-        x = 0
-        y = 10
+        x = 15
+        y = 4
         cost = 10
         completion_reward = {
             add_political_power = 100
@@ -218,7 +218,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_a_state_not_a_remnant }
         x = 3
-        y = 0
+        y = 5
         cost = 10
         completion_reward = {
             add_political_power = 50
@@ -235,7 +235,7 @@ focus_tree = {
         icon = GFX_goal_generic_economy
         prerequisite = { focus = TCS_map_the_fractured_state }
         x = 3
-        y = 1
+        y = 6
         cost = 10
         completion_reward = {
             add_manpower = 5000
@@ -250,7 +250,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_map_the_fractured_state }
         x = 3
-        y = 2
+        y = 7
         cost = 10
         completion_reward = {
             add_political_power = 50
@@ -265,7 +265,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_map_the_fractured_state }
         x = 3
-        y = 3
+        y = 8
         cost = 10
         completion_reward = {
             add_political_power = 25
@@ -280,7 +280,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_map_the_fractured_state }
         x = 3
-        y = 4
+        y = 9
         cost = 10
         completion_reward = {
             add_stability = 0.03
@@ -295,7 +295,7 @@ focus_tree = {
         icon = GFX_goal_generic_economy
         prerequisite = { focus = TCS_map_the_fractured_state }
         x = 3
-        y = 5
+        y = 10
         cost = 10
         completion_reward = {
             add_stability = 0.03
@@ -310,7 +310,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_map_the_fractured_state }
         x = 3
-        y = 6
+        y = 11
         cost = 10
         completion_reward = {
             add_political_power = 50
@@ -326,7 +326,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_seal_ministry_district }
         x = 3
-        y = 7
+        y = 12
         cost = 10
         completion_reward = {
             add_stability = 0.03
@@ -344,7 +344,7 @@ focus_tree = {
         icon = GFX_goal_generic_army
         prerequisite = { focus = TCS_emergency_military_council }
         x = 3
-        y = 8
+        y = 13
         cost = 10
         completion_reward = {
             army_experience = 20
@@ -361,7 +361,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_officer_loyalty_hearings }
         x = 3
-        y = 9
+        y = 14
         cost = 10
         completion_reward = {
             add_stability = 0.03
@@ -375,7 +375,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_officer_loyalty_hearings }
         x = 3
-        y = 10
+        y = 15
         cost = 10
         completion_reward = {
             add_stability = 0.02
@@ -389,7 +389,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_public_order_directorate }
         x = 3
-        y = 11
+        y = 16
         cost = 10
         completion_reward = {
             add_political_power = 75
@@ -405,7 +405,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_memelburg_compact }
         x = 3
-        y = 12
+        y = 17
         cost = 10
         completion_reward = {
             add_stability = 0.05
@@ -421,7 +421,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_memelburg_compact }
         x = 3
-        y = 13
+        y = 18
         cost = 10
         completion_reward = {
             add_stability = 0.03
@@ -436,7 +436,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_national_unity_campaign }
         x = 3
-        y = 14
+        y = 19
         cost = 10
         completion_reward = {
             add_political_power = 100
@@ -453,7 +453,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_a_state_not_a_remnant }
         x = 6
-        y = 0
+        y = 5
         cost = 10
         completion_reward = {
             add_political_power = 75
@@ -468,7 +468,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_question_of_authority }
         x = 6
-        y = 1
+        y = 6
         cost = 10
         completion_reward = {
             add_political_power = 25
@@ -482,7 +482,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_question_of_authority }
         x = 6
-        y = 2
+        y = 7
         cost = 10
         completion_reward = {
             add_stability = 0.03
@@ -497,7 +497,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_convene_memelburg_assembly }
         x = 6
-        y = 3
+        y = 8
         cost = 10
         completion_reward = {
             add_political_power = 50
@@ -511,7 +511,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_question_of_authority }
         x = 6
-        y = 4
+        y = 9
         cost = 10
         completion_reward = {
             add_stability = 0.05
@@ -527,7 +527,7 @@ focus_tree = {
         icon = GFX_goal_generic_army
         prerequisite = { focus = TCS_rule_by_emergency_decree }
         x = 6
-        y = 5
+        y = 10
         cost = 10
         completion_reward = {
             army_experience = 35
@@ -542,7 +542,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_rule_by_emergency_decree }
         x = 6
-        y = 6
+        y = 11
         cost = 10
         completion_reward = {
             add_political_power = 100
@@ -557,7 +557,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_suspend_party_politics }
         x = 6
-        y = 7
+        y = 12
         cost = 10
         completion_reward = {
             add_stability = 0.02
@@ -571,7 +571,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_suspend_party_politics }
         x = 6
-        y = 8
+        y = 13
         cost = 10
         completion_reward = {
             add_stability = 0.03
@@ -585,7 +585,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_security_courts_of_memelburg }
         x = 6
-        y = 9
+        y = 14
         cost = 10
         completion_reward = {
             add_political_power = 50
@@ -600,7 +600,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_directorate_compromise }
         x = 6
-        y = 10
+        y = 15
         cost = 10
         completion_reward = {
             add_stability = 0.05
@@ -615,7 +615,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_question_of_authority }
         x = 9
-        y = 0
+        y = 5
         cost = 10
         completion_reward = {
             add_political_power = 50
@@ -632,7 +632,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_open_political_committees }
         x = 9
-        y = 1
+        y = 6
         cost = 10
         completion_reward = {
             add_stability = 0.05
@@ -647,7 +647,7 @@ focus_tree = {
         icon = GFX_goal_generic_army
         prerequisite = { focus = TCS_open_political_committees }
         x = 9
-        y = 2
+        y = 7
         cost = 10
         completion_reward = {
             army_experience = 25
@@ -662,7 +662,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_restore_civil_administration }
         x = 9
-        y = 3
+        y = 8
         cost = 10
         completion_reward = {
             add_stability = 0.03
@@ -676,7 +676,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_first_post_kingdom_elections }
         x = 9
-        y = 4
+        y = 9
         cost = 10
         completion_reward = {
             add_political_power = 75
@@ -692,7 +692,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_coalition_government_memelburg }
         x = 9
-        y = 5
+        y = 10
         cost = 10
         completion_reward = {
             add_stability = 0.05
@@ -708,7 +708,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_question_of_authority }
         x = 9
-        y = 6
+        y = 11
         cost = 10
         completion_reward = {
             add_stability = 0.03
@@ -723,7 +723,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_kingdom_lives_in_memory }
         x = 9
-        y = 7
+        y = 12
         cost = 10
         completion_reward = {
             add_stability = 0.05
@@ -738,7 +738,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_restore_royal_symbols }
         x = 9
-        y = 8
+        y = 13
         cost = 10
         completion_reward = {
             add_political_power = 50
@@ -752,7 +752,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_the_crown_question }
         x = 9
-        y = 9
+        y = 14
         cost = 10
         completion_reward = {
             add_political_power = 50
@@ -768,7 +768,7 @@ focus_tree = {
         icon = GFX_goal_generic_army
         prerequisite = { focus = TCS_the_royal_council }
         x = 9
-        y = 10
+        y = 15
         cost = 10
         completion_reward = {
             army_experience = 35
@@ -787,7 +787,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_royal_guard_of_memelburg }
         x = 9
-        y = 11
+        y = 16
         cost = 10
         completion_reward = {
             add_stability = 0.05
@@ -803,7 +803,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_question_of_authority }
         x = 12
-        y = 0
+        y = 5
         cost = 10
         completion_reward = {
             add_stability = 0.05
@@ -820,7 +820,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_protectors_charter }
         x = 12
-        y = 1
+        y = 6
         cost = 10
         completion_reward = {
             add_stability = 0.04
@@ -835,7 +835,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_civilian_ministers_military_guarantees }
         x = 12
-        y = 2
+        y = 7
         cost = 10
         completion_reward = {
             add_political_power = 75
@@ -850,7 +850,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_crown_state_and_army }
         x = 12
-        y = 3
+        y = 8
         cost = 10
         completion_reward = {
             add_stability = 0.05
@@ -866,7 +866,7 @@ focus_tree = {
         icon = GFX_goal_generic_army
         prerequisite = { focus = TCS_a_state_not_a_remnant }
         x = 15
-        y = 0
+        y = 5
         cost = 10
         completion_reward = {
             army_experience = 40
@@ -880,7 +880,7 @@ focus_tree = {
         icon = GFX_goal_generic_army
         prerequisite = { focus = TCS_audit_post_kingdom_army }
         x = 15
-        y = 1
+        y = 6
         cost = 10
         completion_reward = {
             army_experience = 30
@@ -893,7 +893,7 @@ focus_tree = {
         icon = GFX_goal_generic_army
         prerequisite = { focus = TCS_retain_veteran_corps }
         x = 15
-        y = 2
+        y = 7
         cost = 10
         completion_reward = {
             add_stability = -0.01
@@ -908,7 +908,7 @@ focus_tree = {
         icon = GFX_goal_generic_army
         prerequisite = { focus = TCS_purge_ghost_units }
         x = 15
-        y = 3
+        y = 8
         cost = 10
         completion_reward = {
             army_experience = 25
@@ -922,7 +922,7 @@ focus_tree = {
         icon = GFX_goal_generic_army
         prerequisite = { focus = TCS_reopen_command_bunkers_military }
         x = 15
-        y = 4
+        y = 9
         cost = 10
         completion_reward = {
             army_experience = 35
@@ -936,7 +936,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_memelburg_general_staff }
         x = 15
-        y = 5
+        y = 10
         cost = 10
         completion_reward = {
             add_political_power = -35
@@ -951,7 +951,7 @@ focus_tree = {
         icon = GFX_goal_generic_army
         prerequisite = { focus = TCS_memelburg_general_staff }
         x = 15
-        y = 6
+        y = 11
         cost = 10
         completion_reward = {
             army_experience = 50
@@ -970,7 +970,7 @@ focus_tree = {
         icon = GFX_goal_generic_army
         prerequisite = { focus = TCS_audit_post_kingdom_army }
         x = 15
-        y = 7
+        y = 12
         cost = 10
         completion_reward = {
             army_experience = 20
@@ -984,7 +984,7 @@ focus_tree = {
         icon = GFX_goal_generic_army
         prerequisite = { focus = TCS_expand_riflemen }
         x = 15
-        y = 8
+        y = 13
         cost = 10
         completion_reward = {
             army_experience = 25
@@ -1001,7 +1001,7 @@ focus_tree = {
         icon = GFX_goal_generic_army
         prerequisite = { focus = TCS_second_memelburg_riflemen }
         x = 15
-        y = 9
+        y = 14
         cost = 10
         completion_reward = {
             army_experience = 25
@@ -1018,7 +1018,7 @@ focus_tree = {
         icon = GFX_goal_generic_army
         prerequisite = { focus = TCS_first_memelburg_grenadiers }
         x = 15
-        y = 10
+        y = 15
         cost = 10
         completion_reward = {
             add_manpower = 3000
@@ -1039,7 +1039,7 @@ focus_tree = {
         icon = GFX_goal_generic_army
         prerequisite = { focus = TCS_taurage_expansion_program }
         x = 15
-        y = 11
+        y = 16
         cost = 10
         completion_reward = {
             army_experience = 50
@@ -1052,7 +1052,7 @@ focus_tree = {
         icon = GFX_goal_generic_army
         prerequisite = { focus = TCS_modern_battalion_structure }
         x = 15
-        y = 12
+        y = 17
         cost = 10
         completion_reward = {
             army_experience = 25
@@ -1071,7 +1071,7 @@ focus_tree = {
         icon = GFX_goal_generic_army
         prerequisite = { focus = TCS_drone_recon_units }
         x = 15
-        y = 13
+        y = 18
         cost = 10
         completion_reward = {
             army_experience = 25
@@ -1090,7 +1090,7 @@ focus_tree = {
         icon = GFX_goal_generic_army
         prerequisite = { focus = TCS_integrated_artillery_networks }
         x = 15
-        y = 14
+        y = 19
         cost = 10
         completion_reward = {
             army_experience = 25
@@ -1109,7 +1109,7 @@ focus_tree = {
         icon = GFX_goal_generic_army
         prerequisite = { focus = TCS_integrated_artillery_networks }
         x = 15
-        y = 15
+        y = 20
         cost = 10
         completion_reward = {
             army_experience = 35
@@ -1122,7 +1122,7 @@ focus_tree = {
         icon = GFX_goal_generic_army
         prerequisite = { focus = TCS_urban_defense_doctrine }
         x = 15
-        y = 16
+        y = 21
         cost = 10
         completion_reward = {
             add_war_support = 0.03
@@ -1136,7 +1136,7 @@ focus_tree = {
         icon = GFX_goal_generic_army
         prerequisite = { focus = TCS_the_successor_state }
         x = 18
-        y = 0
+        y = 5
         cost = 10
         completion_reward = {
             army_experience = 30
@@ -1150,7 +1150,7 @@ focus_tree = {
         icon = GFX_goal_generic_army
         prerequisite = { focus = TCS_coalition_interoperability_standards }
         x = 18
-        y = 1
+        y = 6
         cost = 10
         completion_reward = {
             army_experience = 50
@@ -1164,7 +1164,7 @@ focus_tree = {
         icon = GFX_goal_generic_economy
         prerequisite = { focus = TCS_a_state_not_a_remnant }
         x = 21
-        y = 0
+        y = 5
         cost = 10
         completion_reward = {
             add_political_power = 50
@@ -1178,7 +1178,7 @@ focus_tree = {
         icon = GFX_goal_generic_economy
         prerequisite = { focus = TCS_post_kingdom_economic_audit }
         x = 21
-        y = 1
+        y = 6
         cost = 10
         completion_reward = {
             add_political_power = 25
@@ -1191,7 +1191,7 @@ focus_tree = {
         icon = GFX_goal_generic_economy
         prerequisite = { focus = TCS_post_kingdom_economic_audit }
         x = 21
-        y = 2
+        y = 7
         cost = 10
         completion_reward = {
             capital_scope = {
@@ -1211,7 +1211,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_post_kingdom_economic_audit }
         x = 21
-        y = 3
+        y = 8
         cost = 10
         completion_reward = {
             add_political_power = 50
@@ -1225,7 +1225,7 @@ focus_tree = {
         icon = GFX_goal_generic_economy
         prerequisite = { focus = TCS_memelburg_reconstruction_authority }
         x = 21
-        y = 4
+        y = 9
         cost = 10
         completion_reward = {
             random_owned_controlled_state = {
@@ -1244,7 +1244,7 @@ focus_tree = {
         icon = GFX_goal_generic_economy
         prerequisite = { focus = TCS_restore_industrial_districts }
         x = 21
-        y = 5
+        y = 10
         cost = 10
         completion_reward = {
             add_ideas = TCS_emergency_infrastructure_law_idea
@@ -1257,7 +1257,7 @@ focus_tree = {
         icon = GFX_goal_generic_economy
         prerequisite = { focus = TCS_emergency_infrastructure_law }
         x = 21
-        y = 6
+        y = 11
         cost = 10
         completion_reward = {
             random_owned_controlled_state = {
@@ -1276,7 +1276,7 @@ focus_tree = {
         icon = GFX_goal_generic_economy
         prerequisite = { focus = TCS_military_industrial_continuity }
         x = 21
-        y = 7
+        y = 12
         cost = 10
         completion_reward = {
             add_political_power = 25
@@ -1289,7 +1289,7 @@ focus_tree = {
         icon = GFX_goal_generic_economy
         prerequisite = { focus = TCS_cobalt_arms_procurement_board }
         x = 21
-        y = 8
+        y = 13
         cost = 10
         completion_reward = {
             add_ideas = TCS_strategic_reserve_program_idea
@@ -1302,7 +1302,7 @@ focus_tree = {
         icon = GFX_goal_generic_economy
         prerequisite = { focus = TCS_strategic_reserve_program }
         x = 21
-        y = 9
+        y = 14
         cost = 10
         completion_reward = {
             add_political_power = 50
@@ -1317,7 +1317,7 @@ focus_tree = {
         icon = GFX_goal_generic_economy
         prerequisite = { focus = TCS_digital_state_registry }
         x = 21
-        y = 10
+        y = 15
         cost = 10
         completion_reward = {
             add_stability = 0.03
@@ -1331,7 +1331,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_provincial_investment_packages }
         x = 21
-        y = 11
+        y = 16
         cost = 10
         completion_reward = {
             add_political_power = -50
@@ -1346,7 +1346,7 @@ focus_tree = {
         icon = GFX_goal_generic_economy
         prerequisite = { focus = TCS_anti_corruption_commission }
         x = 21
-        y = 12
+        y = 17
         cost = 10
         completion_reward = {
             add_stability = 0.05
@@ -1359,7 +1359,7 @@ focus_tree = {
         icon = GFX_goal_generic_economy
         prerequisite = { focus = TCS_stabilize_currency }
         x = 21
-        y = 13
+        y = 18
         cost = 10
         completion_reward = {
             add_stability = 0.05
@@ -1375,7 +1375,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_a_state_not_a_remnant }
         x = 24
-        y = 0
+        y = 5
         cost = 10
         completion_reward = {
             add_political_power = 25
@@ -1389,7 +1389,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_rebuild_security_bureau }
         x = 24
-        y = 1
+        y = 6
         cost = 10
         completion_reward = {
             add_political_power = 25
@@ -1403,7 +1403,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_rebuild_security_bureau }
         x = 24
-        y = 2
+        y = 7
         cost = 10
         completion_reward = {
             add_to_variable = { var = TCS_tch_escalation value = 5 }
@@ -1418,7 +1418,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_trace_crimson_funding }
         x = 24
-        y = 3
+        y = 8
         cost = 10
         completion_reward = {
             add_to_variable = { var = TCS_tch_escalation value = 5 }
@@ -1432,7 +1432,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_counter_crimson_networks }
         x = 24
-        y = 4
+        y = 9
         cost = 10
         completion_reward = {
             add_stability = 0.02
@@ -1446,7 +1446,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_monitor_separatist_propaganda }
         x = 24
-        y = 5
+        y = 10
         cost = 10
         completion_reward = {
             add_war_support = 0.03
@@ -1459,7 +1459,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_strategic_communications_office }
         x = 24
-        y = 6
+        y = 11
         cost = 10
         completion_reward = {
             add_stability = 0.04
@@ -1473,7 +1473,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_cobalt_broadcasting_service }
         x = 24
-        y = 7
+        y = 12
         cost = 10
         completion_reward = {
             add_ideas = TCS_cyber_defense_directorate_idea
@@ -1486,7 +1486,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_cyber_defense_directorate }
         x = 24
-        y = 8
+        y = 13
         cost = 10
         completion_reward = {
             add_to_variable = { var = TCS_tch_escalation value = 5 }
@@ -1499,7 +1499,7 @@ focus_tree = {
         icon = GFX_goal_generic_army
         prerequisite = { focus = TCS_counter_tch_cyber_cells }
         x = 24
-        y = 9
+        y = 14
         cost = 10
         completion_reward = {
             army_experience = 20
@@ -1513,7 +1513,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_officer_loyalty_review }
         x = 24
-        y = 10
+        y = 15
         cost = 10
         completion_reward = {
             add_stability = 0.03
@@ -1527,7 +1527,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_anti_coup_safeguards_security }
         x = 24
-        y = 11
+        y = 16
         cost = 10
         completion_reward = {
             add_stability = 0.05
@@ -1542,7 +1542,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_the_successor_state }
         x = 27
-        y = 0
+        y = 5
         cost = 10
         completion_reward = {
             add_political_power = 50
@@ -1558,7 +1558,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_rebuild_coalition_idea }
         x = 27
-        y = 1
+        y = 6
         cost = 10
         completion_reward = {
             add_to_variable = { var = TCS_coalition_authority value = 5 }
@@ -1572,7 +1572,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_seek_reliable_allies }
         x = 27
-        y = 2
+        y = 7
         cost = 10
         completion_reward = {
             add_to_variable = { var = TCS_coalition_authority value = 10 }
@@ -1586,7 +1586,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_daugavan_connection }
         x = 27
-        y = 3
+        y = 8
         cost = 10
         completion_reward = {
             add_stability = 0.03
@@ -1600,7 +1600,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_coalition_memory_kingdom }
         x = 27
-        y = 4
+        y = 9
         cost = 10
         completion_reward = {
             add_to_variable = { var = TCS_coalition_authority value = 3 }
@@ -1613,7 +1613,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_coalition_memory_kingdom }
         x = 27
-        y = 5
+        y = 10
         cost = 10
         completion_reward = {
             add_to_variable = { var = TCS_coalition_authority value = 3 }
@@ -1626,7 +1626,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_coalition_memory_kingdom }
         x = 27
-        y = 6
+        y = 11
         cost = 10
         completion_reward = {
             add_to_variable = { var = TCS_coalition_authority value = 3 }
@@ -1639,7 +1639,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_coalition_memory_kingdom }
         x = 27
-        y = 7
+        y = 12
         cost = 10
         completion_reward = {
             add_political_power = 25
@@ -1652,7 +1652,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_coalition_memory_kingdom }
         x = 27
-        y = 8
+        y = 13
         cost = 10
         completion_reward = {
             army_experience = 20
@@ -1666,7 +1666,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_daugavan_connection }
         x = 27
-        y = 9
+        y = 14
         cost = 10
         completion_reward = {
             add_to_variable = { var = TCS_coalition_authority value = 10 }
@@ -1679,7 +1679,7 @@ focus_tree = {
         icon = GFX_goal_generic_army
         prerequisite = { focus = TCS_coalition_liaison_offices }
         x = 27
-        y = 10
+        y = 15
         cost = 10
         completion_reward = {
             army_experience = 40
@@ -1693,7 +1693,7 @@ focus_tree = {
         icon = GFX_goal_generic_army
         prerequisite = { focus = TCS_shared_military_exercises }
         x = 27
-        y = 11
+        y = 16
         cost = 10
         completion_reward = {
             army_experience = 30
@@ -1707,7 +1707,7 @@ focus_tree = {
         icon = GFX_goal_generic_economy
         prerequisite = { focus = TCS_standardize_command_protocols }
         x = 27
-        y = 12
+        y = 17
         cost = 10
         completion_reward = {
             add_to_variable = { var = TCS_coalition_authority value = 7 }
@@ -1720,7 +1720,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_coalition_arms_pool }
         x = 27
-        y = 13
+        y = 18
         cost = 10
         completion_reward = {
             add_to_variable = { var = TCS_coalition_authority value = 10 }
@@ -1734,7 +1734,7 @@ focus_tree = {
         icon = GFX_goal_generic_economy
         prerequisite = { focus = TCS_coalition_arms_pool }
         x = 27
-        y = 14
+        y = 19
         cost = 10
         completion_reward = {
             add_to_variable = { var = TCS_coalition_authority value = 7 }
@@ -1747,7 +1747,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_coalition_economic_council }
         x = 27
-        y = 15
+        y = 20
         cost = 10
         completion_reward = {
             add_political_power = 50
@@ -1761,7 +1761,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_mediate_allied_rivalries }
         x = 27
-        y = 16
+        y = 21
         cost = 10
         completion_reward = {
             add_political_power = 50
@@ -1775,7 +1775,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_regional_partner_summits }
         x = 27
-        y = 17
+        y = 22
         cost = 10
         completion_reward = {
             add_war_support = 0.05
@@ -1790,7 +1790,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_coalition_defense_charter }
         x = 27
-        y = 18
+        y = 23
         cost = 10
         completion_reward = {
             add_command_power = 75
@@ -1804,7 +1804,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_coalition_headquarters_memelburg }
         x = 27
-        y = 19
+        y = 24
         cost = 10
         completion_reward = {
             add_to_variable = { var = TCS_coalition_authority value = 10 }
@@ -1817,7 +1817,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_joint_crisis_protocols }
         x = 27
-        y = 20
+        y = 25
         cost = 10
         completion_reward = {
             add_war_support = 0.05
@@ -1832,7 +1832,7 @@ focus_tree = {
         icon = GFX_goal_generic_army
         prerequisite = { focus = TCS_anti_tch_strategic_conference }
         x = 27
-        y = 21
+        y = 26
         cost = 10
         completion_reward = {
             add_war_support = 0.05
@@ -1846,7 +1846,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_defenders_of_the_coast }
         x = 27
-        y = 22
+        y = 27
         cost = 10
         completion_reward = {
             add_political_power = 100
@@ -1862,7 +1862,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_grand_coalition }
         x = 27
-        y = 23
+        y = 28
         cost = 10
         completion_reward = {
             add_command_power = 100
@@ -1876,7 +1876,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_the_successor_state }
         x = 30
-        y = 0
+        y = 5
         cost = 10
         completion_reward = {
             add_to_variable = { var = TCS_tch_escalation value = 5 }
@@ -1890,7 +1890,7 @@ focus_tree = {
         icon = GFX_goal_generic_army
         prerequisite = { focus = TCS_crimson_hand_watches }
         x = 30
-        y = 1
+        y = 6
         cost = 10
         completion_reward = {
             army_experience = 30
@@ -1903,7 +1903,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_study_tch_doctrine }
         x = 30
-        y = 2
+        y = 7
         cost = 10
         completion_reward = {
             add_to_variable = { var = TCS_tch_escalation value = 5 }
@@ -1917,7 +1917,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_trace_tch_cells }
         x = 30
-        y = 3
+        y = 8
         cost = 10
         completion_reward = {
             add_stability = 0.03
@@ -1932,7 +1932,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_expose_tch_agents }
         x = 30
-        y = 4
+        y = 9
         cost = 10
         completion_reward = {
             add_war_support = 0.05
@@ -1948,7 +1948,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_publicize_crimson_files }
         x = 30
-        y = 5
+        y = 10
         cost = 10
         completion_reward = {
             add_political_power = -50
@@ -1963,7 +1963,7 @@ focus_tree = {
         icon = GFX_goal_generic_army
         prerequisite = { focus = TCS_sanction_crimson_networks }
         x = 30
-        y = 6
+        y = 11
         cost = 10
         completion_reward = {
             army_experience = 25
@@ -1977,7 +1977,7 @@ focus_tree = {
         icon = GFX_goal_generic_army
         prerequisite = { focus = TCS_border_watch_commands }
         x = 30
-        y = 7
+        y = 12
         cost = 10
         completion_reward = {
             army_experience = 35
@@ -1997,7 +1997,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_memelburg_defensive_plans }
         x = 30
-        y = 8
+        y = 13
         cost = 10
         completion_reward = {
             add_to_variable = { var = TCS_tch_escalation value = 10 }
@@ -2011,7 +2011,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_support_anti_tch_dissidents }
         x = 30
-        y = 9
+        y = 14
         cost = 10
         completion_reward = {
             add_to_variable = { var = TCS_tch_escalation value = 5 }
@@ -2024,7 +2024,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_counter_tch_cyber_cells_containment }
         x = 30
-        y = 10
+        y = 15
         cost = 10
         completion_reward = {
             add_stability = 0.04
@@ -2039,7 +2039,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_break_crimson_propaganda }
         x = 30
-        y = 11
+        y = 16
         cost = 10
         completion_reward = {
             add_to_variable = { var = TCS_tch_escalation value = 15 }
@@ -2054,7 +2054,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_shadow_war_authorization }
         x = 30
-        y = 12
+        y = 17
         cost = 10
         completion_reward = {
             add_to_variable = { var = TCS_tch_escalation value = 10 }
@@ -2067,7 +2067,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_crimson_border_crisis }
         x = 30
-        y = 13
+        y = 18
         cost = 10
         completion_reward = {
             add_war_support = 0.10
@@ -2082,7 +2082,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_emergency_mobilization_vote }
         x = 30
-        y = 14
+        y = 19
         cost = 10
         completion_reward = {
             add_to_variable = { var = TCS_coalition_authority value = 10 }
@@ -2096,7 +2096,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_coalition_crisis_session }
         x = 30
-        y = 15
+        y = 20
         cost = 10
         completion_reward = {
             add_war_support = 0.05
@@ -2111,7 +2111,7 @@ focus_tree = {
         icon = GFX_goal_generic_army
         prerequisite = { focus = TCS_memelburg_red_line }
         x = 30
-        y = 16
+        y = 21
         cost = 10
         completion_reward = {
             army_experience = 50
@@ -2127,7 +2127,7 @@ focus_tree = {
         icon = GFX_goal_generic_army
         prerequisite = { focus = TCS_strategic_readiness_achieved }
         x = 30
-        y = 17
+        y = 22
         cost = 10
         available = {
             OR = {
@@ -2153,7 +2153,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_second_coalition_war }
         x = 30
-        y = 18
+        y = 23
         cost = 10
         available = {
             OR = {
@@ -2174,7 +2174,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_fate_of_the_hand }
         x = 30
-        y = 19
+        y = 24
         cost = 10
         completion_reward = {
             remove_ideas = TCS_crimson_question
@@ -2192,7 +2192,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_a_state_not_a_remnant }
         x = 33
-        y = 0
+        y = 5
         cost = 10
         completion_reward = {
             add_stability = 0.05
@@ -2206,7 +2206,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_romanticize_the_past }
         x = 33
-        y = 1
+        y = 6
         cost = 10
         completion_reward = {
             add_political_power = 75
@@ -2220,7 +2220,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_the_kingdom_fell }
         x = 33
-        y = 2
+        y = 7
         cost = 10
         completion_reward = {
             add_stability = 0.05
@@ -2234,7 +2234,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_the_state_endured }
         x = 33
-        y = 3
+        y = 8
         cost = 10
         available = { check_variable = { var = TCS_internal_legitimacy value = 71 } }
         completion_reward = {
@@ -2249,7 +2249,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_cobalt_stabilized }
         x = 33
-        y = 4
+        y = 9
         cost = 10
         available = { check_variable = { var = TCS_coalition_authority value = 71 } }
         completion_reward = {
@@ -2264,7 +2264,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_coalition_leads_again }
         x = 33
-        y = 5
+        y = 10
         cost = 10
         available = {
             OR = {
@@ -2286,7 +2286,7 @@ focus_tree = {
         icon = GFX_goal_generic_political_reform
         prerequisite = { focus = TCS_tch_contained }
         x = 33
-        y = 6
+        y = 11
         cost = 10
         completion_reward = {
             add_stability = 0.05
