@@ -1,6 +1,0 @@
-# Assign state 1 to WILDERNESS by default.
-# Add additional state IDs here to extend ownership across more of the map.
-1 = {
-    owner = WILDERNESS
-    controller = WILDERNESS
-}
