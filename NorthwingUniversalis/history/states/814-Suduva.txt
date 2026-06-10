@@ -4,7 +4,8 @@ state={
 	name="STATE_814"
 
 	history={
-		owner = UNK
+		owner = TCS
+		add_core_of = TCS
 		victory_points = {
 			11312 1 #Marijampole
 		}
@@ -15,8 +16,6 @@ state={
 			air_base = 4
 
 		}
-		add_core_of = LIT
-
 	}
 
 	provinces={

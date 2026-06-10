@@ -4,7 +4,8 @@ state={
 	name="STATE_809"
 
 	history={
-		owner = UNK
+		owner = TCS
+		add_core_of = TCS
 		victory_points = {
 			310 3 #Daugavpils
 		}
@@ -16,8 +17,6 @@ state={
 			industrial_complex = 1
 			arms_factory = 1
 		}
-		add_core_of = LAT
-
 	}
 
 	provinces={
