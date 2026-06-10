@@ -1,8 +1,85 @@
 # TCS starting state ownership.
-# Memelburg is referenced in the mod as state 3288, so this state is assigned to TCS at start.
-3288 = {
+9 = {
     owner = TCS
     controller = TCS
 }
 
-# Add additional purple-state IDs here as needed.
+85 = {
+    owner = TCS
+    controller = TCS
+}
+
+86 = {
+    owner = TCS
+    controller = TCS
+}
+
+87 = {
+    owner = TCS
+    controller = TCS
+}
+
+88 = {
+    owner = TCS
+    controller = TCS
+}
+
+89 = {
+    owner = TCS
+    controller = TCS
+}
+
+90 = {
+    owner = TCS
+    controller = TCS
+}
+
+91 = {
+    owner = TCS
+    controller = TCS
+}
+
+92 = {
+    owner = TCS
+    controller = TCS
+}
+
+93 = {
+    owner = TCS
+    controller = TCS
+}
+
+94 = {
+    owner = TCS
+    controller = TCS
+}
+
+95 = {
+    owner = TCS
+    controller = TCS
+}
+
+96 = {
+    owner = TCS
+    controller = TCS
+}
+
+97 = {
+    owner = TCS
+    controller = TCS
+}
+
+98 = {
+    owner = TCS
+    controller = TCS
+}
+
+762 = {
+    owner = TCS
+    controller = TCS
+}
+
+3288 = {
+    owner = TCS
+    controller = TCS
+}
