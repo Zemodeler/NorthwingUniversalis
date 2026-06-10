@@ -1,8 +1,6 @@
-# The Crimson Succession begins in the 1780 timeline.
+# The Cobalt Succession begins in the 1780 timeline.
 1780.1.1 = {
     capital = 11
-    set_stability = 0.48
-    set_war_support = 0.60
     set_politics = {
         ruling_party = neutrality
         elections_allowed = no
@@ -16,17 +14,7 @@
         picture = "Mateplayss.dds"
         expire = "1836.1.1"
         ideology = despotism
-        traits = { TCS_founder_of_the_rebirth }
+        traits = { }
     }
-    add_ideas = TCS_remnant_of_the_kingdom
-    add_ideas = TCS_military_emergency_authority
-    add_ideas = TCS_broken_state_machinery
-    add_ideas = TCS_crimson_question
-    add_ideas = TCS_coalition_uncertainty
-    add_ideas = TCS_shock_of_collapse
-    set_variable = { var = TCS_internal_legitimacy value = 25 }
-    set_variable = { var = TCS_coalition_authority value = 20 }
-    set_variable = { var = TCS_tch_escalation value = 15 }
-    set_variable = { var = TCS_internal_faction_tension value = 35 }
     # Country begins active at the earliest timeline date for this mod.
 }
