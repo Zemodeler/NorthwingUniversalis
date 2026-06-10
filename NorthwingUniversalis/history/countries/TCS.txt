@@ -1,5 +1,20 @@
 # The Crimson Succession begins in the 1780 timeline.
 1780.1.1 = {
     capital = 11
+    set_politics = {
+        ruling_party = neutrality
+        elections_allowed = no
+    }
+    set_popularities = {
+        neutrality = 100
+    }
+    create_country_leader = {
+        name = "Mateplayss"
+        desc = "TCS_MATEPLAYSS_DESC"
+        picture = "Mateplayss.dds"
+        expire = "1836.1.1"
+        ideology = despotism
+        traits = { }
+    }
     # Country begins active at the earliest timeline date for this mod.
 }

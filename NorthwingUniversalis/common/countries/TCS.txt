@@ -1,32 +1,29 @@
-TCS = {
-    color = { 130 20 20 }
-    flag = "TCS"
-    graphical_culture = western_european_gfx
-    graphical_culture_2d = western_european_2d_gfx
-    leader_names = {
-        "Mateplayss"
-        "Constantine"
-        "Michael"
-        "Eleanor"
-    }
-    female_names = {
-        "Alexandria"
-        "Helena"
-        "Maria"
-        "Evelyn"
-    }
-    ship_names = {
-        "Memelburg Defender"
-        "Cobalt Dawn"
-        "Royal Vanguard"
-    }
-    general_names = {
-        "Dmitri"
-        "Nikolai"
-        "Sebastian"
-    }
-    admiral_names = {
-        "V. Korbin"
-        "H. Leroux"
-    }
+color = { 130 20 20 }
+graphical_culture = western_european_gfx
+graphical_culture_2d = western_european_2d_gfx
+leader_names = {
+    "Mateplayss"
+    "Constantine"
+    "Michael"
+    "Eleanor"
+}
+female_names = {
+    "Alexandria"
+    "Helena"
+    "Maria"
+    "Evelyn"
+}
+ship_names = {
+    "Memelburg Defender"
+    "Cobalt Dawn"
+    "Royal Vanguard"
+}
+general_names = {
+    "Dmitri"
+    "Nikolai"
+    "Sebastian"
+}
+admiral_names = {
+    "V. Korbin"
+    "H. Leroux"
 }
