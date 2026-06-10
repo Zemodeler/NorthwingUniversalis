@@ -4,6 +4,11 @@ l_english:
  WILDERNESS:0 "Wilderness"
  WILDERNESS_DEF:0 "Wilderness"
 
+ # Bookmarks
+ NWU_BOOKMARK_1780_NAME:0 "1780"
+ NWU_BOOKMARK_1780_DESC:0 "The Northwing Universalis timeline begins in 1780."
+ NWU_TCS_BOOKMARK_DESC:0 "The Crimson Succession stands as a major power at the dawn of the 1780 timeline."
+
  # Focuses
  TCS_the_kingdom_has_fallen:0 "The Kingdom Has Fallen"
  TCS_the_kingdom_has_fallen_desc:0 "The old monarchy lies in ruins. We must rally what remains and claim a new destiny."

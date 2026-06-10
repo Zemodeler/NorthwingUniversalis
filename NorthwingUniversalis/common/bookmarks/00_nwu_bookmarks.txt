@@ -1,0 +1,16 @@
+bookmarks = {
+	bookmark = {
+		name = "NWU_BOOKMARK_1780_NAME"
+		desc = "NWU_BOOKMARK_1780_DESC"
+		date = 1780.1.1
+		picture = "GFX_select_date_1936"
+		default_country = "TCS"
+		default = yes
+
+		"TCS" = {
+			history = "NWU_TCS_BOOKMARK_DESC"
+			ideology = neutrality
+			major = yes
+		}
+	}
+}

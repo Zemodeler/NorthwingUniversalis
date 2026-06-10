@@ -1,5 +1,5 @@
 # The Crimson Succession begins in the 1780 timeline.
 1780.1.1 = {
-    capital = 1
+    capital = 11
     # Country begins active at the earliest timeline date for this mod.
 }

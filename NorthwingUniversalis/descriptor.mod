@@ -6,3 +6,4 @@ tags={
 name="Northwing Universalis"
 picture="thumb.jpg"
 supported_version="1.18.*"
+replace_path="common/bookmarks"
