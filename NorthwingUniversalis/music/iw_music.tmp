@@ -1,0 +1,84 @@
+music_station = "iw_test_station"
+music = {
+	song = "European_Chaos"
+	chance = {
+		factor = 0
+		modifier = {
+			at_war = yes
+			factor = 100
+		}
+	}
+}
+music = {
+	song = "GRAND_COALITION"
+	chance = {
+		factor = 0
+		modifier = {
+			in_faction_with = TCS
+			factor = 100
+		}
+	}
+}
+music = {
+	song = "VIRIDIAN_REBELLION"
+	chance = {
+		factor = 0
+		modifier = {
+			tag = GSR
+			has_civil_war = yes
+			factor = 100
+		}
+	}
+}
+music = {
+	song = "NORTHWING_CIVIL_WAR"
+	chance = {
+		factor = 0
+		modifier = {
+			tag = NWK
+			has_civil_war = yes
+			factor = 100
+		}
+	}
+}
+music = {
+	song = "MainMusic"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 100
+		}
+	}
+}
+music = {
+	song = "WarAgainstTCH"
+	chance = {
+		factor = 0
+		modifier = {
+			is_at_war_with = TCH
+			factor = 100
+		}
+	}
+}
+
+music = {
+	song = "MainMusic2"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 80
+		}
+	}
+}
+
+music = {
+	# Play the grand coalition theme when TCS formally declares the successor state.
+	song = "GRAND_COALITION"
+	chance = {
+		factor = 0
+		modifier = {
+			has_country_flag = TCS_successor_state_declared
+			factor = 100
+		}
+	}
+}
