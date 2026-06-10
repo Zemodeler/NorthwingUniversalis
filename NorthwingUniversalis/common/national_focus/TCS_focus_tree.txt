@@ -61,6 +61,7 @@ focus_tree = {
             add_to_variable = { var = TCS_internal_legitimacy value = 5 }
             add_to_variable = { var = TCS_internal_faction_tension value = 5 }
             set_country_flag = TCS_officer_league_active
+            add_country_leader_trait = TCS_emergency_war_leader
             unlock_decision_category = TCS_emergency_state_decisions
             country_event = { id = TCS_event.2 days = 1 }
         }
@@ -207,6 +208,7 @@ focus_tree = {
             add_to_variable = { var = TCS_internal_legitimacy value = 10 }
             add_to_variable = { var = TCS_coalition_authority value = 5 }
             set_country_flag = TCS_successor_state_declared
+            add_country_leader_trait = TCS_architect_of_the_successor_state
             unlock_decision_category = TCS_internal_stabilization_decisions
             unlock_decision_category = TCS_coalition_decisions
             unlock_decision_category = TCS_tch_containment_decisions
@@ -412,7 +414,7 @@ focus_tree = {
             add_war_support = 0.05
             add_to_variable = { var = TCS_internal_legitimacy value = 10 }
             add_to_variable = { var = TCS_internal_faction_tension value = -8 }
-            add_ideas = TCS_national_unity_campaign_idea
+            add_timed_idea = { idea = TCS_national_unity_campaign_idea days = 180 }
         }
     }
 
@@ -607,6 +609,7 @@ focus_tree = {
             add_war_support = 0.05
             add_to_variable = { var = TCS_internal_legitimacy value = 15 }
             add_ideas = TCS_permanent_military_state_idea
+            add_country_leader_trait = TCS_marshal_of_the_state
         }
     }
 
@@ -700,6 +703,7 @@ focus_tree = {
             add_to_variable = { var = TCS_coalition_authority value = 5 }
             set_country_flag = TCS_republic_established
             add_ideas = TCS_republic_of_cobalt_idea
+            add_country_leader_trait = TCS_founder_president
         }
     }
 
@@ -795,6 +799,7 @@ focus_tree = {
             add_to_variable = { var = TCS_internal_legitimacy value = 20 }
             set_country_flag = TCS_kingdom_restored
             add_ideas = TCS_restored_cobalt_kingdom_idea
+            add_country_leader_trait = TCS_crowned_protector
         }
     }
 
@@ -857,6 +862,7 @@ focus_tree = {
             add_to_variable = { var = TCS_internal_legitimacy value = 15 }
             add_to_variable = { var = TCS_coalition_authority value = 5 }
             add_ideas = TCS_cobalt_constitutional_state_idea
+            add_country_leader_trait = TCS_guardian_of_the_charter
             set_country_flag = TCS_constitutional_state_established
         }
     }
@@ -1534,6 +1540,7 @@ focus_tree = {
             add_to_variable = { var = TCS_internal_legitimacy value = 10 }
             add_to_variable = { var = TCS_internal_faction_tension value = -10 }
             add_ideas = TCS_shield_of_memelburg_idea
+            add_country_leader_trait = TCS_protector_of_memelburg
         }
     }
 
@@ -1684,7 +1691,7 @@ focus_tree = {
         completion_reward = {
             army_experience = 40
             add_to_variable = { var = TCS_coalition_authority value = 7 }
-            add_ideas = TCS_shared_military_exercises_idea
+            add_timed_idea = { idea = TCS_shared_military_exercises_idea days = 180 }
         }
     }
 
@@ -1853,6 +1860,7 @@ focus_tree = {
             add_war_support = 0.05
             add_to_variable = { var = TCS_coalition_authority value = 20 }
             add_ideas = TCS_grand_coalition_idea
+            add_country_leader_trait = TCS_coalition_architect
             country_event = { id = TCS_event.58 days = 1 }
         }
     }
@@ -2183,6 +2191,7 @@ focus_tree = {
             add_to_variable = { var = TCS_internal_legitimacy value = 10 }
             add_to_variable = { var = TCS_coalition_authority value = 10 }
             add_ideas = TCS_crimson_menace_contained_idea
+            add_country_leader_trait = TCS_breaker_of_the_hand
             country_event = { id = TCS_event.79 days = 1 }
         }
     }

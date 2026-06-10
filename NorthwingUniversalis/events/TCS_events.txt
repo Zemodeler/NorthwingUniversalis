@@ -632,7 +632,7 @@ country_event = {
     option = {
         name = TCS_event.77.c
         add_war_support = 0.05
-        add_ideas = TCS_defensive_mobilization_against_tch
+        add_timed_idea = { idea = TCS_defensive_mobilization_against_tch days = 270 }
         set_country_flag = TCS_defensive_mobilization_against_tch
     }
 }

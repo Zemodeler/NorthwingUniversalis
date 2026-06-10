@@ -1,8 +1,49 @@
 ideas = {
+    TCS_remnant_of_the_kingdom = {
+        allowed = { tag = TCS }
+        stability_factor = -0.10
+        political_power_gain = -0.05
+        recruitable_population_factor = 0.10
+        war_support_factor = 0.03
+    }
+    TCS_military_emergency_authority = {
+        allowed = { tag = TCS }
+        war_support_factor = 0.10
+        mobilization_speed = 0.10
+        army_org_factor = 0.03
+        political_advisor_cost_factor = 0.10
+    }
+    TCS_broken_state_machinery = {
+        allowed = { tag = TCS }
+        consumer_goods_factor = 0.05
+        production_speed_buildings_factor = -0.05
+        stability_factor = -0.05
+        research_speed_factor = -0.02
+    }
+    TCS_broken_state_machinery_reduced = {
+        allowed = { tag = TCS }
+        consumer_goods_factor = 0.02
+        production_speed_buildings_factor = -0.02
+        stability_factor = -0.02
+        research_speed_factor = -0.01
+    }
+    TCS_crimson_question = {
+        allowed = { tag = TCS }
+        war_support_factor = 0.05
+        justify_war_goal_time = -0.10
+        counter_intelligence = 0.05
+    }
+    TCS_coalition_uncertainty = {
+        allowed = { tag = TCS }
+        diplomatic_acceptance = -10
+        send_volunteer_factor = -0.05
+        opinion_gain_monthly_factor = -0.05
+    }
     TCS_shock_of_collapse = {
         allowed = { tag = TCS }
         political_power_gain = -0.05
         stability_factor = -0.05
+        division_recovery_rate = -0.03
     }
     TCS_reopened_command_bunkers = {
         allowed = { tag = TCS }
@@ -22,7 +63,8 @@ ideas = {
         allowed = { tag = TCS }
         stability_factor = 0.03
         war_support_factor = 0.05
-        manpower_gain = 500
+        recruitable_population_factor = 0.15
+        political_power_gain = 0.03
     }
     TCS_restored_civil_registry = {
         allowed = { tag = TCS }
@@ -55,11 +97,14 @@ ideas = {
         allowed = { tag = TCS }
         stability_factor = 0.05
         war_support_factor = 0.05
+        drift_defence_factor = 0.10
     }
     TCS_cobalt_above_all_idea = {
         allowed = { tag = TCS }
-        war_support_factor = 0.03
-        stability_factor = 0.03
+        stability_factor = 0.075
+        political_power_gain = 0.05
+        war_support_factor = 0.05
+        drift_defence_factor = 0.10
     }
     TCS_army_saved_cobalt_idea = {
         allowed = { tag = TCS }
@@ -79,9 +124,12 @@ ideas = {
     }
     TCS_permanent_military_state_idea = {
         allowed = { tag = TCS }
-        stability_factor = 0.05
-        war_support_factor = 0.05
+        stability_factor = 0.10
+        war_support_factor = 0.10
         army_org_factor = 0.05
+        political_power_gain = 0.05
+        justify_war_goal_time = -0.05
+        research_speed_factor = -0.01
     }
     TCS_restored_civil_administration_idea = {
         allowed = { tag = TCS }
@@ -96,8 +144,11 @@ ideas = {
     }
     TCS_republic_of_cobalt_idea = {
         allowed = { tag = TCS }
-        stability_factor = 0.05
-        diplomatic_acceptance = 2
+        stability_factor = 0.10
+        research_speed_factor = 0.03
+        political_power_gain = 0.05
+        diplomatic_acceptance = 5
+        war_support_factor = -0.02
     }
     TCS_royal_symbols_restored_idea = {
         allowed = { tag = TCS }
@@ -111,14 +162,19 @@ ideas = {
     }
     TCS_restored_cobalt_kingdom_idea = {
         allowed = { tag = TCS }
-        stability_factor = 0.05
-        war_support_factor = 0.05
-        political_power_gain = 0.02
+        stability_factor = 0.10
+        war_support_factor = 0.10
+        political_power_gain = 0.05
+        army_org_factor = 0.03
+        drift_defence_factor = 0.10
     }
     TCS_cobalt_constitutional_state_idea = {
         allowed = { tag = TCS }
-        stability_factor = 0.03
-        political_power_gain = 0.02
+        stability_factor = 0.12
+        political_power_gain = 0.04
+        army_org_factor = 0.02
+        research_speed_factor = 0.01
+        diplomatic_acceptance = 5
     }
     TCS_veteran_corps_retained = {
         allowed = { tag = TCS }
@@ -194,8 +250,11 @@ ideas = {
     }
     TCS_army_of_the_baltic_coast_idea = {
         allowed = { tag = TCS }
-        army_org_factor = 0.03
-        stability_factor = 0.02
+        army_org_factor = 0.075
+        max_dig_in = 5
+        supply_consumption_factor = -0.05
+        planning_speed = 0.05
+        army_morale_factor = 0.03
     }
     TCS_reopened_state_contracts = {
         allowed = { tag = TCS }
@@ -234,9 +293,11 @@ ideas = {
     }
     TCS_reconstructed_successor_economy_idea = {
         allowed = { tag = TCS }
+        production_speed_buildings_factor = 0.075
+        production_efficiency_growth = 0.05
+        consumer_goods_factor = -0.03
         stability_factor = 0.05
-        production_efficiency_growth = 0.03
-        political_power_gain = 0.02
+        industrial_capacity_factory = 0.03
     }
     TCS_rebuilt_security_bureau = {
         allowed = { tag = TCS }
@@ -252,6 +313,18 @@ ideas = {
         allowed = { tag = TCS }
         counter_intelligence = 0.15
         enemy_operative_detection_chance_factor = 0.10
+    }
+    TCS_strategic_communications_office_idea = {
+        allowed = { tag = TCS }
+        stability_factor = 0.03
+        war_support_factor = 0.03
+        drift_defence_factor = 0.10
+    }
+    TCS_cobalt_broadcasting_service_idea = {
+        allowed = { tag = TCS }
+        stability_factor = 0.04
+        political_power_gain = 0.03
+        drift_defence_factor = 0.10
     }
     TCS_cyber_defense_directorate_idea = {
         allowed = { tag = TCS }
@@ -287,6 +360,7 @@ ideas = {
         allowed = { tag = TCS }
         army_org_factor = 0.03
         planning_speed = 0.03
+        experience_gain_army = 0.05
     }
     TCS_standardized_command_protocols_idea = {
         allowed = { tag = TCS }
@@ -318,11 +392,15 @@ ideas = {
         diplomatic_acceptance = 10
         send_volunteer_factor = 0.10
         war_support_factor = 0.05
+        planning_speed = 0.03
     }
     TCS_permanent_coalition_command_idea = {
         allowed = { tag = TCS }
-        command_power_gain = 0.15
-        planning_speed = 0.03
+        army_org_factor = 0.03
+        planning_speed = 0.05
+        political_power_gain = 0.05
+        send_volunteer_factor = 0.10
+        diplomatic_acceptance = 10
     }
     TCS_study_tch_doctrine_idea = {
         allowed = { tag = TCS }
@@ -356,18 +434,119 @@ ideas = {
     }
     TCS_defensive_mobilization_against_tch = {
         allowed = { tag = TCS }
-        army_defence_factor = 0.05
-        mobilization_speed = 0.05
+        army_defence_factor = 0.08
+        max_dig_in = 3
+        mobilization_speed = 0.10
+        war_support_factor = 0.05
     }
     TCS_the_kingdom_fell_memory = {
         allowed = { tag = TCS }
         political_power_gain = 0.03
         drift_defence_factor = 0.05
     }
-    TCS_legacy_eternal_idea = {
+    TCS_shield_of_memelburg_idea = {
+        allowed = { tag = TCS }
+        counter_intelligence = 0.20
+        stability_factor = 0.05
+        enemy_operative_detection_chance_factor = 0.15
+        political_power_gain = 0.05
+        decryption_factor = 0.05
+    }
+    TCS_crimson_menace_contained_idea = {
+        allowed = { tag = TCS }
+        stability_factor = 0.10
+        war_support_factor = 0.10
+        political_power_gain = 0.05
+        army_org_factor = 0.03
+        counter_intelligence = 0.05
+    }
+    TCS_counter_tch_cyber_cells_containment_idea = {
+        allowed = { tag = TCS }
+        decryption_factor = 0.10
+        counter_intelligence = 0.05
+    }
+    TCS_coalition_leads_again_idea = {
+        allowed = { tag = TCS }
+        diplomatic_acceptance = 10
+        send_volunteer_factor = 0.10
+        war_support_factor = 0.05
+        planning_speed = 0.03
+    }
+    TCS_joint_exercise_cycle = {
+        allowed = { tag = TCS }
+        army_org_factor = 0.02
+        planning_speed = 0.02
+    }
+    TCS_border_alert_active = {
+        allowed = { tag = TCS }
+        army_defence_factor = 0.02
+        max_dig_in = 1
+    }
+    TCS_expanded_state_contracts_temp = {
+        allowed = { tag = TCS }
+        production_speed_buildings_factor = 0.03
+        production_efficiency_growth = 0.02
+    }
+    TCS_logistics_corridor_expansion = {
+        allowed = { tag = TCS }
+        supply_consumption_factor = -0.02
+        production_speed_rail_way_factor = 0.10
+    }
+    TCS_valdor_coalition_organizer = {
+        allowed = { tag = TCS }
+        diplomatic_acceptance = 10
+        send_volunteer_factor = 0.05
+        political_power_gain = 0.03
+    }
+    TCS_alvydas_astikas_war_hero = {
+        allowed = { tag = TCS }
+        war_support_factor = 0.05
+        army_org_factor = 0.02
+        experience_gain_army = 0.05
+    }
+    TCS_republican_committee_representative = {
         allowed = { tag = TCS }
         stability_factor = 0.05
-        war_support_factor = 0.05
-        add_political_power = 0
+        research_speed_factor = 0.02
+        political_power_gain = 0.03
+    }
+    TCS_royal_archivist = {
+        allowed = { tag = TCS }
+        stability_factor = 0.03
+        political_power_gain = 0.03
+        drift_defence_factor = 0.10
+    }
+    TCS_security_bureau_director = {
+        allowed = { tag = TCS }
+        counter_intelligence = 0.15
+        enemy_operative_detection_chance_factor = 0.10
+    }
+    TCS_memelburg_general_staff_chief = {
+        allowed = { tag = TCS }
+        planning_speed = 0.05
+        army_org_factor = 0.03
+    }
+    TCS_grenadier_commander = {
+        allowed = { tag = TCS }
+        special_forces_attack_factor = 0.05
+        army_attack_factor = 0.02
+    }
+    TCS_coastal_defense_commander = {
+        allowed = { tag = TCS }
+        naval_invasion_defense = 0.10
+        army_defence_factor = 0.03
+    }
+    TCS_drone_recon_director = {
+        allowed = { tag = TCS }
+        recon_factor = 0.05
+        initiative_factor = 0.03
+    }
+    TCS_legacy_eternal_idea = {
+        allowed = { tag = TCS }
+        stability_factor = 0.10
+        war_support_factor = 0.10
+        political_power_gain = 0.05
+        army_org_factor = 0.03
+        research_speed_factor = 0.02
     }
 }

@@ -1,0 +1,70 @@
+leader_traits = {
+    TCS_founder_of_the_rebirth = {
+        stability_factor = 0.05
+        political_power_gain = 0.05
+        army_org_factor = 0.03
+    }
+
+    TCS_emergency_war_leader = {
+        war_support_factor = 0.07
+        mobilization_speed = 0.10
+        command_power_gain = 0.1
+        political_power_gain = -0.02
+    }
+
+    TCS_protector_of_memelburg = {
+        stability_factor = 0.05
+        max_dig_in = 2
+        army_defence_factor = 0.03
+    }
+
+    TCS_architect_of_the_successor_state = {
+        political_power_gain = 0.07
+        stability_factor = 0.05
+        consumer_goods_factor = -0.01
+    }
+
+    TCS_marshal_of_the_state = {
+        war_support_factor = 0.10
+        army_org_factor = 0.05
+        army_morale_factor = 0.05
+        command_power_gain = 0.15
+        justify_war_goal_time = -0.05
+        research_speed_factor = -0.01
+    }
+
+    TCS_founder_president = {
+        stability_factor = 0.07
+        political_power_gain = 0.05
+        diplomatic_acceptance = 5
+        research_speed_factor = 0.02
+    }
+
+    TCS_crowned_protector = {
+        stability_factor = 0.10
+        war_support_factor = 0.07
+        army_org_factor = 0.04
+        political_power_gain = 0.04
+    }
+
+    TCS_guardian_of_the_charter = {
+        stability_factor = 0.08
+        political_power_gain = 0.05
+        army_org_factor = 0.02
+        diplomatic_acceptance = 5
+    }
+
+    TCS_coalition_architect = {
+        diplomatic_acceptance = 10
+        send_volunteer_factor = 0.10
+        political_power_gain = 0.03
+        planning_speed = 0.03
+    }
+
+    TCS_breaker_of_the_hand = {
+        war_support_factor = 0.10
+        army_org_factor = 0.03
+        counter_intelligence = 0.10
+        political_power_gain = 0.03
+    }
+}

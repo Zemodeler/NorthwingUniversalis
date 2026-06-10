@@ -1,191 +1,540 @@
 decisions = {
-    TCS_monitor_royal_continuists = {
-        picture = GFX_decision_generic_political_reform
+    TCS_internal_stabilization_decisions = {
+        icon = generic_political_reform
         allowed = { tag = TCS }
-        available = { }
-        cost = 35
-        complete_effect = {
-            add_to_variable = { var = TCS_internal_faction_tension value = -3 }
-            add_to_variable = { var = TCS_internal_legitimacy value = 2 }
+        visible = { has_completed_focus = TCS_the_successor_state }
+
+        TCS_monitor_royal_continuists = {
+            picture = GFX_decision_generic_political_reform
+            cost = 35
+            days_remove = 30
+            available = {
+                has_country_flag = TCS_royal_continuists_active
+                NOT = { has_country_flag = TCS_royal_continuists_integrated }
+                political_power > 35
+            }
+            complete_effect = {
+                add_to_variable = { var = TCS_internal_faction_tension value = -3 }
+                add_to_variable = { var = TCS_internal_legitimacy value = 2 }
+                TCS_clamp_internal_legitimacy = yes
+                TCS_clamp_faction_tension = yes
+            }
+        }
+
+        TCS_negotiate_with_republican_committees = {
+            picture = GFX_decision_generic_political_reform
+            cost = 50
+            days_remove = 30
+            available = {
+                has_completed_focus = TCS_open_political_committees
+                political_power > 50
+            }
+            complete_effect = {
+                add_stability = 0.01
+                add_to_variable = { var = TCS_internal_faction_tension value = -5 }
+                add_to_variable = { var = TCS_internal_legitimacy value = 2 }
+                TCS_clamp_internal_legitimacy = yes
+                TCS_clamp_faction_tension = yes
+            }
+        }
+
+        TCS_pressure_provincial_assemblies = {
+            picture = GFX_decision_generic_political_reform
+            cost = 40
+            days_remove = 30
+            available = {
+                has_completed_focus = TCS_provincial_loyalty_audits
+                political_power > 40
+            }
+            complete_effect = {
+                add_to_variable = { var = TCS_internal_faction_tension value = -3 }
+                add_stability = -0.01
+                TCS_clamp_faction_tension = yes
+            }
+        }
+
+        TCS_offer_reconstruction_grants = {
+            picture = GFX_decision_generic_economy
+            cost = 75
+            days_remove = 45
+            available = {
+                has_completed_focus = TCS_provincial_reconstruction_grants
+                political_power > 75
+            }
+            complete_effect = {
+                add_stability = 0.02
+                add_to_variable = { var = TCS_internal_faction_tension value = -7 }
+                add_to_variable = { var = TCS_internal_legitimacy value = 2 }
+                TCS_clamp_internal_legitimacy = yes
+                TCS_clamp_faction_tension = yes
+            }
+        }
+
+        TCS_investigate_officer_league = {
+            picture = GFX_decision_generic_political_reform
+            cost = 50
+            days_remove = 30
+            available = {
+                has_country_flag = TCS_officer_league_active
+                has_completed_focus = TCS_officer_loyalty_hearings
+                political_power > 50
+            }
+            complete_effect = {
+                add_to_variable = { var = TCS_internal_faction_tension value = -5 }
+                army_experience = 10
+                TCS_clamp_faction_tension = yes
+            }
+        }
+
+        TCS_hold_unity_rally = {
+            picture = GFX_decision_generic_political_reform
+            cost = 50
+            days_remove = 20
+            available = {
+                has_completed_focus = TCS_national_unity_campaign
+                political_power > 50
+            }
+            complete_effect = {
+                add_stability = 0.02
+                add_war_support = 0.02
+                add_to_variable = { var = TCS_internal_legitimacy value = 3 }
+                TCS_clamp_internal_legitimacy = yes
+            }
+        }
+
+        TCS_public_order_sweep = {
+            picture = GFX_decision_generic_political_reform
+            cost = 75
+            days_remove = 30
+            available = {
+                has_completed_focus = TCS_public_order_directorate
+                political_power > 75
+                check_variable = { var = TCS_internal_faction_tension value = 51 }
+            }
+            complete_effect = {
+                add_stability = -0.02
+                add_to_variable = { var = TCS_internal_faction_tension value = -15 }
+                add_war_support = 0.03
+                TCS_clamp_faction_tension = yes
+            }
         }
     }
-    TCS_negotiate_with_republican_committees = {
-        picture = GFX_decision_generic_political_reform
+
+    TCS_coalition_decisions = {
+        icon = generic_diplomacy
         allowed = { tag = TCS }
-        available = { }
-        cost = 50
-        complete_effect = {
-            add_stability = 0.01
-            add_to_variable = { var = TCS_internal_faction_tension value = -5 }
+        visible = { has_completed_focus = TCS_rebuild_coalition_idea }
+
+        TCS_hold_coalition_summit = {
+            picture = GFX_decision_generic_diplomacy
+            cost = 100
+            days_remove = 45
+            available = {
+                has_completed_focus = TCS_seek_reliable_allies
+                political_power > 100
+            }
+            complete_effect = {
+                add_to_variable = { var = TCS_coalition_authority value = 7 }
+                add_political_power = 25
+                if = {
+                    limit = { check_variable = { var = TCS_internal_legitimacy value = 61 } }
+                    add_to_variable = { var = TCS_coalition_authority value = 3 }
+                }
+                TCS_clamp_coalition_authority = yes
+            }
+        }
+
+        TCS_organize_joint_exercises = {
+            picture = GFX_decision_generic_army
+            cost = 75
+            days_remove = 60
+            available = {
+                has_completed_focus = TCS_shared_military_exercises
+                political_power > 75
+            }
+            complete_effect = {
+                army_experience = 20
+                add_to_variable = { var = TCS_coalition_authority value = 5 }
+                add_timed_idea = { idea = TCS_joint_exercise_cycle days = 120 }
+                TCS_clamp_coalition_authority = yes
+            }
+        }
+
+        TCS_mediate_member_dispute = {
+            picture = GFX_decision_generic_political_reform
+            cost = 50
+            days_remove = 30
+            available = {
+                has_completed_focus = TCS_mediate_allied_rivalries
+                political_power > 50
+                check_variable = { var = TCS_coalition_authority value = 31 }
+            }
+            complete_effect = {
+                add_to_variable = { var = TCS_coalition_authority value = 5 }
+                TCS_clamp_coalition_authority = yes
+            }
+        }
+
+        TCS_request_coalition_volunteers = {
+            picture = GFX_decision_generic_political_reform
+            cost = 50
+            days_remove = 20
+            available = {
+                has_completed_focus = TCS_coalition_defense_charter
+                political_power > 50
+                check_variable = { var = TCS_coalition_authority value = 46 }
+            }
+            complete_effect = {
+                add_war_support = 0.02
+                set_country_flag = TCS_requested_coalition_volunteers
+                if = {
+                    limit = { has_war_with = TCH }
+                    add_manpower = 2000
+                    army_experience = 15
+                }
+            }
+        }
+
+        TCS_send_coalition_arms = {
+            picture = GFX_decision_generic_economy
+            cost = 50
+            days_remove = 30
+            available = {
+                has_completed_focus = TCS_coalition_arms_pool
+                political_power > 50
+            }
+            complete_effect = {
+                add_to_variable = { var = TCS_coalition_authority value = 4 }
+                add_political_power = -25
+                TCS_clamp_coalition_authority = yes
+            }
+        }
+
+        TCS_invite_coalition_partner = {
+            picture = GFX_decision_generic_diplomacy
+            cost = 75
+            days_remove = 30
+            available = {
+                has_completed_focus = TCS_coalition_defense_charter
+                political_power > 75
+                check_variable = { var = TCS_coalition_authority value = 41 }
+            }
+            complete_effect = {
+                add_to_variable = { var = TCS_coalition_authority value = 3 }
+                country_event = { id = TCS_event.52 days = 1 }
+                TCS_clamp_coalition_authority = yes
+            }
+        }
+
+        TCS_call_coalition_defense_meeting = {
+            picture = GFX_decision_generic_diplomacy
+            cost = 75
+            days_remove = 20
+            available = {
+                has_completed_focus = TCS_joint_crisis_protocols
+                political_power > 75
+                check_variable = { var = TCS_tch_escalation value = 51 }
+            }
+            complete_effect = {
+                add_to_variable = { var = TCS_coalition_authority value = 5 }
+                add_war_support = 0.02
+                country_event = { id = TCS_event.74 days = 1 }
+                TCS_clamp_coalition_authority = yes
+            }
         }
     }
-    TCS_pressure_provincial_assemblies = {
-        picture = GFX_decision_generic_political_reform
+
+    TCS_tch_containment_decisions = {
+        icon = generic_intelligence
         allowed = { tag = TCS }
-        available = { }
-        cost = 40
-        complete_effect = {
-            add_to_variable = { var = TCS_internal_faction_tension value = -3 }
-            add_stability = -0.01
+        visible = { has_completed_focus = TCS_crimson_hand_watches }
+
+        TCS_expose_crimson_cell = {
+            picture = GFX_decision_generic_political_reform
+            cost = 50
+            days_remove = 30
+            available = {
+                has_completed_focus = TCS_trace_tch_cells
+                political_power > 50
+            }
+            complete_effect = {
+                add_to_variable = { var = TCS_internal_faction_tension value = -5 }
+                add_to_variable = { var = TCS_tch_escalation value = 3 }
+                add_stability = 0.01
+                if = {
+                    limit = { has_idea = TCS_shield_of_memelburg_idea }
+                    add_to_variable = { var = TCS_internal_faction_tension value = -3 }
+                }
+                TCS_clamp_faction_tension = yes
+                TCS_clamp_tch_escalation = yes
+            }
+        }
+
+        TCS_counter_tch_propaganda = {
+            picture = GFX_decision_generic_political_reform
+            cost = 40
+            days_remove = 25
+            available = {
+                has_completed_focus = TCS_break_crimson_propaganda
+                political_power > 40
+            }
+            complete_effect = {
+                add_stability = 0.02
+                add_war_support = 0.01
+                add_to_variable = { var = TCS_internal_legitimacy value = 2 }
+                TCS_clamp_internal_legitimacy = yes
+            }
+        }
+
+        TCS_launch_cyber_probe = {
+            picture = GFX_decision_generic_political_reform
+            cost = 50
+            days_remove = 40
+            available = {
+                has_completed_focus = TCS_counter_tch_cyber_cells_containment
+                political_power > 50
+            }
+            complete_effect = {
+                add_to_variable = { var = TCS_tch_escalation value = 5 }
+                set_country_flag = TCS_launched_cyber_probe
+                random = {
+                    chance = 15
+                    country_event = { id = TCS_event.73 days = 1 }
+                }
+                TCS_clamp_tch_escalation = yes
+            }
+        }
+
+        TCS_sanction_tch_fronts = {
+            picture = GFX_decision_generic_political_reform
+            cost = 75
+            days_remove = 45
+            available = {
+                has_completed_focus = TCS_sanction_crimson_networks
+                political_power > 75
+            }
+            complete_effect = {
+                add_to_variable = { var = TCS_tch_escalation value = 5 }
+                add_war_support = 0.02
+                if = {
+                    limit = { check_variable = { var = TCS_coalition_authority value = 61 } }
+                    add_to_variable = { var = TCS_coalition_authority value = 3 }
+                }
+                TCS_clamp_coalition_authority = yes
+                TCS_clamp_tch_escalation = yes
+            }
+        }
+
+        TCS_fund_anti_tch_opposition = {
+            picture = GFX_decision_generic_political_reform
+            cost = 75
+            days_remove = 60
+            available = {
+                has_completed_focus = TCS_support_anti_tch_dissidents
+                political_power > 75
+                NOT = { has_war_with = TCH }
+            }
+            complete_effect = {
+                add_to_variable = { var = TCS_tch_escalation value = 7 }
+                set_country_flag = TCS_funding_anti_tch_opposition
+                if = {
+                    limit = { check_variable = { var = TCS_tch_escalation value = 76 } }
+                    country_event = { id = TCS_event.72 days = 10 }
+                }
+                TCS_clamp_tch_escalation = yes
+            }
+        }
+
+        TCS_raise_border_alert = {
+            picture = GFX_decision_generic_army
+            cost = 50
+            days_remove = 20
+            available = {
+                has_completed_focus = TCS_border_watch_commands
+                political_power > 50
+                check_variable = { var = TCS_tch_escalation value = 41 }
+            }
+            complete_effect = {
+                add_war_support = 0.02
+                add_to_variable = { var = TCS_tch_escalation value = 3 }
+                add_timed_idea = { idea = TCS_border_alert_active days = 90 }
+                TCS_clamp_tch_escalation = yes
+            }
+        }
+
+        TCS_call_emergency_coalition_session = {
+            picture = GFX_decision_generic_diplomacy
+            cost = 75
+            days_remove = 15
+            available = {
+                has_completed_focus = TCS_joint_crisis_protocols
+                political_power > 75
+                check_variable = { var = TCS_tch_escalation value = 61 }
+                check_variable = { var = TCS_coalition_authority value = 41 }
+            }
+            complete_effect = {
+                add_to_variable = { var = TCS_coalition_authority value = 5 }
+                country_event = { id = TCS_event.74 days = 1 }
+                TCS_clamp_coalition_authority = yes
+            }
+        }
+
+        TCS_prepare_memelburg_red_line = {
+            picture = GFX_decision_generic_army
+            cost = 100
+            days_remove = 30
+            available = {
+                has_completed_focus = TCS_memelburg_defensive_plans
+                has_completed_focus = TCS_border_watch_commands
+                political_power > 100
+                check_variable = { var = TCS_tch_escalation value = 71 }
+            }
+            complete_effect = {
+                add_war_support = 0.05
+                set_country_flag = TCS_memelburg_red_line_prepared
+                country_event = { id = TCS_event.75 days = 1 }
+            }
         }
     }
-    TCS_offer_reconstruction_grants = {
-        picture = GFX_decision_generic_economy
+
+    TCS_reconstruction_decisions = {
+        icon = generic_construct_civ_factory
         allowed = { tag = TCS }
-        available = { }
-        cost = 75
-        complete_effect = {
-            add_stability = 0.02
-            add_to_variable = { var = TCS_internal_faction_tension value = -7 }
+        visible = { has_completed_focus = TCS_post_kingdom_economic_audit }
+
+        TCS_repair_memelburg_districts = {
+            picture = GFX_decision_generic_economy
+            cost = 50
+            days_remove = 45
+            available = {
+                political_power > 50
+                has_completed_focus = TCS_memelburg_reconstruction_authority
+            }
+            complete_effect = {
+                capital_scope = { add_extra_state_shared_building_slots = 1 }
+                add_stability = 0.01
+                add_to_variable = { var = TCS_internal_legitimacy value = 2 }
+                TCS_clamp_internal_legitimacy = yes
+            }
+        }
+
+        TCS_expand_state_contracts = {
+            picture = GFX_decision_generic_economy
+            cost = 75
+            days_remove = 60
+            available = {
+                political_power > 75
+                has_completed_focus = TCS_reopen_state_contracts
+            }
+            complete_effect = {
+                add_political_power = 25
+                add_timed_idea = { idea = TCS_expanded_state_contracts_temp days = 120 }
+            }
+        }
+
+        TCS_prioritize_military_industry = {
+            picture = GFX_decision_generic_construct_military
+            cost = 75
+            days_remove = 60
+            available = {
+                political_power > 75
+                has_completed_focus = TCS_cobalt_arms_procurement_board
+            }
+            complete_effect = {
+                random_owned_controlled_state = {
+                    add_building_construction = {
+                        type = arms_factory
+                        level = 1
+                        instant_build = yes
+                    }
+                }
+                add_war_support = 0.02
+            }
+        }
+
+        TCS_prioritize_civilian_reconstruction = {
+            picture = GFX_decision_generic_construct_civ_factory
+            cost = 75
+            days_remove = 60
+            available = {
+                political_power > 75
+                has_completed_focus = TCS_restore_industrial_districts
+            }
+            complete_effect = {
+                random_owned_controlled_state = {
+                    add_building_construction = {
+                        type = industrial_complex
+                        level = 1
+                        instant_build = yes
+                    }
+                }
+                add_stability = 0.02
+            }
+        }
+
+        TCS_expand_logistics_corridors = {
+            picture = GFX_decision_generic_economy
+            cost = 50
+            days_remove = 45
+            available = {
+                political_power > 50
+                has_completed_focus = TCS_modern_logistics_corridors
+            }
+            complete_effect = {
+                add_timed_idea = { idea = TCS_logistics_corridor_expansion days = 180 }
+            }
         }
     }
-    TCS_investigate_officer_league = {
-        picture = GFX_decision_generic_political_reform
+
+    TCS_emergency_state_decisions = {
+        icon = generic_prepare_civil_war
         allowed = { tag = TCS }
-        available = { }
-        cost = 50
-        complete_effect = {
-            add_to_variable = { var = TCS_internal_faction_tension value = -5 }
-            army_experience = 10
+        visible = { has_completed_focus = TCS_emergency_military_council }
+
+        TCS_emergency_decree = {
+            picture = GFX_decision_generic_political_reform
+            cost = 50
+            days_remove = 15
+            available = { political_power > 50 }
+            complete_effect = {
+                add_political_power = 25
+                add_war_support = 0.02
+                add_to_variable = { var = TCS_internal_faction_tension value = 3 }
+                TCS_clamp_faction_tension = yes
+            }
         }
-    }
-    TCS_hold_unity_rally = {
-        picture = GFX_decision_generic_political_reform
-        allowed = { tag = TCS }
-        available = { }
-        cost = 50
-        complete_effect = {
-            add_stability = 0.02
-            add_war_support = 0.02
-            add_to_variable = { var = TCS_internal_legitimacy value = 3 }
+
+        TCS_curfew_in_memelburg = {
+            picture = GFX_decision_generic_political_reform
+            cost = 35
+            days_remove = 20
+            available = {
+                political_power > 35
+                check_variable = { var = TCS_internal_faction_tension value = 46 }
+            }
+            complete_effect = {
+                add_stability = -0.01
+                add_to_variable = { var = TCS_internal_faction_tension value = -5 }
+                TCS_clamp_faction_tension = yes
+            }
         }
-    }
-    TCS_invite_coalition_partner = {
-        picture = GFX_decision_generic_diplomacy
-        allowed = { tag = TCS }
-        available = { }
-        cost = 75
-        complete_effect = {
-            add_to_variable = { var = TCS_coalition_authority value = 3 }
-        }
-    }
-    TCS_hold_coalition_summit = {
-        picture = GFX_decision_generic_diplomacy
-        allowed = { tag = TCS }
-        available = { }
-        cost = 100
-        complete_effect = {
-            add_to_variable = { var = TCS_coalition_authority value = 7 }
-            add_political_power = 25
-        }
-    }
-    TCS_organize_joint_exercises = {
-        picture = GFX_decision_generic_army
-        allowed = { tag = TCS }
-        available = { }
-        cost = 75
-        complete_effect = {
-            army_experience = 20
-            add_to_variable = { var = TCS_coalition_authority value = 5 }
-        }
-    }
-    TCS_mediate_member_dispute = {
-        picture = GFX_decision_generic_political_reform
-        allowed = { tag = TCS }
-        available = { }
-        cost = 50
-        complete_effect = {
-            add_to_variable = { var = TCS_coalition_authority value = 5 }
-        }
-    }
-    TCS_request_coalition_volunteers = {
-        picture = GFX_decision_generic_political_reform
-        allowed = { tag = TCS }
-        available = { }
-        cost = 50
-        complete_effect = {
-            add_war_support = 0.02
-            set_country_flag = TCS_requested_coalition_volunteers
-        }
-    }
-    TCS_send_coalition_arms = {
-        picture = GFX_decision_generic_economy
-        allowed = { tag = TCS }
-        available = { }
-        cost = 50
-        complete_effect = {
-            add_to_variable = { var = TCS_coalition_authority value = 4 }
-            add_political_power = -25
-        }
-    }
-    TCS_expose_crimson_cell = {
-        picture = GFX_decision_generic_political_reform
-        allowed = { tag = TCS }
-        available = { }
-        cost = 50
-        complete_effect = {
-            add_to_variable = { var = TCS_internal_faction_tension value = -5 }
-            add_to_variable = { var = TCS_tch_escalation value = 3 }
-        }
-    }
-    TCS_counter_tch_propaganda = {
-        picture = GFX_decision_generic_political_reform
-        allowed = { tag = TCS }
-        available = { }
-        cost = 40
-        complete_effect = {
-            add_stability = 0.02
-            add_war_support = 0.01
-        }
-    }
-    TCS_launch_cyber_probe = {
-        picture = GFX_decision_generic_political_reform
-        allowed = { tag = TCS }
-        available = { }
-        cost = 50
-        complete_effect = {
-            add_to_variable = { var = TCS_tch_escalation value = 5 }
-            set_country_flag = TCS_launched_cyber_probe
-        }
-    }
-    TCS_sanction_tch_fronts = {
-        picture = GFX_decision_generic_political_reform
-        allowed = { tag = TCS }
-        available = { }
-        cost = 75
-        complete_effect = {
-            add_to_variable = { var = TCS_tch_escalation value = 5 }
-            add_war_support = 0.02
-        }
-    }
-    TCS_fund_anti_tch_opposition = {
-        picture = GFX_decision_generic_political_reform
-        allowed = { tag = TCS }
-        available = { }
-        cost = 75
-        complete_effect = {
-            add_to_variable = { var = TCS_tch_escalation value = 7 }
-            set_country_flag = TCS_funding_anti_tch_opposition
-        }
-    }
-    TCS_raise_border_alert = {
-        picture = GFX_decision_generic_army
-        allowed = { tag = TCS }
-        available = { }
-        cost = 50
-        complete_effect = {
-            add_war_support = 0.02
-            add_to_variable = { var = TCS_tch_escalation value = 3 }
-        }
-    }
-    TCS_call_emergency_coalition_session = {
-        picture = GFX_decision_generic_political_reform
-        allowed = { tag = TCS }
-        available = { }
-        cost = 75
-        complete_effect = {
-            add_to_variable = { var = TCS_coalition_authority value = 5 }
-            country_event = { id = TCS_event.74 days = 1 }
+
+        TCS_mobilize_loyalist_units = {
+            picture = GFX_decision_generic_army
+            cost = 75
+            days_remove = 30
+            available = {
+                political_power > 75
+                OR = {
+                    check_variable = { var = TCS_tch_escalation value = 61 }
+                    check_variable = { var = TCS_internal_faction_tension value = 61 }
+                }
+            }
+            complete_effect = {
+                add_manpower = 2500
+                add_war_support = 0.03
+                add_command_power = 25
+            }
         }
     }
 }
