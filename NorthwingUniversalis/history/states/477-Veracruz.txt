@@ -11,7 +11,7 @@ state={
 	}
 
 	history={
-		owner = MEX
+		owner = UNK
 		buildings = {
 			infrastructure = 2
 			dockyard = 1

@@ -7,7 +7,7 @@ state = {
 
 	history = {
 
-		owner = PRC
+		owner = UNK
 		add_core_of = PRC
 		add_core_of = CHI
 
@@ -46,8 +46,8 @@ state = {
 		}
 
 		1938.10.25 = {
-			owner = PRC
-			controller = PRC	
+			owner = UNK
+			controller = UNK
 			add_victory_points = {
 				province = 8049
 				value = 2

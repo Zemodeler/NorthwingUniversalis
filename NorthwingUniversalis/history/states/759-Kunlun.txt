@@ -9,7 +9,7 @@ state={
 	state_category = wasteland
 	history={
 
-		owner = SIK
+		owner = UNK
 		add_core_of = SIK
 		add_core_of = CHI
 		add_core_of = PRC
@@ -39,8 +39,8 @@ state={
 				}
 				remove_core_of = KHM
 			}	
-			owner = SIK
-			controller = SIK		
+			owner = UNK
+			controller = UNK
 		}
 
 	}

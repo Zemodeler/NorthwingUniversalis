@@ -6,7 +6,7 @@ state={
 	state_category = enclave
 
 	history={
-		owner = USA
+		owner = UNK
 		victory_points = {
 			7617 5 
 		}

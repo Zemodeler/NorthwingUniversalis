@@ -7,7 +7,7 @@ state = {
 	
 	history = {
 
-		owner = LIT
+		owner = UNK
 		add_core_of = LIT
 		add_claim_by = PRE
 
@@ -24,8 +24,8 @@ state = {
 		}
 		
 		1939.3.22 = {
-			owner = GER
-			controller = GER
+			owner = UNK
+			controller = UNK
 			add_core_of = GER
 		}
 

@@ -5,7 +5,7 @@ state={
 	state_category = town
 
 	history={
-		owner = GXC
+		owner = UNK
 		add_core_of = GXC
 		1936.1.1 = {
 			IF = {
@@ -41,9 +41,9 @@ state={
 		1938.10.25 = {
 			
 			remove_core_of = GXC
-			owner = CHI
+			owner = UNK
 			
-			controller = JAP
+			controller = UNK
 		}
 	}
 

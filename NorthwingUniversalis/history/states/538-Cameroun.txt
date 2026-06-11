@@ -10,7 +10,7 @@ state = {
 
 	history = {
 
-		owner = BEL
+		owner = UNK
 		add_core_of = COG
 
 		IF = {

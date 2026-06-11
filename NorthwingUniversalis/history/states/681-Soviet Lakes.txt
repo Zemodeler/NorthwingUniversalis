@@ -7,7 +7,7 @@ state = {
 
 	history = {
 
-		owner = SAF
+		owner = UNK
 		add_core_of = SAF
 
 		buildings = {

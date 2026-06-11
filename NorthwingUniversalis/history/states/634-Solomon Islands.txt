@@ -5,7 +5,7 @@ state = {
 
 	history = {
 
-		owner = ENG 
+		owner = UNK
 		add_core_of = SOL
 
 		buildings = {

@@ -9,7 +9,7 @@ state = {
 
 	history = {
 
-		owner = FRA
+		owner = UNK
 		add_core_of = TAH
 
 		victory_points = {

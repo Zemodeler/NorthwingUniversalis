@@ -10,7 +10,7 @@ state={
 
 
 	history= {
-		owner = INS
+		owner = UNK
 		add_core_of = GOW
 		victory_points = {
 			10263 2

@@ -11,7 +11,7 @@ state={
 	}
 
 	history={
-		owner = GRE
+		owner = UNK
 		buildings = {
 			infrastructure = 1
 			dockyard = 1
