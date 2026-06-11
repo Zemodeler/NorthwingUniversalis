@@ -8,7 +8,6 @@ state = {
 	history = {
 
 		owner = TCS
-		add_core_of = TCS
 		add_claim_by = PRE
 
 		victory_points = {

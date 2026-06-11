@@ -5,16 +5,20 @@ state={
 	state_category = tiny_island
 
 	history={
-		owner = UNK
+
+		owner = UNK 
+
 		buildings = {
 			infrastructure = 2
 			13038 = {
 				naval_base = 1
 			}
 		}
+
 		victory_points = {
-			13038 1 
+			13038 1 # Nauru
 		}
+
 	}
 	
 	provinces={

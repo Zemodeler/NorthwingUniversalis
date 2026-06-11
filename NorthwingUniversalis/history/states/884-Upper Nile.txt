@@ -6,6 +6,11 @@ state = {
 
 	history = {
 		owner = UNK
+
+		victory_points = {
+			2096 1 
+		}
+		
 		buildings = {
 			infrastructure = 2
 

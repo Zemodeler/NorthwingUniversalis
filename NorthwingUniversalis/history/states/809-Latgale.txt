@@ -4,19 +4,21 @@ state={
 	name="STATE_809"
 
 	history={
-		owner = TCS
-		add_core_of = TCS
+		owner = UNK
+		
 		victory_points = {
-			310 3 #Daugavpils
+			6222 3 #Jelgava
 		}
 		victory_points = {
-			222 1 #Rezekne
+			3255 1 #Jekabpils
 		}
+		
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
 			arms_factory = 1
 		}
+
 	}
 
 	provinces={

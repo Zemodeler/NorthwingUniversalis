@@ -8,8 +8,6 @@ state={
 
 	history={
 		owner = NWK
-		controller = NWK
-		add_core_of = NWK
 		victory_points = {
 			9490 5 
 		}

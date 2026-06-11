@@ -48,13 +48,11 @@ state = {
 		}
 
 		1938.10.25 = {
-			IF = {
-				limit = {
-					has_dlc = "No Compromise, No Surrender" 
-				}
-			}	
 			owner = UNK
-			controller = UNK		
+			controller = UNK	
+			buildings = {
+				air_base = 1
+			}	
 		}
 		
 	}

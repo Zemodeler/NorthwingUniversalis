@@ -7,7 +7,7 @@ state={
 
 	history={
 		owner = UNK
-start_resistance = yes
+		start_resistance = yes
 		set_resistance = 75
 		set_compliance = 2
 		buildings = {

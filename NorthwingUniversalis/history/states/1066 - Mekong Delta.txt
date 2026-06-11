@@ -12,7 +12,8 @@ state = {
 	history = {
 		
 		owner = UNK
-victory_points = {
+
+		victory_points = {
 			4401 5 # Saigon
 		}
 

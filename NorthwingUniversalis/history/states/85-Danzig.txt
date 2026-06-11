@@ -7,8 +7,7 @@ state = {
 
 	history = {
 
-		owner = TCS
-		add_core_of = TCS
+		owner = UNK
 		add_claim_by = PRE
 
 		victory_points = {
@@ -25,6 +24,10 @@ state = {
 			362 = {
 				naval_base = 5
 			}
+		}
+		
+		1938.3.12 = {
+			add_claim_by = GER
 		}
 	}
 

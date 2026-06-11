@@ -4,8 +4,7 @@ state={
 	name="STATE_815"
 
 	history={
-		owner = TCS
-		add_core_of = TCS
+		owner = UNK
 		victory_points = {
 			6229 1 #Panevezys
 		}
@@ -13,6 +12,7 @@ state={
 			infrastructure = 2
 
 		}
+
 	}
 
 	provinces={

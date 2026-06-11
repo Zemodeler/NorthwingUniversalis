@@ -9,7 +9,8 @@ state = {
 	history = {
 
 		owner = UNK
-victory_points = {
+
+		victory_points = {
 			12120 1 # Port Vila 
 		}
 

@@ -12,7 +12,8 @@ state = {
 	history = {
 
 		owner = UNK
-victory_points = {
+
+		victory_points = {
 			1291 1 # Alor Setar
 		}
 
