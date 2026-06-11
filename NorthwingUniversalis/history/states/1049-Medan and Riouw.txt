@@ -7,7 +7,8 @@ state={
 	}
 
 	history={
-		owner = UNK
+		owner = INS
+		add_core_of = SSI
 		set_resistance = 0
 		set_compliance = 60
 		buildings = {

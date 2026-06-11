@@ -11,7 +11,7 @@ state={
 	state_category = city
 
 	history={
-		owner = UNK
+		owner = PER
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
@@ -33,6 +33,7 @@ state={
 		victory_points = {
 			7602 2 # Esterabad 
 		}
+		add_core_of = PER
 	}
 
 	provinces={

@@ -11,7 +11,8 @@ state = {
 
 	history = {
 
-		owner = UNK
+		owner = MAL
+		add_core_of = MAL
 
 		victory_points = {
 			1291 1 # Alor Setar

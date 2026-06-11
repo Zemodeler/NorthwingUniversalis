@@ -6,7 +6,9 @@ state={
 	}
 
 	history={
-		owner = UNK
+		owner = INS
+		add_core_of = TNE
+		add_core_of = GOW
 		set_resistance = 0
 		set_compliance = 40
 		buildings = {

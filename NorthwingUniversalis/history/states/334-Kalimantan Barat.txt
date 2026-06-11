@@ -14,7 +14,8 @@ state = {
 
 	history = {
 
-		owner = UNK
+		owner = INS
+		add_core_of = POK
 
 		victory_points = {
 			4279 1

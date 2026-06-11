@@ -12,7 +12,8 @@ state = {
 
 	history = {
 
-		owner = UNK
+		owner = NZL
+		add_core_of = NZL
 
 		buildings = {
 			infrastructure = 2

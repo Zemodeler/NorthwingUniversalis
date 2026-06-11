@@ -10,7 +10,10 @@ state={
 
 	history = {
 
-		owner = UNK
+		owner = XSM
+		add_core_of = XSM
+		add_core_of = CHI
+		add_core_of = PRC
 
 		victory_points = {
 			10750 1 # Dulan  

@@ -10,12 +10,12 @@ bookmarks = {
 		"TCS" = {
 			history = "NWU_TCS_BOOKMARK_DESC"
 			ideology = neutrality
-			major = yes
+			minor = no
 		}
 		"NWK" = {
 			history = "NWU_NWK_BOOKMARK_DESC"
 			ideology = neutrality
-			major = no
+			minor = yes
 		}
 	}
 }

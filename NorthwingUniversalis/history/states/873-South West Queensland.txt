@@ -8,7 +8,8 @@ state={
 		buildings = {
 			infrastructure = 1
 		}
-		owner = UNK
+		owner = AST
+		add_core_of = AST
 	}
 	state_category = pastoral
 	manpower=60000 #PreTAOG 10000

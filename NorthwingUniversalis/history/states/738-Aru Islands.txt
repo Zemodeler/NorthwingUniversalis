@@ -4,7 +4,8 @@ state = {
 
 	history={
 
-		owner = UNK
+		owner = INS
+		add_core_of = TNE
 
 		victory_points = {
 			4579 1 # Dobo  

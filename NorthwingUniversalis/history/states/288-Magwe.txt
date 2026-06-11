@@ -13,7 +13,8 @@ state = {
 	
 	history = {
 
-		owner = UNK
+		owner = BRM
+		add_core_of = BRM
 
 		victory_points = {
 			4202 1 # Yenangyaung

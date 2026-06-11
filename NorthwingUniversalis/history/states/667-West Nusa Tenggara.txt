@@ -5,7 +5,8 @@ state={
 	}
 
 	history={
-		owner = UNK
+		owner = INS
+		add_core_of = TNE
 		buildings = {
 			infrastructure = 1
 			13387 = {

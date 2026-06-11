@@ -2,4 +2,4 @@
 # Add custom technologies here when the new tree is ready.
 
 
-//TODO Finish Technology tree accurate to 1790, install GFX accurately as well 
+# TODO Finish Technology tree accurate to 1790, install GFX accurately as well 

@@ -8,7 +8,10 @@ state = {
 
 	history = {
 
-		owner = UNK
+		owner = XSM
+		add_core_of = XSM
+		add_core_of = CHI
+		add_core_of = PRC
 
 		buildings = {
 			infrastructure = 1
@@ -37,6 +40,7 @@ state = {
 					has_dlc = "No Compromise, No Surrender" 
 				}
 				NXM = { transfer_state = PREV }
+				add_core_of = NXM
 				remove_core_of = XSM
 			}
 		}

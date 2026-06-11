@@ -11,7 +11,9 @@ state = {
 	
 	history = {
 
-		owner = UNK
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
 
 		1936.1.1 = {
 			IF = {
@@ -19,6 +21,7 @@ state = {
 					has_dlc = "No Compromise, No Surrender"
 				}
 				transfer_state_to = SND
+				add_core_of = SND
 			}
 		}
 
@@ -48,8 +51,8 @@ state = {
 		}
 
 		1938.10.25 = {
-			owner = UNK
-			controller = UNK	
+			owner = CHI
+			controller = JAP	
 			buildings = {
 				air_base = 1
 			}	

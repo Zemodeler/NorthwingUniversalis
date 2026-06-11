@@ -6,7 +6,10 @@ state = {
 
 	history = {
 
-		owner = UNK
+		owner = SIK
+		add_core_of = SIK
+		add_core_of = CHI
+		add_core_of = PRC
 
 		1936.1.1 = {
 			IF = {
@@ -14,6 +17,7 @@ state = {
 					has_dlc = "No Compromise, No Surrender" 
 				}
 				KHM = { transfer_state = PREV }
+				add_core_of = KHM
 			}
 		}	
 
@@ -36,8 +40,8 @@ state = {
 				}
 				remove_core_of = KHM
 			}	
-			owner = UNK
-			controller = UNK		
+			owner = SIK
+			controller = SIK		
 		}
 	}
 

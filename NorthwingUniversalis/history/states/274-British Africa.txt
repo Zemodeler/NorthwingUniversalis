@@ -12,7 +12,8 @@ state = {
 
 	history = {
 
-		owner = UNK
+		owner = ENG
+		add_core_of = GHA
 
 		victory_points = {
 			10862 2 # Accra 

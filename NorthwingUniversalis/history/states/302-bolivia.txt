@@ -12,7 +12,8 @@ state = {
 
 	history = {
 
-		owner = UNK
+		owner = BOL
+		add_core_of = BOL
 
 		buildings = {
 			infrastructure = 2

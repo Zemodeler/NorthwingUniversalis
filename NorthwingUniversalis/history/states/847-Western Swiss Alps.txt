@@ -7,11 +7,12 @@ state={
 	resources={
 	}
 	history={
-		owner = UNK
+		owner = SWI
 		buildings = {
 			infrastructure = 1 
 			industrial_complex = 1
 		}
+		add_core_of = SWI
 	}
 	provinces={
 		636 9587 3612 9618  

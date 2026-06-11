@@ -11,7 +11,7 @@ state = {
 
 	history = {
 
-		owner = UNK
+		owner = SOV
 
 		buildings = {
 			infrastructure = 2
@@ -25,6 +25,8 @@ state = {
 			7624 1 # Derbent
 		}
 
+		add_core_of = SOV
+		add_core_of = DAG
 
 	}
 

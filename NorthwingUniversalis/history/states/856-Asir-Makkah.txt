@@ -4,7 +4,8 @@ state= {
 	
 	history = {
 
-		owner = UNK
+		owner = SAU
+		add_core_of	= SAU
 
 		buildings = {
 			infrastructure = 1

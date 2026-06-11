@@ -11,7 +11,8 @@ state = {
 
 	history = {
 
-		owner = UNK
+		owner = JAP
+		add_core_of = JAP
 
 		buildings = {
 

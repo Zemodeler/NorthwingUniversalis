@@ -9,7 +9,11 @@ state={
 	
 	history = {
 
-		owner = UNK
+		owner = SHX
+		add_core_of = SHX
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = MEN
 
 		victory_points = {
 			3427 1 # Ordos
@@ -24,13 +28,13 @@ state={
 		}
 
 		1938.10.25 = {
-			controller = UNK
+			controller = JAP
 		}
 		
 		1939.1.1 = {
 			
-			owner = UNK
-			controller = UNK
+			owner = PRC
+			controller = MEN
 
 		}
 	}

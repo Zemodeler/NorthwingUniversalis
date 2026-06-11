@@ -6,7 +6,10 @@ state = {
 	}
 
 	history = {
-		owner = UNK
+		owner = XSM
+		add_core_of = XSM
+		add_core_of = CHI
+		add_core_of = PRC
 
 		buildings = {
 			infrastructure = 2
@@ -27,6 +30,8 @@ state = {
 					has_dlc = "No Compromise, No Surrender" 
 				}
 				XIC = { transfer_state = PREV }
+				add_core_of = XIC
+				add_core_of = GSM
 				remove_core_of = XSM
 			}
 		}
@@ -48,8 +53,8 @@ state = {
 				}
 				remove_core_of = XIC
 			}		
-			owner = UNK
-			controller = UNK
+			owner = CHI
+			controller = CHI
 		}
 	}
 

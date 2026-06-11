@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
  TCS:0 "The Cobalt Succession"
  TCS_DEF:0 "The Cobalt Succession"
  TCS_ADJ:0 "Cobalt"
@@ -23,3 +23,4 @@ l_english:
  nwk_royal_developer:0 "Royal Developer"
  NWK_antuvi_military_advisor:0 "ANTUVI"
  NWK_antuvi_military_advisor_desc:0 "A capable offensive commander with strong supply discipline and better than average defensive doctrine."
+

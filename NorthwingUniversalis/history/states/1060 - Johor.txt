@@ -14,7 +14,8 @@ state = {
 
 	history = {
 
-		owner = UNK
+		owner = MAL
+		add_core_of = MAL
 
 		victory_points = {
 			13376 2 # Johor Bahru 

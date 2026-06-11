@@ -6,7 +6,9 @@ state = {
 
 	history = {
 
-		owner = UNK
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
 
 		buildings = {
 			infrastructure = 2 #was 3
@@ -29,6 +31,7 @@ state = {
 					has_dlc = "No Compromise, No Surrender"
 				}
 				transfer_state_to = SIC
+				add_core_of = SIC
 			}
 		}
 
@@ -39,8 +42,8 @@ state = {
 				}
 				remove_core_of = SIC
 			}	
-			owner = UNK
-			controller = UNK
+			owner = CHI
+			controller = CHI
 		}
 
 		1939.1.1 = {

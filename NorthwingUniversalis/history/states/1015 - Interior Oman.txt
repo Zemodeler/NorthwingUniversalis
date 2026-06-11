@@ -11,7 +11,8 @@ state = {
 
 	history = {
 
-		owner = UNK
+		owner = OMA
+		add_core_of = IMO
 		#add_core_of = OMA
 
 		buildings = {

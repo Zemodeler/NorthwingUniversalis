@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = UNK
+		owner = AST
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -22,6 +22,7 @@ state={
 		victory_points = {
 			1652 10 
 		}
+		add_core_of = AST
 
 	}
 

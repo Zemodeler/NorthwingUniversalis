@@ -34,11 +34,13 @@ state = {
 			7912 1  
 		}
 		
-		owner = UNK
+		owner = ETH
+		add_core_of = ETH
+		add_core_of = GBA
 
 		1936.6.1 = {
-			owner = UNK
-			controller = UNK
+			owner = ITA
+			controller = ITA
 		}
 	}
 
