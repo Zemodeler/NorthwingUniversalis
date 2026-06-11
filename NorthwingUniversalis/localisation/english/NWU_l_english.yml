@@ -19,6 +19,7 @@ l_english:
  TCS_MATEPLAYSS_DESC:0 "Mateplayss leads the Cobalt Succession."
  NWK_ANDRE2ND_DESC:0 "andre2nd rules the Northwing Kingdom with a focus on royal development and industry."
  NWK_ANTUVI_DESC:0 "ANTUVI leads the militarist faction, favoring attack, supply discipline, and a hard defensive line."
+ STATE_1082:0 "Nancy"
  nwk_economic_focus:0 "Economic Focus"
  nwk_royal_developer:0 "Royal Developer"
  NWK_antuvi_military_advisor:0 "ANTUVI"
