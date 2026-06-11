@@ -11,6 +11,9 @@ state={
 	}
 
 	history={
+		owner = NWK
+		controller = NWK
+		add_core_of = NWK
 		add_dynamic_modifier = {
 			modifier = FRA_maginot_line_dynamic_modifier
 		}
