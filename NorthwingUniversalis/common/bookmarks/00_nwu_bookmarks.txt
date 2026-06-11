@@ -12,5 +12,10 @@ bookmarks = {
 			ideology = neutrality
 			major = yes
 		}
+		"NWK" = {
+			history = "NWU_NWK_BOOKMARK_DESC"
+			ideology = neutrality
+			major = no
+		}
 	}
 }

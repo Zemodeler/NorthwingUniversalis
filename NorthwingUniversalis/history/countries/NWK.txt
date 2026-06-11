@@ -1,0 +1,64 @@
+# The Northwing Kingdom begins as a vassal of the Cobalt Succession.
+1790.1.1 = {
+    capital = 28
+    set_politics = {
+        ruling_party = neutrality
+        elections_allowed = no
+    }
+    set_popularities = {
+        neutrality = 60
+        fascism = 40
+    }
+    set_autonomy = {
+        target = TCS
+        autonomy_state = autonomy_puppet
+    }
+    create_country_leader = {
+        name = "andre2nd"
+        desc = "NWK_ANDRE2ND_DESC"
+        picture = "Andre2nd.dds"
+        expire = "1836.1.1"
+        ideology = despotism
+        traits = {
+            nwk_economic_focus
+            nwk_royal_developer
+        }
+    }
+    create_country_leader = {
+        name = "ANTUVI"
+        desc = "NWK_ANTUVI_DESC"
+        picture = "ANTUVI.dds"
+        expire = "1836.1.1"
+        ideology = fascism_ideology
+        traits = { }
+    }
+    create_corps_commander = {
+        name = "ANTUVI"
+        picture = "ANTUVI.dds"
+        skill = 4
+        attack_skill = 5
+        defense_skill = 3
+        planning_skill = 4
+        logistics_skill = 5
+        traits = {
+            offensive_doctrine
+            logistics_wizard
+        }
+    }
+    create_field_marshal = {
+        name = "ANTUVI"
+        picture = "ANTUVI.dds"
+        skill = 4
+        attack_skill = 5
+        defense_skill = 3
+        planning_skill = 4
+        logistics_skill = 5
+        traits = {
+            offensive_doctrine
+            logistics_wizard
+        }
+    }
+    add_ideas = {
+        NWK_antuvi_military_advisor
+    }
+}

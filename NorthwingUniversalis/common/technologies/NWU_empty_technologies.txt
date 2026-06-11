@@ -1,0 +1,2 @@
+# Northwing Universalis intentionally replaces the vanilla technology tree.
+# Add custom technologies here when the new tree is ready.

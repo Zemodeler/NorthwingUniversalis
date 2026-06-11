@@ -1,4 +1,5 @@
 # Northwing Universalis country tag definitions
 TCS = "countries/TCS.txt"
+NWK = "countries/NWK.txt"
 WILDERNESS = "history/countries/WILDERNESS.txt"
 UNK = "countries/UNK.txt"
