@@ -1,5 +1,5 @@
-# The Cobalt Succession begins in the 1780 timeline.
-1780.1.1 = {
+# The Cobalt Succession begins in the 1790 timeline.
+1790.1.1 = {
     capital = 11
     set_politics = {
         ruling_party = neutrality
