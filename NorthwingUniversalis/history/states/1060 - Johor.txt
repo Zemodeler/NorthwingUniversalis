@@ -13,8 +13,6 @@ state = {
 	}
 
 	history = {
-
-		owner = UNK
 victory_points = {
 			13376 2 # Johor Bahru 
 		}

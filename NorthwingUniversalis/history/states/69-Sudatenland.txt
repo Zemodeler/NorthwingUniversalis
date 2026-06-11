@@ -27,8 +27,6 @@ state = {
 			11401 3
 		}
 
-		owner = UNK
-
 		buildings = {
 
 			infrastructure = 4
@@ -58,8 +56,6 @@ state = {
 		}
 
 		1938.9.30 = {
-			owner = UNK
-			controller = UNK
 		}
 
 	}

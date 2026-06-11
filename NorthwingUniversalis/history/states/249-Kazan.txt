@@ -10,7 +10,6 @@ state={
 	}
 
 	history={
-		owner = UNK
 		buildings = {
 			infrastructure = 3 #was: 6
 			arms_factory = 1

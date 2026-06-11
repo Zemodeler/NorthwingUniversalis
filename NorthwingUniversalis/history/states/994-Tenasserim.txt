@@ -6,8 +6,6 @@ state = {
 	manpower = 136693
 	
 	history = {
-	
-		owner = UNK
 
 		victory_points = {
 			1403 1 # Moulmein

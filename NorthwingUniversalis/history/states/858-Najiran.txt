@@ -5,7 +5,6 @@ state={
 		5006 8030 10870 12768 
 	}
 	history = {
-		owner = UNK
 	}
 	manpower=69
 	state_category=pastoral

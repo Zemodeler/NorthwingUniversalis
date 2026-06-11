@@ -21,7 +21,6 @@ state=
 		#add_dynamic_modifier = {
 		#	modifier = ETH_state_decentralization_dynamic_modifier
 		#}
-		owner = UNK
 		buildings = {
 			infrastructure = 2
 			arms_factory = 2
@@ -38,8 +37,6 @@ state=
 		
 
 		1936.6.1 = {
-			owner = UNK
-			controller = UNK
 		}
 	}
 

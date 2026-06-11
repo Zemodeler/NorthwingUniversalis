@@ -7,8 +7,6 @@ state={
 
 	history={
 
-		owner = UNK
-
 		victory_points = {
 			1029 2 # Donghai
 		}
@@ -30,7 +28,6 @@ state={
 		}
 
 		1938.10.25 = {
-			controller = UNK
 		}
 	}
 

@@ -3,7 +3,6 @@ state={
 	id=153
 	name="STATE_153"
 	history={
-		owner = UNK
 		victory_points = {
 			673 5 
 		}
@@ -13,8 +12,6 @@ state={
 			air_base = 3
 		}
 		1938.3.12 = {
-			owner = UNK
-			controller = UNK
 		}
 	}
 	provinces={

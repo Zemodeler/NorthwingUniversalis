@@ -12,7 +12,6 @@ state={
 		7448 7584 10896 12248 12877 
 	}
 	history={
-		owner = UNK
 		buildings = {
 			infrastructure = 1 
 		}

@@ -11,7 +11,6 @@ state = {
 	state_category = city
 
 	history = {
-		owner = UNK
 
 		victory_points = {
 			9279 5 # Malmö

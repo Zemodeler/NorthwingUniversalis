@@ -3,7 +3,6 @@ state = {
 	name = "STATE_404" # Kyzyl Orda
 
 	history = {
-		owner = UNK
 		victory_points = {
 			7597 1
 		}

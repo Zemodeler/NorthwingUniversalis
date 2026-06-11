@@ -8,8 +8,6 @@ state = {
 	force_link_ownership_to = 551 # Kharthoum
 	
 	history = {
-
-		owner = UNK
 		
 		buildings = {
 			infrastructure = 0

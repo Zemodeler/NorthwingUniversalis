@@ -4,8 +4,6 @@ state = {
 	manpower = 60000 #PreTAOG 40000
 
 	history = {
-
-		owner = UNK
 		buildings = {
 			infrastructure = 1
 			4226 = {

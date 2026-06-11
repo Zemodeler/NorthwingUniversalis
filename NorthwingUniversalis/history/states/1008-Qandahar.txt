@@ -7,7 +7,6 @@ state={
 		4949 5020 5064 8090 10789 
 	}
 	history={
-		owner = UNK
 		buildings = {
 			infrastructure = 1 
 		}

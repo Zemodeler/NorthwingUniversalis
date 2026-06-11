@@ -6,7 +6,6 @@ state = {
 	state_category = metropolis
 
 	history = {
-		owner = UNK
 		victory_points = { #Milano
 			3780 15 
 		}

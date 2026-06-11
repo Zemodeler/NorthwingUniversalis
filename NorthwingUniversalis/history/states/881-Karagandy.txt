@@ -3,7 +3,6 @@ state = {
 	name = "STATE_881" # Karagandy
 
 	history = {
-		owner = UNK
 		#victory_points = {
 		#	7597 1
 		#}

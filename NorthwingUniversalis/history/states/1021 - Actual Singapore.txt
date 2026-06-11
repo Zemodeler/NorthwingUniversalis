@@ -13,8 +13,6 @@ state = {
 
 	history = {
 
-		owner = UNK
-
 		victory_points = {
 			12299 10 # Singapore
 		}

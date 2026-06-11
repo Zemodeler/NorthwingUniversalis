@@ -16,8 +16,6 @@ state = {
 			9116 1
 		}
 		
-		owner = UNK
-		
 		buildings = {
 			infrastructure = 1
 			

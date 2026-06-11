@@ -3,7 +3,6 @@ state={
 	name="STATE_617"
 
 	history={
-		owner = UNK
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 2

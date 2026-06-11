@@ -12,8 +12,6 @@ state = {
 
 	history = {
 
-		owner = UNK
-
 		victory_points = {
 			6720 10 # Györ
 		} 

@@ -10,7 +10,6 @@ state={
 	state_category = city
 
 	history={
-		owner = UNK
 		victory_points = {
 			3569 20
 		}
@@ -25,8 +24,6 @@ state={
 		}
 
 		1939.3.14 = {
-			owner = UNK
-			controller = UNK
 		}
 	}
 

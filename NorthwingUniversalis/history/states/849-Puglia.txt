@@ -5,7 +5,6 @@ state = {
 	manpower = 2642000 
 	state_category = city
 	history = {
-		owner = UNK
 		victory_points = { #Bari
 			9784 3
 		}

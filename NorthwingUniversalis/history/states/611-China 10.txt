@@ -7,8 +7,6 @@ state = {
 
 	history = {
 
-		owner = UNK
-
 		1936.1.1 = {
 			IF = {
 				limit = {

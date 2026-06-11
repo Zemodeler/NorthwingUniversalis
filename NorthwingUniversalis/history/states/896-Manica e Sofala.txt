@@ -4,7 +4,6 @@ state={
 	manpower = 188600
 	state_category = pastoral
 	history={
-		owner = UNK
 		buildings = {
 			infrastructure = 2
 

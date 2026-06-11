@@ -13,8 +13,6 @@ state={
 	state_category=town
 	local_supplies=0.000
 	history={
-
-		owner = UNK
 		buildings = {
 			infrastructure = 1
 		}

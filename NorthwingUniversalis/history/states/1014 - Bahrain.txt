@@ -5,8 +5,6 @@ state = {
 	state_category = pastoral
 
 	history = {
-		
-		owner = UNK
 
 		victory_points = {
 			13313 2 # Manama

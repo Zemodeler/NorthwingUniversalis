@@ -13,8 +13,6 @@ state={
 	local_supplies=0.000
 	history={
 
-		owner = UNK
-
 		victory_points = {
 			12774 1 # Gwadar
 		}

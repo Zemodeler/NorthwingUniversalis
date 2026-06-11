@@ -7,8 +7,6 @@ state = {
 	state_category = small_island
 
 	history = {
-
-		owner = UNK
 victory_points = {
 			12120 1 # Port Vila 
 		}

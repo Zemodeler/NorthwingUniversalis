@@ -13,8 +13,6 @@ state = {
 	state_category = city
 
 	history = {
-		
-		owner = UNK
 		add_claim_by = PRE
 
 		victory_points = {

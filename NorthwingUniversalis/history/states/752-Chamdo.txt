@@ -7,7 +7,6 @@ state = {
 	state_category = pastoral
 
 	history = {
-		owner = UNK
 
 		victory_points = {
 			4999 1 # Kangding 
@@ -37,8 +36,6 @@ state = {
 				}
 				remove_core_of = SIC
 			}		
-			owner = UNK
-			controller = UNK
 		}
 
 		1939.1.1 = {

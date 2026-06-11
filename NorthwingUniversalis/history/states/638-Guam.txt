@@ -6,7 +6,6 @@ state=
 	manpower=75153
 	history=
 	{
-		owner = UNK
 		buildings = {
 			infrastructure = 3 #was: 5
 			12140 = {

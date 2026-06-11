@@ -10,8 +10,6 @@ state = {
 	
 	history = {
 
-		owner = UNK
-
 		IF = {
 			limit = {
 				has_dlc = "Gotterdammerung"

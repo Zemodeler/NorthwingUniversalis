@@ -9,7 +9,6 @@ state = {
 	force_link_ownership_to = 523 # Papua 
 
 	history = {
-owner = UNK
 		buildings = {
 			infrastructure = 0
 		}

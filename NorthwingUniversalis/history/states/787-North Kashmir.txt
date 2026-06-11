@@ -9,7 +9,6 @@ state={
 		victory_points = {
 			1910 1
 		}
-		owner = UNK
 		buildings = {
 			infrastructure = 1
 		}

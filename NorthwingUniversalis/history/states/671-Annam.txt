@@ -13,8 +13,6 @@ state = {
 
 
 	history = {
-
-		owner = UNK
 		
 		victory_points = {
 			4075 5 # Hanoi 

@@ -7,8 +7,6 @@ state = {
 	manpower = 907500
 
 	history = {
-
-		owner = UNK
 		add_claim_by = SPM
 
 		victory_points = {

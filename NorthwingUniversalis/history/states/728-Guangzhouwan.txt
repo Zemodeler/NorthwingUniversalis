@@ -11,8 +11,6 @@ state = {
 	
 	history = {
 
-		owner = UNK
-
 		victory_points = {
 			11981 1 # Fort-Bayard
 		}

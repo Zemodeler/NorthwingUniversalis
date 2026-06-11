@@ -6,8 +6,6 @@ state = {
 	state_category = rural
 
 	history = {
-
-		owner = UNK
 		add_claim_by = BOL
 
 		buildings = {

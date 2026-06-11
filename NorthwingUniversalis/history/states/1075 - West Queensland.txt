@@ -9,8 +9,6 @@ state = {
 	force_link_ownership_to = 873 # Southwest Queensland
 
 	history = {
-
-		owner = UNK
 buildings = {
 			infrastructure = 0
 		}

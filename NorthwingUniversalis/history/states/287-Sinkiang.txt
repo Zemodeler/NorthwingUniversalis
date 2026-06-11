@@ -4,8 +4,6 @@ state = {
 
 	history = {
 
-		owner = UNK
-
 		buildings = {
 			infrastructure = 0
 		}
@@ -26,8 +24,6 @@ state = {
 				}
 				remove_core_of = KHM
 			}	
-			owner = UNK
-			controller = UNK		
 		}	
 	}
 

@@ -10,8 +10,6 @@ state = {
 	}
 
 	history = {
-
-		owner = UNK
 		add_claim_by = KUR
 
 		victory_points = {

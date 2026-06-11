@@ -10,7 +10,6 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = UNK
 		victory_points = {
 			4948 5 
 		}

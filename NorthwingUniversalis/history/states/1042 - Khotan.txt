@@ -6,8 +6,6 @@ state = {
 
 	history = {
 
-		owner = UNK
-
 		1936.1.1 = {
 			IF = {
 				limit = {
@@ -36,8 +34,6 @@ state = {
 				}
 				remove_core_of = KHM
 			}	
-			owner = UNK
-			controller = UNK		
 		}
 	}
 

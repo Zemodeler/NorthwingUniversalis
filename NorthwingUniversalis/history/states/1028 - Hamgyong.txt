@@ -12,8 +12,6 @@ state = {
 
 	history = {
 
-		owner = UNK
-
 		buildings = {
 			infrastructure = 2
 			898 = {

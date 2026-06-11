@@ -7,8 +7,6 @@ state = {
 
 	history = { 
 
-		owner = UNK
-
 		victory_points = {
 			11836 1 # Tongliao
 		}

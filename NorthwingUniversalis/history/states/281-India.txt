@@ -7,7 +7,6 @@ state={
 	state_category = enclave
 
 	history={
-		owner = UNK
 		buildings = {
 			infrastructure = 2
 			4967 = {

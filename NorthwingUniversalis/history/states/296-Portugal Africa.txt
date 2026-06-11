@@ -9,7 +9,6 @@ state={
 		rubber=1 # was: 1
 	}
 	history={
-		owner = UNK
 		victory_points = {
 			12891 1
 		}

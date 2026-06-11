@@ -9,7 +9,6 @@ state={
 	state_category=large_city
 	local_supplies=1.000
 	history={
-		owner = UNK
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1

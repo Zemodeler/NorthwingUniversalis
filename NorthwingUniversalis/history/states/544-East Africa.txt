@@ -4,7 +4,6 @@ state={
 	name="STATE_544"
 	manpower = 1226000
 	history={
-		owner = UNK
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

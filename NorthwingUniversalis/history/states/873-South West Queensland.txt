@@ -8,7 +8,6 @@ state={
 		buildings = {
 			infrastructure = 1
 		}
-		owner = UNK
 	}
 	state_category = pastoral
 	manpower=10000

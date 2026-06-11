@@ -10,7 +10,6 @@ state = {
 	force_link_ownership_to = 938 # Para
 	
 	history = {
-		owner = UNK
 	}
 
 	provinces = {

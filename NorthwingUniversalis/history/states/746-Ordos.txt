@@ -9,8 +9,6 @@ state={
 	
 	history = {
 
-		owner = UNK
-
 		victory_points = {
 			3427 1 # Ordos
 		}
@@ -24,13 +22,9 @@ state={
 		}
 
 		1938.10.25 = {
-			controller = UNK
 		}
 		
 		1939.1.1 = {
-			
-			owner = UNK
-			controller = UNK
 
 		}
 	}

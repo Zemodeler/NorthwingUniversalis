@@ -3,7 +3,6 @@ state={
 	name="STATE_816"
 	state_category = town
 	history={
-		owner = UNK
 		buildings = {
 			industrial_complex = 2
 			infrastructure = 3

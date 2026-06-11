@@ -14,8 +14,6 @@ state = {
 
 	history = {
 
-		owner = UNK
-
 		victory_points = {
 			4652 1 # Medan
 		}
