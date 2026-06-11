@@ -7,6 +7,7 @@ state={
 	state_category = rural
 	manpower = 445606
 	history={
+		owner = UNK
 		buildings = {
 			infrastructure = 1
 		}

@@ -8,6 +8,7 @@ state={
 	buildings_max_level_factor=1.000
 
 	history={
+		owner = UNK
 
 		buildings = {
 			infrastructure = 2 #was: 5/ 3

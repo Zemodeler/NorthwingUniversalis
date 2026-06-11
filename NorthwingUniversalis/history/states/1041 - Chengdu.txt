@@ -6,6 +6,8 @@ state = {
 	}
 
 	history = {
+
+		owner = UNK
 		
 		buildings = {
 			infrastructure = 2
@@ -37,6 +39,8 @@ state = {
 				}
 				remove_core_of = SIC
 			}		
+			owner = UNK
+			controller = UNK
 		}
 		
 		1939.1.1 = {

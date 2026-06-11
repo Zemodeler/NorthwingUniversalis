@@ -11,6 +11,7 @@ state = {
 	}
 
 	history = {
+		owner = UNK
 		victory_points = { #Bologna
 			6606 5
 		}

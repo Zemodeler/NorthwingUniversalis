@@ -7,6 +7,8 @@ state={
 
 	history={
 
+		owner = UNK
+
 		buildings = {
 			infrastructure = 2 #was 4
 			industrial_complex = 1
@@ -25,6 +27,7 @@ state={
 		#} 
 
 		1938.10.25 = {
+			controller = UNK
 			buildings = {
 				industrial_complex = 3
 				infrastructure = 3 #was: 6

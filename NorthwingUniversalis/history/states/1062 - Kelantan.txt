@@ -12,6 +12,8 @@ state = {
 	}
 
 	history = {
+
+		owner = UNK
 victory_points = {
 			7329 1 # Kota Bharu
 		}

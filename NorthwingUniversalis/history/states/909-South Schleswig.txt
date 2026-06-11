@@ -6,6 +6,8 @@ state = {
 	
 	history = {
 
+		owner = UNK
+
 		victory_points = {
 			317 3  # Flensburg
 		}

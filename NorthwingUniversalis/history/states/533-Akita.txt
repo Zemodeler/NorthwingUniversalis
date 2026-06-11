@@ -11,6 +11,8 @@ state = {
 
 	history = {
 
+		owner = UNK
+
 		buildings = {
 			
 			industrial_complex = 1

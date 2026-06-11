@@ -6,6 +6,8 @@ state = {
 	state_category = rural
 	
 	history = {
+		
+		owner = UNK
 		victory_points = {
 			8085 1 # Kuwait City
 		}

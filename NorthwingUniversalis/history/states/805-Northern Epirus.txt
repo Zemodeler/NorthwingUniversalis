@@ -13,6 +13,7 @@ state={
 	state_category = pastoral
 
 	history= {
+		owner = UNK
 		victory_points = {
 			914 1
 		}
@@ -23,6 +24,8 @@ state={
 		add_claim_by = ITA
 
 		1939.4.12 = {
+			owner = UNK
+			controller = UNK
 			remove_claim_by = ITA
 		}
 	}

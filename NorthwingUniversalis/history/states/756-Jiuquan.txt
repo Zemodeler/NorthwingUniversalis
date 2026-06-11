@@ -9,6 +9,8 @@ state={
 	state_category = wasteland
 	history={
 
+		owner = UNK
+
 		victory_points = {
 			7971 1 # Jiuquan 
 		}

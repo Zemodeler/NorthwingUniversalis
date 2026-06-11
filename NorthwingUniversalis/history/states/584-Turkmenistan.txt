@@ -3,6 +3,8 @@ state = {
 	name = "STATE_584"
 
 	history = {
+	
+		owner = UNK
 		
 		victory_points = {
 			12333 2

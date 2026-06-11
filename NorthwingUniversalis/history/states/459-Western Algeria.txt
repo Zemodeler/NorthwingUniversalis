@@ -11,6 +11,7 @@ state={
 	}
 
 	history={
+		owner = UNK
 
 		victory_points = {
 			1145 5 

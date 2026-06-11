@@ -10,6 +10,7 @@ state = {
 	state_category = wasteland
 	
 	history = {
+		owner = UNK
 		buildings = {
 			infrastructure = 1
 			12512 ={

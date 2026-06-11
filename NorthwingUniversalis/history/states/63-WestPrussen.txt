@@ -11,6 +11,8 @@ state = {
 
 	history = {
 
+		owner = UNK
+
 		victory_points = {
 			6282 5 # Stettin
 		}

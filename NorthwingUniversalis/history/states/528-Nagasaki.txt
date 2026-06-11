@@ -12,6 +12,8 @@ state = {
 
 	history = {
 
+		owner = UNK
+
 		buildings = {
 			infrastructure = 4 #was: 7
 			air_base = 3

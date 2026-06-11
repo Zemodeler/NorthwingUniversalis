@@ -12,6 +12,7 @@ state={
 	state_category = city
 	
 	history={
+		owner = UNK
 		victory_points = {
 			285 1 #Wexford
 		}

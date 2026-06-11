@@ -6,6 +6,7 @@ state={
 	}
 
 	history={
+		owner = UNK
 
 		victory_points = {
 			1319 10 # Kunming

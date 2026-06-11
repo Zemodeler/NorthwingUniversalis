@@ -6,6 +6,7 @@ state={
 		tungsten=10.000 #added due to Portugal Setup
 	}
 	history={
+		owner = UNK
 		victory_points = {
 			3874 1 
 		}

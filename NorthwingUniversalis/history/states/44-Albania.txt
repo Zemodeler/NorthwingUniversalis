@@ -9,6 +9,7 @@ state = {
 	}
 
 	history = {
+		owner = UNK
 		victory_points = {
 			9914 5 
 		}
@@ -36,6 +37,8 @@ state = {
 		}
 		add_claim_by = ITA
 		1939.4.12 = {
+			owner = UNK
+			controller = UNK
 			remove_claim_by = ITA
 
 		}

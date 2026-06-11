@@ -12,6 +12,7 @@ state={
 	state_category=rural
 	local_supplies=0.000
 	history={
+		owner = UNK
 		buildings = {
 			infrastructure = 1
 		}

@@ -4,6 +4,8 @@ state = {
 	name = "STATE_405" #Tashkent
 
 	history = {
+	
+		owner = UNK
 		
 		victory_points = {
 			1459 3 

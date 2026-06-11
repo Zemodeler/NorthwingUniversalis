@@ -5,6 +5,8 @@ state = {
 	state_category = town
 
 	history = {
+
+		owner = UNK
 		
 		victory_points = { 
 			9974 1 # Ningbo

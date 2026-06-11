@@ -8,6 +8,7 @@ state = {
 	}
 
 	history = {
+		owner = UNK
 
 		buildings = {
 			infrastructure = 2	
@@ -26,6 +27,7 @@ state = {
 			11913 20 # Nanjing
 		}
 		1938.10.25 = {
+			controller = UNK
 		}
 	}
 

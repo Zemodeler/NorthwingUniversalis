@@ -4,6 +4,8 @@ state = {
 	manpower = 1122000
 
 	history = {
+
+		owner = UNK
 victory_points = {
 			4251 1 # Battambang
 		}

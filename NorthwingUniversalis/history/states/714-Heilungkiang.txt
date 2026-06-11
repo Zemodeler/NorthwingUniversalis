@@ -4,6 +4,8 @@ state={
 
 	history = {
 
+		owner = UNK
+
 		victory_points = {
 			12485 1 # Ulanhot
 		}

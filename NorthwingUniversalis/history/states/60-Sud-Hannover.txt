@@ -13,6 +13,8 @@ state = {
 
 	history = {
 
+		owner = UNK
+
 		victory_points = { 
 			3561 5 # Erfurt
 		}

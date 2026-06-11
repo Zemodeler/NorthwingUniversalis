@@ -9,6 +9,8 @@ state = {
 	force_link_ownership_to = 870 # Northwest Australia 
 
 	history = {
+
+		owner = UNK
 buildings = {
 			infrastructure = 0
 		}

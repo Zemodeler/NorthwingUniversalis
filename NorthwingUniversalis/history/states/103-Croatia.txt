@@ -8,6 +8,7 @@ state={
 
 
 	history={
+		owner = UNK
 		victory_points = { #Dubrovnik
 			6889 3 
 		}

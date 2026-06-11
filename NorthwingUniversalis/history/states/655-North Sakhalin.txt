@@ -11,6 +11,8 @@ state = {
 	
 	state_category = pastoral
 	history = {
+
+		owner = UNK
 		add_claim_by = JAP
 
 		buildings = {

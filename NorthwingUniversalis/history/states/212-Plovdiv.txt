@@ -12,6 +12,7 @@ state={
 	}
 
 	history={
+		owner = UNK
 		victory_points = { #Plovdiv
 			6923 10
 		}

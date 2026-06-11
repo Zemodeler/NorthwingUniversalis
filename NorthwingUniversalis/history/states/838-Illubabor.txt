@@ -33,8 +33,12 @@ state = {
 		victory_points = { 
 			7912 1  
 		}
+		
+		owner = UNK
 
 		1936.6.1 = {
+			owner = UNK
+			controller = UNK
 		}
 	}
 

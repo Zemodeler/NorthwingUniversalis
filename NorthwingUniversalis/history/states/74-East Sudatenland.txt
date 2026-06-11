@@ -10,6 +10,8 @@ state = {
 	state_category = rural
 	
 	history = {
+		
+		owner = UNK
 		add_claim_by = SIL
 
 		buildings = {
@@ -26,6 +28,8 @@ state = {
 		}
 
 		1938.9.30 = {
+			owner = UNK
+			controller = UNK
 		}
 	}
 

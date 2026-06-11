@@ -13,6 +13,8 @@ state = {
 
 	history = {
 
+		owner = UNK
+
 		1936.1.1 = {
 			IF = {
 				limit = {
@@ -50,6 +52,7 @@ state = {
 		1938.10.25 = {		
 
 			remove_core_of = GXC
+			owner = UNK
 
 			JAP = {
 				set_province_controller = 1202

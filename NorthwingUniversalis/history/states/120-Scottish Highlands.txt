@@ -12,6 +12,7 @@ state = {
 	}
 
 	history= {
+		owner = UNK
 		victory_points = {
 			6062 1 #Skye/Stornoway
 		}

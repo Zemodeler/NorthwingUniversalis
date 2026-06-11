@@ -7,6 +7,8 @@ state = {
 
 	history = {
 
+		owner = UNK
+
 		victory_points = {
 			11865 1 # Wanxian
 		}
@@ -32,6 +34,8 @@ state = {
 				}
 				remove_core_of = SIC
 			}		
+			owner = UNK
+			controller = UNK
 		}
 		
 		1939.1.1 = {

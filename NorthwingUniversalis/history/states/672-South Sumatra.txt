@@ -11,6 +11,8 @@ state = { #South Sumatra
 	}
 
 	history = {
+
+		owner = UNK
 victory_points = {
 			10322 10
 		}

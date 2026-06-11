@@ -8,6 +8,7 @@ state={
 	
 	state_category = rural
 	history={
+		owner = UNK
 		buildings = {
 			infrastructure = 1
 		}

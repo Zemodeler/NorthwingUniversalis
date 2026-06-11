@@ -10,6 +10,8 @@ state = {
 
 	history = {
 
+		owner = UNK
+
 		victory_points = {
 			7158 1 # Ulanqab 
 		}
@@ -29,6 +31,9 @@ state = {
 				type = industrial_complex
 				level = 1
 			}
+
+			owner = UNK
+			controller = UNK
 
 		}
 

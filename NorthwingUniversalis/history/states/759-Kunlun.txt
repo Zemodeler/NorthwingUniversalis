@@ -9,6 +9,8 @@ state={
 	state_category = wasteland
 	history={
 
+		owner = UNK
+
 		victory_points = {
 			2074 1 # Ruoqiang 
 		}
@@ -33,6 +35,8 @@ state={
 				}
 				remove_core_of = KHM
 			}	
+			owner = UNK
+			controller = UNK		
 		}
 
 	}

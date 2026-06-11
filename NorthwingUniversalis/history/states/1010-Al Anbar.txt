@@ -9,6 +9,7 @@ state = {
 	}
 
 	history = {
+		owner = UNK
 		victory_points = {
 			12413 1 # Rumadiyah
 		}

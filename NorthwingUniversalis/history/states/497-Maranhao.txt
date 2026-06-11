@@ -12,6 +12,8 @@ state = {
 
 	history = {
 
+		owner = UNK
+
 		buildings = {
 			infrastructure = 1
 			#industrial_complex = 1 Should probably not have this factory

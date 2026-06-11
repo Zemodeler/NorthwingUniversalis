@@ -8,6 +8,8 @@ state={
 
 	history = {
 
+		owner = UNK
+
 		1936.1.1 = {
 			IF = {
 				limit = {
@@ -49,6 +51,8 @@ state={
 		}
 
 		1938.10.25 = {
+			owner = UNK
+			controller = UNK
 		}
 	}
 

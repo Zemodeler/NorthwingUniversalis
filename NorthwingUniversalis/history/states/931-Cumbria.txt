@@ -9,6 +9,7 @@ state = {
 	}
 
 	history = {
+		owner = UNK
 		victory_points = {
 			11332 3 #Carlisle
 		}

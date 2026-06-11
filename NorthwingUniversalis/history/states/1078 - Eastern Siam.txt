@@ -5,6 +5,7 @@ state={
 	}
 	state_category=town
 	history={
+		owner = UNK
 buildings = {
 			infrastructure = 1
 		}

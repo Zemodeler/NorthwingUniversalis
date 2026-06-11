@@ -4,6 +4,7 @@ state={
 	name="STATE_967"
 
 	history={
+		owner = UNK
 
 	}
 

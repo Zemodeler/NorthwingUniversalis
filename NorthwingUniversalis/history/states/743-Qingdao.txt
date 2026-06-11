@@ -7,6 +7,8 @@ state = {
 	
 	
 	history = {
+
+		owner = UNK
 		IF = {
 			limit = {
 				has_dlc = "No Compromise, No Surrender"
@@ -32,6 +34,7 @@ state = {
 		}
 
 		1938.10.25 = {
+			controller = UNK
 		}
 
 	}
