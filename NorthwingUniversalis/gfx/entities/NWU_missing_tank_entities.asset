@@ -1,16 +1,9 @@
-objectTypes = {
-	pdxmesh = {
-		name = "NWU_super_heavy_armor_mesh"
-		file = "gfx/models/units/tanks/super_heavy_tank.mesh"
-	}
-}
-
 entity = {
 	name = "GER_super_heavy_armor_entity"
-	pdxmesh = "NWU_super_heavy_armor_mesh"
+	pdxmesh = "GER_heavy_armor_mesh"
 }
 
 entity = {
 	name = "SOV_super_heavy_armor_entity"
-	pdxmesh = "NWU_super_heavy_armor_mesh"
+	pdxmesh = "SOV_heavy_armor_mesh"
 }
