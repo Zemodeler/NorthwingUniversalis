@@ -21,8 +21,8 @@ general_names = {
     "ANTUVI"
     "General Jake"
     "Comandant"
-}
-admiral_names = {
     "Shvrch"
     "Purple Skull"
+}
+admiral_names = {
 }
