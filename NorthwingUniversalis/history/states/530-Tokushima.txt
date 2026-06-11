@@ -8,7 +8,6 @@ state = {
 	history = {
 
 		owner = UNK
-		add_core_of = JAP
 
 		buildings = {
 			infrastructure = 2

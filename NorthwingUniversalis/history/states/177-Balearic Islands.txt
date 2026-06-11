@@ -12,7 +12,6 @@ state = {
 		}
 
 		owner = UNK
-		add_core_of = SPR
 		add_claim_by = CAT
 
 		buildings = {

@@ -8,8 +8,6 @@ state={
 	history={
 
 		owner = UNK
-		add_core_of = CHI
-		add_core_of = PRC
 
 		victory_points = {
 			1029 2 # Donghai

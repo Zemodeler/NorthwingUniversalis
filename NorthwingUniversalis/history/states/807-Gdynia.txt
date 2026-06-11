@@ -8,8 +8,6 @@ state = {
 	history = {
 
 		owner = UNK
-		add_core_of = POL
-		add_core_of = KSH
 		add_claim_by = PRE
 
 		victory_points = {
@@ -32,10 +30,6 @@ state = {
 			9263 = {
 				naval_base = 1
 			}
-		}
-		
-		1938.3.12 = {
-			add_claim_by = GER
 		}
 	}
 

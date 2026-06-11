@@ -9,7 +9,6 @@ state={
 			infrastructure = 1
 		}
 		owner = UNK
-		add_core_of = AST
 	}
 	state_category = pastoral
 	manpower=10000

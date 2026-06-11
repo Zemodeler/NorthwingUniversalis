@@ -9,7 +9,6 @@ state = {
 	history = {
 
 		owner = UNK
-		add_core_of = PRU
 
 		buildings = {
 			infrastructure = 2

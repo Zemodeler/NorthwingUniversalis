@@ -8,7 +8,6 @@ state = {
 	history = {
 	
 		owner = UNK
-		add_core_of = BRM
 
 		victory_points = {
 			1403 1 # Moulmein

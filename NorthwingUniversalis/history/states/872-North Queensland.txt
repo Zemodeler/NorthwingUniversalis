@@ -9,7 +9,6 @@ state={
 			infrastructure = 1
 		}
 		owner = UNK
-		add_core_of = AST
 	}
 	manpower=100000
 	state_category = rural

@@ -9,7 +9,6 @@ state={
 			infrastructure = 1
 		}
 		owner = UNK
-		add_core_of = AST
 	}
 	state_category = wasteland
 	manpower=1000

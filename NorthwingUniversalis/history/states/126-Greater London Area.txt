@@ -38,7 +38,6 @@ state={
 			}
 
 		}
-		add_core_of = ENG
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 4

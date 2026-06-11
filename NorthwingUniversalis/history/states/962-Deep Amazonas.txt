@@ -6,7 +6,6 @@ state={
 	}
 	history={
 		owner = UNK
-		add_core_of = BRA
 	}
 	manpower=10348
 	impassable = yes

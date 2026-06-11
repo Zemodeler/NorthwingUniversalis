@@ -8,8 +8,6 @@ state = {
 	history = {
 
 		owner = UNK
-		add_core_of = OMA
-		add_core_of = FSA
 
 		buildings = {
 			infrastructure = 1

@@ -15,7 +15,6 @@ state = {
 	history = {
 
 		owner = UNK
-		add_core_of = VIN
 		
 		victory_points = {
 			4075 5 # Hanoi 

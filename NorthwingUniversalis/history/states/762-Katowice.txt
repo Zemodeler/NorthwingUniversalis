@@ -15,8 +15,6 @@ state = {
 	history = {
 		
 		owner = UNK
-		add_core_of = POL
-		add_core_of = SIL
 		add_claim_by = PRE
 
 		victory_points = {

@@ -13,8 +13,6 @@ state={
 	local_supplies=0.000
 	history={
 
-		add_core_of = PAK
-		add_core_of = BLC
 		owner = UNK
 
 		victory_points = {

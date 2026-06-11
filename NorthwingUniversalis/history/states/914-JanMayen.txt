@@ -6,7 +6,6 @@ state = { # Jan Mayen
 	history = {
 		owner = UNK
 		#add_core_of = SWE		
-		add_core_of = NOR
 		buildings = {
 			13272 = {
 				naval_base = 1

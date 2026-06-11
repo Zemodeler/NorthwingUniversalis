@@ -15,7 +15,6 @@ state = {
 	history = {
 
 		owner = UNK
-		add_core_of = INS
 
 		buildings = {
 			infrastructure = 0

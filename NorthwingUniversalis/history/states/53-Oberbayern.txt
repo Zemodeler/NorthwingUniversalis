@@ -8,8 +8,6 @@ state = {
 	history = {
 
 		owner = UNK
-		add_core_of = GER
-		add_core_of = BAY
 
 		buildings = {
 			infrastructure = 3

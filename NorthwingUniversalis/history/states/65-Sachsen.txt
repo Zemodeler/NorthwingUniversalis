@@ -13,8 +13,6 @@ state = {
 	history = {
 
 		owner = UNK
-		add_core_of = GER
-		add_core_of = SAX
 
 		buildings = {
 			infrastructure = 4

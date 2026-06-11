@@ -8,8 +8,6 @@ state = {
 	history = {
 
 		owner = UNK
-		add_core_of = CHI
-		add_core_of = PRC
 		
 		buildings = {
 			infrastructure = 2
@@ -31,7 +29,6 @@ state = {
 					has_dlc = "No Compromise, No Surrender"
 				}
 				transfer_state_to = SIC
-				add_core_of = SIC
 			}
 		}
 

@@ -11,8 +11,6 @@ state = {
 			3022 5
 		}
 		owner = UNK
-		add_core_of = NOR
-		add_core_of = SMI
 		
 		buildings = {
 			infrastructure = 2
