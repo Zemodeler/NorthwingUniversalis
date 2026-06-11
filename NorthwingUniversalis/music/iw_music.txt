@@ -1,10 +1,8 @@
-music_station = "iw_test_station"
 music = {
 	song = "European_Chaos"
 	chance = {
 		factor = 0
 		modifier = {
-			at_war = yes
 			factor = 100
 		}
 	}
@@ -14,7 +12,6 @@ music = {
 	chance = {
 		factor = 0
 		modifier = {
-			in_faction_with = TCS
 			factor = 100
 		}
 	}
@@ -55,7 +52,6 @@ music = {
 	chance = {
 		factor = 0
 		modifier = {
-			is_at_war_with = TCH
 			factor = 100
 		}
 	}
