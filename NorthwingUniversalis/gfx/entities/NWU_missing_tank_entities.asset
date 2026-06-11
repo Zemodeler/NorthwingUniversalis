@@ -1,9 +1,9 @@
 entity = {
 	name = "GER_super_heavy_armor_entity"
-	pdxmesh = "GER_heavy_armor_mesh"
+	clone = "super_heavy_armor_entity"
 }
 
 entity = {
 	name = "SOV_super_heavy_armor_entity"
-	pdxmesh = "SOV_heavy_armor_mesh"
+	clone = "super_heavy_armor_entity"
 }
