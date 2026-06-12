@@ -1,5 +1,0 @@
-# Northwing Universalis intentionally replaces the vanilla technology tree.
-# Add custom technologies here when the new tree is ready.
-
-
-# TODO Finish Technology tree accurate to 1790, install GFX accurately as well 
