@@ -7,8 +7,8 @@ state = {
 	
 	history = {
 
-		owner = UNK
-		add_claim_by = PRE
+		owner = TCS
+		add_claim_by = TCS
 
 		victory_points = {
 			3288 3 # Klaipeda/Memel

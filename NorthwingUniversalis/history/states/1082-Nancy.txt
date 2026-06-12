@@ -3,6 +3,9 @@ state = {
 	name = "STATE_1082" # Nancy
 	manpower = 100000
 
+	owner = NWK
+	add_claim_by = NWK
+
 	state_category = city
 
 	history = {
