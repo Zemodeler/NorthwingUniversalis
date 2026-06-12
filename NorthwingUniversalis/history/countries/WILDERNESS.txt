@@ -1,4 +1,0 @@
-# Placeholder country for map regions not in play.
-1790.1.1 = {
-    capital = 1
-}
