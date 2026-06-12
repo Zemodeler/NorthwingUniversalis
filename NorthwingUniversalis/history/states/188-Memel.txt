@@ -8,8 +8,7 @@ state = {
 	history = {
 
 		owner = TCS
-		add_core_of = LIT
-		add_claim_by = PRE
+		add_core_of = TCS
 
 		victory_points = {
 			3288 3 # Klaipeda/Memel
@@ -25,8 +24,7 @@ state = {
 		
 		1939.3.22 = {
 			owner = TCS
-			controller = GER
-			add_core_of = GER
+			controller = TCS
 		}
 
 	}

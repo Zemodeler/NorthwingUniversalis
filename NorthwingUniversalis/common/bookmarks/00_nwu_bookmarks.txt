@@ -4,7 +4,7 @@ bookmarks = {
 		desc = "NWU_BOOKMARK_1790_DESC"
 		date = 1790.1.1
 		picture = "GFX_select_date_1936"
-		default_country = "TCS"
+		default_country = "NWK"
 		default = yes
 
 		"TCS" = {
