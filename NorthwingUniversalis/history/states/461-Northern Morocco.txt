@@ -13,8 +13,7 @@ state = {
 	
 	history = {
 
-		owner = TCS
-		add_core_of = MOR
+		owner = UNK
 
 		victory_points = {
 			7069 10 # Casablanca

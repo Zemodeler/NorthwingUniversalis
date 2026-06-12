@@ -10,7 +10,7 @@ state = {
 
 	history = {
 
-		owner = TCS
+		owner = UNK
 
 		IF = {
 			limit = {
@@ -30,7 +30,6 @@ state = {
 			1950 3 # Stanleyville
 		}
 
-		add_core_of = COG
 
 	}
 

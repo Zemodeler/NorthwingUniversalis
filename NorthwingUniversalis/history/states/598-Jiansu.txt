@@ -7,9 +7,7 @@ state={
 
 	history={
 
-		owner = TCS
-		add_core_of = CHI
-		add_core_of = PRC
+		owner = UNK
 
 		victory_points = {
 			1029 2 # Donghai
@@ -32,7 +30,7 @@ state={
 		}
 
 		1938.10.25 = {
-			controller = JAP
+			controller = UNK
 		}
 	}
 

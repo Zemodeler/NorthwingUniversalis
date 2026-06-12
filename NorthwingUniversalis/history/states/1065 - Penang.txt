@@ -10,8 +10,7 @@ state = {
 
 	history = {
 
-		owner = TCS
-		add_core_of = MAL
+		owner = UNK
 
 		victory_points = {
 			13408 1 # Seberang Perai 

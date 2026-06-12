@@ -4,10 +4,7 @@ state = {
 
 	history = {
 
-		owner = TCS
-		add_core_of = SIK
-		add_core_of = CHI
-		add_core_of = PRC
+		owner = UNK
 
 		buildings = {
 			infrastructure = 0
@@ -19,7 +16,6 @@ state = {
 					has_dlc = "No Compromise, No Surrender" 
 				}
 				KHM = { transfer_state = PREV }
-				add_core_of = KHM
 			}
 		}	
 
@@ -28,10 +24,9 @@ state = {
 				limit = {
 					has_dlc = "No Compromise, No Surrender" 
 				}
-				remove_core_of = KHM
 			}	
-			owner = TCS
-			controller = SIK		
+			owner = UNK
+			controller = UNK		
 		}	
 	}
 

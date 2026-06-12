@@ -7,9 +7,7 @@ state={
 
 	history={
 
-		owner = TCS
-		add_core_of = CHI
-		add_core_of = PRC
+		owner = UNK
 
 		buildings = {
 			infrastructure = 2 #was 4
@@ -29,7 +27,7 @@ state={
 		#} 
 
 		1938.10.25 = {
-			controller = JAP
+			controller = UNK
 			buildings = {
 				industrial_complex = 3
 				infrastructure = 3 #was: 6

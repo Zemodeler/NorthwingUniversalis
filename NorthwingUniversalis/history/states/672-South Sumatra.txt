@@ -12,8 +12,7 @@ state = { #South Sumatra
 
 	history = {
 
-		owner = TCS
-		add_core_of = INS
+		owner = UNK
 		
 		victory_points = {
 			10322 10

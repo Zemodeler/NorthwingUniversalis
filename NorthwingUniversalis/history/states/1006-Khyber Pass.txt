@@ -7,11 +7,10 @@ state={
 		5082 12831 
 	}
 	history={
-		owner = TCS
+		owner = UNK
 		buildings = {
 			infrastructure = 1 
 		}
-		add_core_of = AFG
 		victory_points = {
 			5082 1
 		}

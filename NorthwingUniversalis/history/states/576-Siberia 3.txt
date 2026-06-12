@@ -7,9 +7,7 @@ state = {
 
 	history = {
 
-		owner = TCS
-		add_core_of = SOV
-		add_core_of = EVE
+		owner = UNK
 
 		buildings = {
 			infrastructure = 1

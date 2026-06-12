@@ -11,7 +11,7 @@ state = {
 	}
 
 	history = {
-		owner = TCS
+		owner = UNK
 
 		victory_points = {
 			6050 20 # Stockholm
@@ -33,7 +33,6 @@ state = {
 			}
 		}
 
-		add_core_of = SWE
 
 	}
 

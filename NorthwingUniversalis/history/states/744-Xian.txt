@@ -11,16 +11,13 @@ state = {
 
 	history = {
 
-		owner = TCS
-		add_core_of = PRC
-		add_core_of = CHI
+		owner = UNK
 		1936.1.1 = {
 			IF = {
 				limit = {
 					has_dlc = "No Compromise, No Surrender"
 				}
 				transfer_state_to = XIC
-				add_core_of = XIC
 			}
 		}
 
@@ -29,10 +26,9 @@ state = {
 				limit = {
 					has_dlc = "No Compromise, No Surrender" 
 				}
-				remove_core_of = XIC
 			}		
-			owner = TCS
-			controller = CHI
+			owner = UNK
+			controller = UNK
 		}
 
 		victory_points = {

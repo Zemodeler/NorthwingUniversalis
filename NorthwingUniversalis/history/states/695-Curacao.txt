@@ -11,8 +11,7 @@ state = {
 
 	history = {
 		
-		owner = TCS
-		add_core_of = CRC
+		owner = UNK
 
 		victory_points = {
 			153 1 # Willemstad

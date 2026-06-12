@@ -6,8 +6,7 @@ state={
 	state_category = wasteland
 	
 	history = {
-		owner = TCS
-		add_core_of = SUD
+		owner = UNK
 		buildings = {
 			infrastructure = 1
 		}

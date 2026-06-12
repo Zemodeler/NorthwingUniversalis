@@ -11,10 +11,7 @@ state = {
 
 	history = {
 
-		owner = TCS
-		add_core_of = GXC
-		add_core_of = CHI
-		add_core_of = PRC
+		owner = UNK
 
 		buildings = {
 			infrastructure = 2
@@ -34,7 +31,6 @@ state = {
 				limit = {
 					NOT = { has_dlc = "Waking the Tiger" }
 				}
-				remove_core_of = GXC
 				CHI = { transfer_state = PREV }
 			}
 		}

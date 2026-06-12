@@ -8,11 +8,10 @@ state={
 		victory_points = {
 			3230 5
 		}
-		owner = TCS
+		owner = UNK
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = POL
 	}
 
 	provinces={

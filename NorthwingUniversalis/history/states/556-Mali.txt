@@ -6,8 +6,7 @@ state={
 	state_category=rural
 
 	history={
-		owner = TCS
-		add_core_of = MLI
+		owner = UNK
 		victory_points = {
 			4927 1 
 		}

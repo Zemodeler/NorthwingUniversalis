@@ -10,8 +10,7 @@ state = {
 
 	history = {
 
-		owner = TCS
-		add_core_of = COG
+		owner = UNK
 
 		IF = {
 			limit = {

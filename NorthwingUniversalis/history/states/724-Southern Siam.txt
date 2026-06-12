@@ -13,7 +13,7 @@ state={
 
 
 	history={
-		owner = TCS
+		owner = UNK
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
@@ -34,7 +34,6 @@ state={
 		victory_points = {
 			12230 1 
 		}
-		add_core_of = SIA
 	}
 	
 	provinces={

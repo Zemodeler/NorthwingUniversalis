@@ -7,9 +7,7 @@ state = {
 
 	history = {
 
-		owner = TCS
-		add_core_of = GER
-		add_core_of = BAY
+		owner = UNK
 
 		buildings = {
 			infrastructure = 3

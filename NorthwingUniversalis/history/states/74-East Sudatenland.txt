@@ -11,8 +11,7 @@ state = {
 	
 	history = {
 		
-		owner = TCS
-		add_core_of = CZE
+		owner = UNK
 		add_claim_by = SIL
 
 		buildings = {
@@ -29,9 +28,8 @@ state = {
 		}
 
 		1938.9.30 = {
-			owner = TCS
-			controller = GER
-			add_core_of = GER
+			owner = UNK
+			controller = UNK
 		}
 	}
 

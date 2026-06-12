@@ -10,9 +10,7 @@ state = {
 
 	history = {
 
-		owner = TCS
-		add_core_of = GER
-		add_core_of = BAY
+		owner = UNK
 
 		victory_points = {
 			692 20 # Munich

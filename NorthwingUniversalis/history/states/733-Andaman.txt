@@ -5,8 +5,7 @@ state={
 	state_category = small_island
 	
 	history={
-		owner = TCS
-		add_core_of = RAJ
+		owner = UNK
 		buildings = {
 			infrastructure = 2
 			12251 = {

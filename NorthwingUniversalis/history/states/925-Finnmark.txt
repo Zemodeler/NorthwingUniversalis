@@ -16,9 +16,7 @@ state = {
 			9116 1
 		}
 		
-		owner = TCS
-		add_core_of = NOR
-		add_core_of = SMI
+		owner = UNK
 		
 		buildings = {
 			infrastructure = 1

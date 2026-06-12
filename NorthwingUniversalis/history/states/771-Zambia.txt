@@ -12,8 +12,7 @@ state = {
 
 	history = {
 
-		owner = TCS
-		add_core_of = ZAM
+		owner = UNK
 
 		victory_points = {
 			5199 2 #Lusaka

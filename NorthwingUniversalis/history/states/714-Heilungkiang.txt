@@ -4,10 +4,7 @@ state={
 
 	history = {
 
-		owner = TCS
-		add_core_of = CHI
-		add_core_of = MAN
-		add_core_of = PRC
+		owner = UNK
 
 		victory_points = {
 			12485 1 # Ulanhot

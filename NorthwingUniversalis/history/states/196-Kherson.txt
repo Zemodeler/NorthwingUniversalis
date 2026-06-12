@@ -11,10 +11,7 @@ state = {
 
 	history = {
 
-		owner = TCS
-		add_core_of = SOV
-		add_core_of = UKR
-		add_core_of = CRI
+		owner = UNK
 
 		victory_points = {
 			721 1 # Kherson

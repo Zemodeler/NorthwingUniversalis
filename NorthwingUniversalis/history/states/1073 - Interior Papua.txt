@@ -10,8 +10,7 @@ state = {
 
 	history = {
 
-		add_core_of = PNG
-		owner = TCS
+		owner = UNK
 
 		buildings = {
 			infrastructure = 0

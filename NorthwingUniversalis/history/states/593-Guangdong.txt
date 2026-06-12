@@ -13,8 +13,7 @@ state = {
 
 	history = {
 
-		owner = TCS
-		add_core_of = GXC
+		owner = UNK
 
 		1936.1.1 = {
 			IF = {
@@ -22,13 +21,9 @@ state = {
 					has_dlc = "No Compromise, No Surrender"
 				}
 				transfer_state_to = GDC
-				add_core_of = GDC
-				remove_core_of = GXC
 			}
 		}
 		
-		add_core_of = CHI
-		add_core_of = PRC
 
 		victory_points = { 
 			9938 1 # Shantou
@@ -55,8 +50,7 @@ state = {
 
 		1938.10.25 = {		
 
-			remove_core_of = GXC
-			owner = TCS
+			owner = UNK
 
 			JAP = {
 				set_province_controller = 1202

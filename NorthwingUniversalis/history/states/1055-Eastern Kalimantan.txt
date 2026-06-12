@@ -8,8 +8,7 @@ state={
 	}
 
 	history={
-		owner = TCS
-		add_core_of = GOW
+		owner = UNK
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1

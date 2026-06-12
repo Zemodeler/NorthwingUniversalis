@@ -11,8 +11,7 @@ state = {
 
 	history = {
 
-		owner = TCS
-		add_core_of = USA
+		owner = UNK
 
 		buildings = {
 			infrastructure = 2

@@ -8,14 +8,11 @@ state = {
 	
 	history = {
 
-		owner = TCS
-		add_core_of = CHI
-		add_core_of = PRC
+		owner = UNK
 		IF = {
 			limit = {
 				has_dlc = "No Compromise, No Surrender"
 			}
-			add_core_of = SND
 		}
 
 		victory_points = {
@@ -37,7 +34,7 @@ state = {
 		}
 
 		1938.10.25 = {
-			controller = JAP
+			controller = UNK
 		}
 
 	}

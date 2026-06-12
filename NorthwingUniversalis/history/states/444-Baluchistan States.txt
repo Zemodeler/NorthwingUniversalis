@@ -13,9 +13,7 @@ state={
 	local_supplies=0.000
 	history={
 
-		add_core_of = PAK
-		add_core_of = BLC
-		owner = TCS
+		owner = UNK
 
 		victory_points = {
 			12774 1 # Gwadar

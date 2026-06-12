@@ -36,14 +36,11 @@ state = {
 			13247 1 
 		}
 		
-		owner = TCS
-		add_core_of = ETH
-		add_core_of = SID
-		add_core_of = ORO
+		owner = UNK
 
 		1936.6.1 = {
-			owner = TCS
-			controller = ITA
+			owner = UNK
+			controller = UNK
 		}
 	}
 

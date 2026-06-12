@@ -10,8 +10,7 @@ state = {
 		steel=3 # was: 4
 	}
 	history={
-		owner = TCS
-		add_core_of = FIN
+		owner = UNK
 
 		victory_points = { #Kuopio
 			11141 2

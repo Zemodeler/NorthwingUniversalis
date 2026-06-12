@@ -12,9 +12,8 @@ state = {
 
 	history = {
 
-		owner = TCS
+		owner = UNK
 
-		add_core_of = BRA
 
 		buildings = {
 			infrastructure = 3 #was: 5

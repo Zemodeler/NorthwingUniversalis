@@ -12,13 +12,11 @@ state = {
 	}
 
 	history = {
-		owner = TCS
+		owner = UNK
 		buildings = {
 			infrastructure = 1
 
 		}
-		add_core_of = SOV
-		add_core_of = KOM
 	}
 
 	provinces = {

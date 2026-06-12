@@ -7,8 +7,7 @@ state={
 	state_category = city
 
 	history={
-		owner = TCS
-		add_core_of = GLC
+		owner = UNK
 		victory_points = {
 			758 5
 		}
@@ -24,7 +23,6 @@ state={
 				naval_base = 6
 			}
 		}
-		add_core_of = SPR
 	}
 
 	provinces={

@@ -8,8 +8,7 @@ state = {
 	
 	history = {
 
-		owner = TCS
-		add_core_of = BRM
+		owner = UNK
 
 		buildings = {
 			infrastructure = 2

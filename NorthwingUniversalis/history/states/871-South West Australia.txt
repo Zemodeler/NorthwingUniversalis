@@ -8,8 +8,7 @@ state={
 		buildings = {
 			infrastructure = 1
 		}
-		owner = TCS
-		add_core_of = AST
+		owner = UNK
 	}
 	state_category = pastoral
 	manpower=105000#PreTAOG 50000

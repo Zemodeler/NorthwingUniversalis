@@ -10,7 +10,7 @@ state = {
 
 	history = {
 
-		owner = TCS
+		owner = UNK
 
 		IF = {
 			limit = {
@@ -30,7 +30,6 @@ state = {
 			infrastructure = 1
 		}
 
-		add_core_of = COG
 
 	}
 

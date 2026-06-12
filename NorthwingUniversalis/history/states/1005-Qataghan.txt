@@ -12,9 +12,7 @@ state={
 		7519 10781 10826 12314 12653 
 	}
 	history={
-		owner = TCS
-		add_core_of = AFG
-		add_core_of = TAJ
+		owner = UNK
 		victory_points = {
 			10781 1
 		}

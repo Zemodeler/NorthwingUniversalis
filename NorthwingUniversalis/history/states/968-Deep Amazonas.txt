@@ -5,8 +5,7 @@ state={
 		5008 13277 13338 
 	}
 	history={
-		owner = TCS
-		add_core_of = BRA
+		owner = UNK
 	}
 	manpower=12300
 	impassable = yes

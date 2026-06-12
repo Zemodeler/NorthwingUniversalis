@@ -11,9 +11,7 @@ state = {
 	
 	history = {
 
-		owner = TCS
-		add_core_of = CHI
-		add_core_of = PRC
+		owner = UNK
 
 		1936.1.1 = {
 			IF = {
@@ -21,7 +19,6 @@ state = {
 					has_dlc = "No Compromise, No Surrender"
 				}
 				transfer_state_to = SND
-				add_core_of = SND
 			}
 		}
 
@@ -45,8 +42,8 @@ state = {
 					has_dlc = "No Compromise, No Surrender" 
 				}
 			}	
-			owner = TCS
-			controller = JAP		
+			owner = UNK
+			controller = UNK		
 		}
 	}
 

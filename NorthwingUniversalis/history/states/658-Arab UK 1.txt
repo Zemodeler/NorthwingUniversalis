@@ -11,8 +11,7 @@ state = {
 
 	history = {
 		
-		owner = TCS
-		add_core_of = UAE
+		owner = UNK
 
 		victory_points = {
 			7960 1 # Abu Dhabi

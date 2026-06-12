@@ -8,14 +8,13 @@ state=
 	
 	history=
 	{
-		owner = TCS
+		owner = UNK
 		buildings = {
 			infrastructure = 2
 			4429 = {
 				naval_base = 1
 			}
 		}
-		add_core_of = PHI
 		1939.1.1 = {
 			buildings = {
 				industrial_complex = 1

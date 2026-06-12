@@ -11,9 +11,7 @@ state = {
 
 	history = {
 
-		owner = TCS
-		add_core_of = PNG
-		add_core_of = WPG
+		owner = UNK
 		set_resistance = 0
 		set_compliance = 5
 

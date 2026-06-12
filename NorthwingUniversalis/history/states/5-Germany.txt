@@ -6,9 +6,7 @@ state = {
 
 	history = {
 
-		owner = TCS
-		add_core_of = GER
-		add_core_of = PRE
+		owner = UNK
 
 		victory_points = {
 			6375 3 # Allenstein

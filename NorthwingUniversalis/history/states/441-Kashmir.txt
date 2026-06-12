@@ -7,14 +7,12 @@ state={
 	state_category = rural
 
 	history={
-		owner = TCS
+		owner = UNK
 		buildings = {
 			infrastructure = 1
 		}
 		add_claim_by = RAJ
 		add_claim_by = PAK
-		add_core_of = KAS
-		add_core_of = KHL 
 
 		victory_points = {
 			12754 2

@@ -7,7 +7,7 @@ state = {
 
 	history = {
 
-		owner = TCS
+		owner = UNK
 
 		IF = {
 			limit = {
@@ -19,7 +19,6 @@ state = {
 			}	
 		}
 		
-		add_core_of = BRD
 
 		victory_points = {
 			2220 1

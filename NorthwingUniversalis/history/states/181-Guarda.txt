@@ -12,8 +12,7 @@ state = {
 
 	history = {
 
-		owner = TCS
-		add_core_of = POR
+		owner = UNK
 
 		victory_points = {
 			9787 1 # Viseu

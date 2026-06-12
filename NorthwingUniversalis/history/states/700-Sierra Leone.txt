@@ -10,8 +10,7 @@ state={
 	
 	history=
 	{
-		owner = TCS
-		add_core_of = SIE
+		owner = UNK
 		victory_points = {
 			2038 1 
 		}

@@ -6,8 +6,7 @@ state=
 	state_category = tiny_island
 
 	history={
-		owner = TCS
-		add_core_of = HAW
+		owner = UNK
 		buildings = {
 			infrastructure = 1
 			13051 = {

@@ -11,9 +11,7 @@ state = {
 
 	history = {
 
-		owner = TCS
-		add_core_of = FSM
-		add_core_of = PLU
+		owner = UNK
 
 		buildings = {
 

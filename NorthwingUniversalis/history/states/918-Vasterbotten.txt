@@ -16,9 +16,7 @@ state = {
 		victory_points = {
 			109 1
 		}
-		owner = TCS
-		add_core_of = SWE
-		add_core_of = SMI
+		owner = UNK
 		
 		buildings = {
 			infrastructure = 2

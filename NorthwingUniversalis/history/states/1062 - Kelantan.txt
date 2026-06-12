@@ -13,8 +13,7 @@ state = {
 
 	history = {
 
-		owner = TCS
-		add_core_of = MAL
+		owner = UNK
 
 		victory_points = {
 			7329 1 # Kota Bharu

@@ -7,9 +7,7 @@ state = {
 	state_category = pastoral
 
 	history = {
-		owner = TCS
-		add_core_of = CHI
-		add_core_of = PRC
+		owner = UNK
 
 		victory_points = {
 			4999 1 # Kangding 
@@ -29,7 +27,6 @@ state = {
 					has_dlc = "No Compromise, No Surrender"
 				}
 				transfer_state_to = SIC
-				add_core_of = SIC
 			}
 		}
 
@@ -38,10 +35,9 @@ state = {
 				limit = {
 					has_dlc = "No Compromise, No Surrender" 
 				}
-				remove_core_of = SIC
 			}		
-			owner = TCS
-			controller = CHI
+			owner = UNK
+			controller = UNK
 		}
 
 		1939.1.1 = {

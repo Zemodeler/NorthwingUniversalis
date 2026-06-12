@@ -1,10 +1,19 @@
+# The Unknown country exists as an inert neutral world holder.
 1790.1.1 = {
-	capital = 1
-	set_politics = {
-		ruling_party = neutrality
-		elections_allowed = no
-	}
-	set_popularities = {
-		neutrality = 100
-	}
+    capital = 1
+    set_politics = {
+        ruling_party = neutrality
+        elections_allowed = no
+    }
+    set_popularities = {
+        neutrality = 100
+    }
+    create_country_leader = {
+        name = "Unknown"
+        desc = "UNK_UNKNOWN_DESC"
+        picture = "Unknown.dds"
+        expire = "1836.1.1"
+        ideology = despotism
+        traits = { }
+    }
 }

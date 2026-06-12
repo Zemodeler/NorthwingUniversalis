@@ -14,10 +14,7 @@ state = {
 
 	history = {
 
-		owner = TCS
-		add_core_of = INS
-		add_core_of = GOW 
-		add_core_of = POK  
+		owner = UNK
 
 		buildings = {
 			infrastructure = 0

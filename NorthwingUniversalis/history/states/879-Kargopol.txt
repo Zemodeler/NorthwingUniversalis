@@ -7,7 +7,7 @@ state = {
 	state_category = rural
 
 	history = {
-		owner = TCS
+		owner = UNK
 		victory_points = {
 			138 1 
 		}
@@ -15,7 +15,6 @@ state = {
 			infrastructure = 1
 			
 		}
-		add_core_of = SOV
 		1939.1.1 = {
 			buildings = {
 				industrial_complex = 2

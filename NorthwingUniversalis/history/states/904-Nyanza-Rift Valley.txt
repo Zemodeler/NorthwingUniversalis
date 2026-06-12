@@ -5,12 +5,11 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = TCS
+		owner = UNK
 		buildings = {
 			infrastructure = 1
 
 		}
-		add_core_of = KEN
 	}
 
 	provinces={

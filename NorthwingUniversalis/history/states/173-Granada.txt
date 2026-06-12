@@ -6,7 +6,7 @@ state={
 	}
 
 	history={
-		owner = TCS
+		owner = UNK
 		victory_points = {
 			9979 5
 		}
@@ -30,7 +30,6 @@ state={
 			}
 
 		}
-		add_core_of = SPR
 
 	}
 

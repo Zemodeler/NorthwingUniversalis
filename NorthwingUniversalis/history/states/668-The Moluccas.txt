@@ -8,8 +8,7 @@ state={
 
 	history = {
 
-		owner = TCS
-		add_core_of = TNE
+		owner = UNK
 
 		set_resistance = 0
 		set_compliance = 55

@@ -6,7 +6,7 @@ state = {
 
 	history = {
 
-		owner = TCS
+		owner = UNK
 
 		IF = {
 			limit = {
@@ -41,7 +41,6 @@ state = {
 			13365 1 # Nkamba
 		}
 
-		add_core_of = COG
 
 	}
 

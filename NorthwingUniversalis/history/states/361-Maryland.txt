@@ -7,7 +7,7 @@ state={
 	state_category = city
 
 	history={
-		owner = TCS
+		owner = UNK
 		victory_points = {
 			3957 40 
 		}
@@ -28,7 +28,6 @@ state={
 				naval_facility = 1
 			}
 		}
-		add_core_of = USA
 
 	}
 

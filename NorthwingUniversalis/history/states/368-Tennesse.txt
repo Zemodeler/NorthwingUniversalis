@@ -13,12 +13,11 @@ state={
 
 
 	history={
-		owner = TCS
+		owner = UNK
 		buildings = {
 			infrastructure = 3 #was: 5
 			industrial_complex = 3
 		}
-		add_core_of = USA
 		victory_points = {
 			12501 3 
 		}

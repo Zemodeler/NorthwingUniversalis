@@ -1,0 +1,24 @@
+focus_tree = {
+    id = UNK_focus
+
+    country = {
+        factor = 0
+        modifier = {
+            add = 10
+            tag = UNK
+        }
+    }
+
+    default = no
+    reset_on_civilwar = no
+    continuous_focus_position = { x = 50 y = 1000 }
+
+    focus = {
+        id = UNK_wait
+        icon = GFX_goal_generic_neutrality_focus
+        x = 0
+        y = 0
+        cost = 1000
+        completion_reward = { }
+    }
+}
