@@ -1,6 +1,6 @@
 # The Northwing Kingdom begins as a vassal of the Cobalt Succession.
 1790.1.1 = {
-    capital = 3
+    capital = 1082
     set_politics = {
         ruling_party = neutrality
         elections_allowed = no
@@ -57,8 +57,5 @@
             offensive_doctrine
             logistics_wizard
         }
-    }
-    add_ideas = {
-        NWK_antuvi_military_advisor
     }
 }

@@ -1,6 +1,6 @@
 # The Cobalt Succession begins in the 1790 timeline.
 1790.1.1 = {
-    capital = 190
+    capital = 188
     set_politics = {
         ruling_party = neutrality
         elections_allowed = no

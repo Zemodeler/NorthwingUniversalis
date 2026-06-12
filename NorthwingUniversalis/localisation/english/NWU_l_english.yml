@@ -30,8 +30,6 @@
  NWK_ANTUVI_DESC:0 "ANTUVI leads the militarist faction, favoring attack, supply discipline, and a hard defensive line."
  nwk_economic_focus:0 "Economic Focus"
  nwk_royal_developer:0 "Royal Developer"
- NWK_antuvi_military_advisor:0 "ANTUVI"
- NWK_antuvi_military_advisor_desc:0 "A capable offensive commander with strong supply discipline and better than average defensive doctrine."
  STATE_1082:0 "Nancy"
  STATE_1083:0 "Paris"
  STATE_1084:0 "Marseille"
