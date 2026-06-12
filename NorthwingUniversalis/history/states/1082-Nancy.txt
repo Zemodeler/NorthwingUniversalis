@@ -3,26 +3,34 @@ state = {
 	name = "STATE_1082" # Nancy
 	manpower = 100000
 
-	owner = NWK
-	add_claim_by = NWK
+	
 
 	state_category = city
 
 	history = {
-		owner = UNK
+		owner = NWK
+		add_claim_by = NWK
+
 		victory_points = {
-			11516 5 # Nancy
+			11516 10 # Nancy
 		}
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 5
 			arms_factory = 5
 		}
+
+		1939.3.22 = {
+			owner = NWK
+			controller = NWK
+		}
 	}
 
 	provinces = {
 		11516
 	}
+
+	
 
 	local_supplies = 0.0
 }

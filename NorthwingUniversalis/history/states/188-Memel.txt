@@ -23,8 +23,8 @@ state = {
 		}
 		
 		1939.3.22 = {
-			owner = UNK
-			controller = UNK
+			owner = TCS
+			controller = TCS
 		}
 
 	}
