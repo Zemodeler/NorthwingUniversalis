@@ -11,7 +11,7 @@ state = {
 	
 	history = {
 
-		owner = UNK
+		owner = CHI
 		add_core_of = CHI
 		add_core_of = PRC
 
@@ -51,8 +51,8 @@ state = {
 		}
 
 		1938.10.25 = {
-			owner = UNK
-			controller = UNK
+			owner = CHI
+			controller = JAP	
 			buildings = {
 				air_base = 1
 			}	

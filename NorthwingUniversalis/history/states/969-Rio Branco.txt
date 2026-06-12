@@ -5,7 +5,7 @@ state={
 		5214 13340 13361
 	}
 	history={
-		owner = UNK
+		owner = BRA
 		add_core_of = BRA
 
 		victory_points = {

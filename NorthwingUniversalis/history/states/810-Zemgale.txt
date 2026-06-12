@@ -4,7 +4,7 @@ state={
 	name="STATE_810"
 
 	history={
-		owner = UNK
+		owner = LAT
 
 		victory_points = {
 			310 3 #Daugavpils

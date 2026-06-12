@@ -12,7 +12,7 @@ state = {
 
 	history = {
 
-		owner = UNK
+		owner = FIN
 		add_core_of = FIN
 		add_core_of = SMI
 

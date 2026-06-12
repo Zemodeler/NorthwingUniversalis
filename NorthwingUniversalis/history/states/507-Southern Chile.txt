@@ -12,7 +12,7 @@ state = {
 
 	history = {
 
-		owner = UNK
+		owner = CHL
 		add_core_of = CHL
 
 		buildings = {

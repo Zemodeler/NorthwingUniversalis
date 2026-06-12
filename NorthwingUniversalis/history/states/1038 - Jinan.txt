@@ -11,7 +11,7 @@ state = {
 	
 	history = {
 
-		owner = UNK
+		owner = CHI
 		add_core_of = CHI
 		add_core_of = PRC
 
@@ -45,8 +45,8 @@ state = {
 					has_dlc = "No Compromise, No Surrender" 
 				}
 			}	
-			owner = UNK
-			controller = UNK
+			owner = CHI
+			controller = JAP		
 		}
 	}
 

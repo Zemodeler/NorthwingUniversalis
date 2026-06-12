@@ -11,7 +11,7 @@ state = {
 
 	history = {
 
-		owner = UNK
+		owner = AST
 		add_core_of = AST
 
 		victory_points = {

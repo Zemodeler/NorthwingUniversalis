@@ -6,7 +6,7 @@ state = {
 
 	history = {
 
-		owner = UNK
+		owner = POR
 		add_core_of = ANG
 
 		buildings = {

@@ -11,7 +11,7 @@ state={
 	}
 
 	history={
-		owner = UNK
+		owner = PER
 		victory_points = {
 			8040 3 
 		}

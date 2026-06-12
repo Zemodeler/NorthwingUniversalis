@@ -7,7 +7,7 @@ state = {
 
 	history = {
 
-		owner = UNK
+		owner = OMA
 		add_core_of = OMA
 		add_core_of = FSA
 

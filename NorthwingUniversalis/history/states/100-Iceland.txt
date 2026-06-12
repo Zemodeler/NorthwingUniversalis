@@ -7,7 +7,7 @@ state = {
 	
 	
 	history = {
-		owner = UNK
+		owner = ICE
 		victory_points = { 12674 1 }
 		buildings = {
 			infrastructure = 1

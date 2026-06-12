@@ -6,7 +6,7 @@ state = {
 
 	history = {
 
-		owner = UNK
+		owner = SIK
 		add_core_of = SIK
 		add_core_of = CHI
 		add_core_of = PRC
@@ -40,8 +40,8 @@ state = {
 				}
 				remove_core_of = KHM
 			}	
-			owner = UNK
-			controller = UNK
+			owner = SIK
+			controller = SIK		
 		}
 	}
 

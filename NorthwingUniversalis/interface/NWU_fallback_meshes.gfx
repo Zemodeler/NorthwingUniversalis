@@ -1,0 +1,6 @@
+spriteTypes = {
+	pdxmesh = {
+		name = "NWU_fallback_infantry_mesh"
+		file = "gfx\models\units\railway_guns\GER_super_heavy_railway_gun.mesh"
+	}
+}

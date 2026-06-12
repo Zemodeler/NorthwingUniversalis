@@ -12,7 +12,7 @@ state={
 	}
 
 	history={
-		owner = UNK
+		owner = VEN
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 2

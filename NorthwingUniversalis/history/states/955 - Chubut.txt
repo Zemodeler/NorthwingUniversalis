@@ -11,7 +11,7 @@ state = {
 
 	history = {
 
-		owner = UNK
+		owner = ARG
 		add_core_of = ARG
 		add_core_of = WLA
 

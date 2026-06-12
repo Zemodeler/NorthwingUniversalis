@@ -9,7 +9,7 @@ state = {
 
 	history = {
 
-		owner = UNK
+		owner = ITA
 		add_core_of = LBA
 
 		buildings = {

@@ -11,7 +11,7 @@ state = {
 	history = {
 
 		add_core_of = PNG
-		owner = UNK
+		owner = AST
 
 		buildings = {
 			infrastructure = 0

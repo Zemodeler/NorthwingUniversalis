@@ -9,7 +9,7 @@ state = {
 
 	history = {
 
-		owner = UNK
+		owner = SIA
 		add_core_of = SIA
 
 		buildings = {

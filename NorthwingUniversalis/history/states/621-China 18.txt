@@ -10,7 +10,7 @@ state = {
 
 	history = {
 
-		owner = UNK
+		owner = SHX
 		add_core_of = SHX
 		add_core_of = CHI
 		add_core_of = PRC
@@ -36,8 +36,8 @@ state = {
 				level = 1
 			}
 
-			owner = UNK
-			controller = UNK
+			owner = PRC
+			controller = MEN
 
 		}
 

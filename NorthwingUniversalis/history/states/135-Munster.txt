@@ -11,7 +11,7 @@ state={
 	state_category = town
 
 	history={
-		owner = UNK
+		owner = IRE
 		buildings = {
 			infrastructure = 3 #was: 6
 			industrial_complex = 3

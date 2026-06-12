@@ -1,0 +1,9 @@
+entity = {
+	name = "GER_super_heavy_armor_entity"
+	pdxmesh = "NWU_fallback_infantry_mesh"
+}
+
+entity = {
+	name = "SOV_super_heavy_armor_entity"
+	pdxmesh = "NWU_fallback_infantry_mesh"
+}
