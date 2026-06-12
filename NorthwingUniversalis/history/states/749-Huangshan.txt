@@ -8,7 +8,7 @@ state={
 	buildings_max_level_factor=1.000
 	state_category=town
 	history={
-		owner = TCS
+		owner = UNK
 		buildings = {
 			infrastructure = 2
 		}
@@ -17,7 +17,7 @@ state={
 		}
 		
 		1938.10.25 = {
-			controller = JAP
+			controller = UNK
 			CHI = {
 				set_province_controller = 1125
 				set_province_controller = 7104

@@ -8,7 +8,7 @@ state = {
 
 	history = {
 
-		owner = TCS
+		owner = UNK
 
 		victory_points = {
 			5193 1 # Minsien
@@ -33,8 +33,8 @@ state = {
 					has_dlc = "No Compromise, No Surrender" 
 				}
 			}		
-			owner = TCS
-			controller = CHI
+			owner = UNK
+			controller = UNK
 		}
 
 	}

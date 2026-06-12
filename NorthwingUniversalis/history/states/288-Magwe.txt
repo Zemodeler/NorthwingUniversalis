@@ -13,7 +13,7 @@ state = {
 	
 	history = {
 
-		owner = TCS
+		owner = UNK
 
 		victory_points = {
 			4202 1 # Yenangyaung

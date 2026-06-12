@@ -7,7 +7,7 @@ state = {
 
 	history = {
 
-		owner = TCS
+		owner = UNK
 		
 		buildings = {
 			infrastructure = 2
@@ -38,8 +38,8 @@ state = {
 					has_dlc = "No Compromise, No Surrender" 
 				}
 			}		
-			owner = TCS
-			controller = CHI
+			owner = UNK
+			controller = UNK
 		}
 		
 		1939.1.1 = {

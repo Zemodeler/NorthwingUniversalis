@@ -19,7 +19,7 @@ state={
 			industrial_complex = 1
 			infrastructure = 1
 		}
-		owner = TCS
+		owner = UNK
 	}
 	manpower=1373994
 	

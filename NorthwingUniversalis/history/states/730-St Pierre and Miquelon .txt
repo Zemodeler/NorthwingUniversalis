@@ -5,7 +5,7 @@ state={
 	state_category = tiny_island
 
 	history={
-		owner = TCS
+		owner = UNK
 		buildings = {
 			infrastructure = 2
 			373 = {

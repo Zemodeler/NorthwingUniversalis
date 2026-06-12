@@ -11,7 +11,7 @@ state={
 	state_category = city
 
 	history={
-		owner = TCS
+		owner = UNK
 		victory_points = {
 			6613 10
 		}

@@ -4,7 +4,7 @@ state={
 
 	history = {
 
-		owner = TCS
+		owner = UNK
 
 		victory_points = {
 			12485 1 # Ulanhot

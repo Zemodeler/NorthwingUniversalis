@@ -11,7 +11,7 @@ state = {
 	
 	history = {
 
-		owner = TCS
+		owner = UNK
 
 		victory_points = {
 			4174 5 # Taiyuan 
@@ -35,8 +35,8 @@ state = {
 		}
 
 		1938.10.25 = {
-			owner = TCS
-			controller = JAP
+			owner = UNK
+			controller = UNK
 			PRC = {
 				set_province_controller = 1034
 				set_province_controller = 1531

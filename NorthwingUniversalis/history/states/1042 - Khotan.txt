@@ -6,7 +6,7 @@ state = {
 
 	history = {
 
-		owner = TCS
+		owner = UNK
 
 		1936.1.1 = {
 			IF = {
@@ -35,8 +35,8 @@ state = {
 					has_dlc = "No Compromise, No Surrender" 
 				}
 			}	
-			owner = TCS
-			controller = SIK		
+			owner = UNK
+			controller = UNK		
 		}
 	}
 

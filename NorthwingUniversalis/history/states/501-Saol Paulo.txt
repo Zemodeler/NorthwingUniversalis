@@ -10,7 +10,7 @@ state={
 	}
 
 	history={
-		owner = TCS
+		owner = UNK
 		buildings = {
 			arms_factory = 1
 			industrial_complex = 3

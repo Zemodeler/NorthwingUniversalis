@@ -10,7 +10,7 @@ state = {
 
 	history = {
 
-		owner = TCS
+		owner = UNK
 
 		victory_points = {
 			7158 1 # Ulanqab 
@@ -32,8 +32,8 @@ state = {
 				level = 1
 			}
 
-			owner = TCS
-			controller = MEN
+			owner = UNK
+			controller = UNK
 
 		}
 

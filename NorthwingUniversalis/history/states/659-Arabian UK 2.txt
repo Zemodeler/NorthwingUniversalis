@@ -10,7 +10,7 @@ state={
 	local_supplies=0.000
 
 	history = {
-		owner = TCS
+		owner = UNK
 		buildings = {
 			infrastructure = 1
 			air_base = 1

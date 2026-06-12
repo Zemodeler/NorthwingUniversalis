@@ -9,7 +9,7 @@ state = {
 			1614 1
 		}
 		
-		owner = TCS
+		owner = UNK
 		
 		buildings = {
 			infrastructure = 2

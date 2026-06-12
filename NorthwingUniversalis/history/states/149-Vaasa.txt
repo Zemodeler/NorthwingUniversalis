@@ -9,7 +9,7 @@ state = {
 	
 	
 	history = {
-		owner = TCS
+		owner = UNK
 		
 		victory_points = { #Vaasa
 			3122 2

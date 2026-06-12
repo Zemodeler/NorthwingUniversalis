@@ -11,7 +11,7 @@ state = {
 	
 	history = {
 
-		owner = TCS
+		owner = UNK
 
 		1936.1.1 = {
 			IF = {
@@ -48,8 +48,8 @@ state = {
 		}
 
 		1938.10.25 = {
-			owner = TCS
-			controller = JAP	
+			owner = UNK
+			controller = UNK	
 			buildings = {
 				air_base = 1
 			}	

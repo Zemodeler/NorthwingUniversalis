@@ -5,7 +5,7 @@ state={
 		5214 13340 13361
 	}
 	history={
-		owner = TCS
+		owner = UNK
 
 		victory_points = {
 			5214 1 

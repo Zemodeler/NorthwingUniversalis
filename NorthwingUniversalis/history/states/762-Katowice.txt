@@ -14,7 +14,7 @@ state = {
 
 	history = {
 		
-		owner = TCS
+		owner = UNK
 		add_claim_by = PRE
 
 		victory_points = {

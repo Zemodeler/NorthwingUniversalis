@@ -7,7 +7,7 @@ state = {
 
 	history = {
 
-		owner = TCS
+		owner = UNK
 
 		1936.1.1 = {
 			IF = {
@@ -35,8 +35,8 @@ state = {
 		}
 
 		1938.10.25 = {
-			owner = TCS
-			controller = MEN
+			owner = UNK
+			controller = UNK
 		}
 
 	}

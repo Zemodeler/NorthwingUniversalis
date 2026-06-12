@@ -7,7 +7,7 @@ state = {
 
 	history = {
 
-		owner = TCS
+		owner = UNK
 
 		buildings = {
 			infrastructure = 3 #was: 5

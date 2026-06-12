@@ -9,7 +9,7 @@ state = {
 	}
 
 	history = {
-		owner = TCS
+		owner = UNK
 		victory_points = {
 			9329 1
 		}

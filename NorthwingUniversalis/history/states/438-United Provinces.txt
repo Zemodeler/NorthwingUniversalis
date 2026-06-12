@@ -9,7 +9,7 @@ state={
 	state_category=town
 	local_supplies=0.000
 	history={
-		owner = TCS
+		owner = UNK
 		add_claim_by = KHL
 		victory_points = {
 			1377 10

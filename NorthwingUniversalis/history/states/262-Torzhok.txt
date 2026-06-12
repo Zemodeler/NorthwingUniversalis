@@ -11,7 +11,7 @@ state = {
 	}
 
 	history = {
-		owner = TCS
+		owner = UNK
 		buildings = {
 			infrastructure = 1
 

@@ -8,7 +8,7 @@ state = {
 
 	history = {
 
-		owner = TCS
+		owner = UNK
 
 		victory_points = {
 			12120 1 # Port Vila 

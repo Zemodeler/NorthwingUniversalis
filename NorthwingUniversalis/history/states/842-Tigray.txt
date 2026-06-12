@@ -33,11 +33,11 @@ state={
 		victory_points = {
 			13238 1 
 		}
-		owner = TCS
+		owner = UNK
 		add_claim_by = ERI
 		1936.6.1 = {
-			owner = TCS
-			controller = ITA
+			owner = UNK
+			controller = UNK
 
 		}
 

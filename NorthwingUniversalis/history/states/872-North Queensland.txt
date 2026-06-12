@@ -8,7 +8,7 @@ state={
 		buildings = {
 			infrastructure = 1
 		}
-		owner = TCS
+		owner = UNK
 	}
 	manpower=220000#PreTAOG 100000
 	state_category = rural

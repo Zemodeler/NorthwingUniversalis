@@ -5,7 +5,7 @@ state = {
 
 	history = {
 
-		owner = TCS
+		owner = UNK
 
 		victory_points = {
 			7376 3 # Phnom Penh  

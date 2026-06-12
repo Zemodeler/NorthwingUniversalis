@@ -10,7 +10,7 @@ state={
 	local_supplies=0.000
 
 	history={
-		owner = TCS
+		owner = UNK
 		victory_points = {
 			4106 5
 		}

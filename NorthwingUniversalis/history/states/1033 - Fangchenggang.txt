@@ -8,7 +8,7 @@ state = {
 	}
 
 	history = {
-		owner = TCS
+		owner = UNK
 		1936.1.1 = {
 			IF = {
 				limit = {
@@ -34,7 +34,7 @@ state = {
 
 		1938.10.25 = {
 			
-			owner = TCS
+			owner = UNK
 			
 			JAP = {
 				set_province_controller = 1018

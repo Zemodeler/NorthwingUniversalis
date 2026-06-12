@@ -12,7 +12,7 @@ state={
 
 	history = {
 
-		owner = TCS
+		owner = UNK
 
 		victory_points = {
 			4190 3 # Shijiazhuang
@@ -32,8 +32,8 @@ state={
 		}
 
 		1938.10.25 = {
-			owner = TCS
-			controller = JAP
+			owner = UNK
+			controller = UNK
 		}
 	}
 

@@ -6,7 +6,7 @@ state = {
 	
 	history = {
 
-		owner = TCS
+		owner = UNK
 
 		victory_points = {
 			317 3  # Flensburg

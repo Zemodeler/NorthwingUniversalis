@@ -11,7 +11,7 @@ state = {
 
 	history = {
 
-		owner = TCS
+		owner = UNK
 
 		victory_points = { 
 			3501 20 # Dover

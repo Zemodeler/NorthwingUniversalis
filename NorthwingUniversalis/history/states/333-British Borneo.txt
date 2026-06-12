@@ -15,7 +15,7 @@ state = {
 
 	history = {
 
-		owner = TCS
+		owner = UNK
 
 		victory_points = {
 			1208 3 # Kuching

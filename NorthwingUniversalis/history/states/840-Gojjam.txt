@@ -29,11 +29,11 @@ state = {
 			13242 2 
 		}
 		
-		owner = TCS
+		owner = UNK
 
 		1936.6.1 = {
-			owner = TCS
-			controller = ITA
+			owner = UNK
+			controller = UNK
 		}
 	}
 

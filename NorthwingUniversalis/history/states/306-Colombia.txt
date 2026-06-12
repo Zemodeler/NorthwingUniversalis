@@ -7,7 +7,7 @@ state={
 	state_category = city
 	
 	history={
-		owner = TCS
+		owner = UNK
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1

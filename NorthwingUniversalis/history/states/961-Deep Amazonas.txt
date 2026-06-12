@@ -5,7 +5,7 @@ state={
 		12919 
 	}
 	history={
-		owner = TCS
+		owner = UNK
 	}
 	manpower=6753
 	impassable = yes

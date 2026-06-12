@@ -11,7 +11,7 @@ state = {
 
 	history = {
 
-		owner = TCS
+		owner = UNK
 
 		victory_points = {
 			8193 3 #Brazzaville

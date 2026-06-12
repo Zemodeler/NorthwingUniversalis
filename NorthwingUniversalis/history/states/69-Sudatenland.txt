@@ -27,7 +27,7 @@ state = {
 			11401 3
 		}
 
-		owner = TCS
+		owner = UNK
 
 		buildings = {
 
@@ -58,8 +58,8 @@ state = {
 		}
 
 		1938.9.30 = {
-			owner = TCS
-			controller = GER
+			owner = UNK
+			controller = UNK
 		}
 
 	}
