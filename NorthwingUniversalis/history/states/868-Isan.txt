@@ -22,7 +22,6 @@ state={
 			10425 1 
 		}
 		
-		add_core_of = SIA
 	}
 	manpower=4772823 
 	state_category = town

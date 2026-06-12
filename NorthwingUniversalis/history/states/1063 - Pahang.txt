@@ -13,7 +13,6 @@ state = {
 	history = {
 
 		owner = TCS
-		add_core_of = MAL
 
 		victory_points = {
 			7399 1 # Kuantan 

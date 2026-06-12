@@ -9,7 +9,6 @@ state = {
 	history = {
 
 		owner = TCS
-		add_core_of = BRA
 
 		buildings = {
 			infrastructure = 0

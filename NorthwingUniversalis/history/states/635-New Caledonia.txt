@@ -10,7 +10,6 @@ state = {
 	history = {
 
 		owner = TCS
-		add_core_of = TAH
 
 		victory_points = {
 			4268 1 # Noumea 

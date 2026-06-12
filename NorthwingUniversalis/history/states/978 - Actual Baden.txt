@@ -12,8 +12,6 @@ state = {
 	history = {
 
 		owner = TCS
-		add_core_of = GER
-		add_core_of = WUR
 
 		victory_points = {
 			3530 10 #Karlsruhe

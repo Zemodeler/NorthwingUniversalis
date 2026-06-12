@@ -14,8 +14,6 @@ state = {
 	history = {
 
 		owner = TCS
-		add_core_of = MAL
-		add_core_of = SAB
 
 		victory_points = {
 			10199 2 # Sandakan

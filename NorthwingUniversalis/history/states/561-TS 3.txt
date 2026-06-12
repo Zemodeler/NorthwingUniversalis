@@ -9,8 +9,6 @@ state={
 	history = {
 
 		owner = TCS
-		add_core_of = SOV
-		add_core_of = FER
 
 		buildings = {
 			infrastructure = 2

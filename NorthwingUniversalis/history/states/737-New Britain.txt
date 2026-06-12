@@ -3,7 +3,6 @@ state={
 	name="STATE_737"
 
 	history={
-		add_core_of = PNG
 		owner = TCS
 		buildings = {
 			infrastructure = 1

@@ -8,8 +8,6 @@ state = {
 	history = {
 
 		owner = TCS
-		add_core_of = LAO
-		add_core_of = CPS
 
 		victory_points = {
 			1592 1 # Champasak 

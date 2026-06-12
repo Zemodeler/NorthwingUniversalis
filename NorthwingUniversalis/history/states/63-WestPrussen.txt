@@ -12,9 +12,6 @@ state = {
 	history = {
 
 		owner = TCS
-		add_core_of = GER
-		add_core_of = KSH
-		add_core_of = PRE
 
 		victory_points = {
 			6282 5 # Stettin

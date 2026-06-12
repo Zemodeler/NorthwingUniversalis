@@ -8,8 +8,6 @@ state = {
 	history = {
 
 		owner = TCS
-		add_core_of = SOV
-		add_core_of = KAR
 
 		victory_points = {
 			11159 1 # Petrozavodsk/Äänislinna

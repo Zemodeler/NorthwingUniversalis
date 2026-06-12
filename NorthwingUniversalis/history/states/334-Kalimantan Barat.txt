@@ -15,7 +15,6 @@ state = {
 	history = {
 
 		owner = TCS
-		add_core_of = POK
 
 		victory_points = {
 			4279 1

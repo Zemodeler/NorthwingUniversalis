@@ -13,8 +13,6 @@ state = {
 	history = {
 
 		owner = TCS
-		add_core_of = FIN
-		add_core_of = SMI
 
 		victory_points = { 
 			11164 2 # Kemi

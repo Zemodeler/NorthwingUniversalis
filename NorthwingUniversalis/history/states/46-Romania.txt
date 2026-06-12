@@ -11,7 +11,6 @@ state = {
 	history = {
 
 		owner = TCS
-		add_core_of = ROM
 
 		victory_points = { 
 			9617 20 

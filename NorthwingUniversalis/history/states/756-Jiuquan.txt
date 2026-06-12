@@ -10,9 +10,6 @@ state={
 	history={
 
 		owner = TCS
-		add_core_of = XSM
-		add_core_of = CHI
-		add_core_of = PRC
 
 		victory_points = {
 			7971 1 # Jiuquan 
@@ -36,8 +33,6 @@ state={
 					has_dlc = "No Compromise, No Surrender" 
 				}
 				GSM = { transfer_state = PREV }
-				add_core_of = GSM
-				remove_core_of = XSM
 			}
 		}
 

@@ -20,7 +20,6 @@ state={
 			infrastructure = 1
 		}
 		owner = TCS
-		add_core_of = SIA
 	}
 	manpower=1373994
 	

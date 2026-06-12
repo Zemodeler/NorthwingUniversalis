@@ -14,8 +14,6 @@ state = {
 	history = {
 
 		owner = TCS
-		add_core_of = GER
-		add_core_of = THU
 
 		victory_points = { 
 			3561 5 # Erfurt

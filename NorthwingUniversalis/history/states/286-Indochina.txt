@@ -12,8 +12,6 @@ state = {
 	history = {
 		
 		owner = TCS
-		add_core_of = VIN
-		add_core_of = CHM
 
 		victory_points = {
 			12204 1 # Phan Rang

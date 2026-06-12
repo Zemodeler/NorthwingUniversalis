@@ -8,7 +8,6 @@ state = {
 	history = {
 
 		owner = TCS
-		add_core_of = SOV
 
 		victory_points = {
 			3529 30 # Stalingrad

@@ -9,7 +9,6 @@ state = {
 	history = {
 
 		owner = TCS
-		add_core_of = VAN
 
 		victory_points = {
 			12120 1 # Port Vila 

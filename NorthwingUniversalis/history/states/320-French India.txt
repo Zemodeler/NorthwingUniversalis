@@ -8,7 +8,6 @@ state = {
 	history = {
 
 		owner = TCS
-		add_core_of = RAJ
 
 		victory_points = {
 			10149 1 # Pondicherry

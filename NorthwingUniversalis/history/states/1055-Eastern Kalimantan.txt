@@ -9,7 +9,6 @@ state={
 
 	history={
 		owner = TCS
-		add_core_of = GOW
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1

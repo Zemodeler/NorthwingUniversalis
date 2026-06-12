@@ -33,7 +33,6 @@ state={
 		victory_points = {
 			7602 2 # Esterabad 
 		}
-		add_core_of = PER
 	}
 
 	provinces={

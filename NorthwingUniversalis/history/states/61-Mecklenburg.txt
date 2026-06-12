@@ -9,8 +9,6 @@ state = {
 	history = {
 
 		owner = TCS
-		add_core_of = GER
-		add_core_of = MEK
 
 		victory_points = {
 			321 5 # Rostocj

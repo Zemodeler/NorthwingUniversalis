@@ -14,7 +14,6 @@ state={
 			11420 5
 		}
 		owner = TCS
-		add_core_of = FRA
 		buildings = {
 			infrastructure = 4 #was: 8
 			industrial_complex = 1

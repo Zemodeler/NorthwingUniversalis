@@ -9,7 +9,6 @@ state = {
 	history = {
 
 		owner = TCS
-		add_core_of = BOL
 
 		buildings = {
 			infrastructure = 1

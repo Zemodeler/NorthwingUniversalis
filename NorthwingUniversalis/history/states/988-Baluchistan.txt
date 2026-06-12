@@ -8,9 +8,6 @@ state={
 	manpower = 512000
 	history={
 		owner = TCS
-		add_core_of = RAJ
-		add_core_of = PAK
-		add_core_of = BLC
 		buildings = {
 			infrastructure = 1
 		}

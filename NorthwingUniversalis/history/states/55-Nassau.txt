@@ -12,9 +12,6 @@ state = {
 	history = {
 
 		owner = TCS
-		add_core_of = GER
-		add_core_of = HES
-		add_core_of = PRE
 
 		buildings = {
 

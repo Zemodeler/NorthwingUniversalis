@@ -13,8 +13,6 @@ state = {
 	history = {
 
 		owner = TCS
-		add_core_of = GER
-		add_core_of = BAY
 
 		victory_points = {
 			11544 10 # Nuremberg

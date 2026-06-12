@@ -8,7 +8,6 @@ state = {
 	history = {
 
 		owner = TCS
-		add_core_of = LAO
 
 		victory_points = {
 			10330 1 # Xayabuli  

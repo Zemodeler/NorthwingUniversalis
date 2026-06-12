@@ -12,9 +12,7 @@ state = {
 	history = {
 
 		owner = TCS
-		add_core_of = ARG
 		add_claim_by = CHL
-		add_core_of = WLA
 
 		buildings = {
 			infrastructure = 0

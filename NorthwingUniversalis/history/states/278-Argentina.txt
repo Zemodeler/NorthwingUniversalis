@@ -8,7 +8,6 @@ state = {
 	history = {
 
 		owner = TCS
-		add_core_of = ARG
 
 		buildings = {
 			infrastructure = 3 #was: 6

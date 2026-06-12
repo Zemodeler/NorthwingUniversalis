@@ -15,7 +15,6 @@ state = {
 	history = {
 
 		owner = TCS
-		add_core_of = VIN
 		
 		victory_points = {
 			4075 10 # Hanoi 

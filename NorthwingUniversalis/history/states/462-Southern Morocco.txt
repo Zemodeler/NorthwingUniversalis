@@ -8,7 +8,6 @@ state = {
 	history = {
 
 		owner = TCS
-		add_core_of = MOR
 
 		victory_points = {
 			4108 3 # Marrakesh

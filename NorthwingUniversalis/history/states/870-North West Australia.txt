@@ -9,7 +9,6 @@ state={
 			infrastructure = 1
 		}
 		owner = TCS
-		add_core_of = AST
 	}
 	state_category = pastoral
 	manpower=25000 #PreTAOG 1000

@@ -9,8 +9,6 @@ state = {
 	history = {
 
 		owner = TCS
-		add_core_of = OCC
-		add_core_of = FRA
 		add_claim_by = SPM
 
 		victory_points = {

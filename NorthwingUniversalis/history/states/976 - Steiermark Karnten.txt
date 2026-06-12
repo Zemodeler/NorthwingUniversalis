@@ -14,7 +14,6 @@ state = {
 	history = {
 
 		owner = TCS
-		add_core_of = AUS
 
 		buildings = {
 			infrastructure = 3 
@@ -36,7 +35,6 @@ state = {
 		1938.3.12 = {
 			owner = TCS
 			controller = GER
-			add_core_of = GER
 		}
 	}
 

@@ -13,7 +13,6 @@ state = {
 	history = {
 
 		owner = TCS
-		add_core_of = CHL
 		add_claim_by = BOL
 
 		buildings = {

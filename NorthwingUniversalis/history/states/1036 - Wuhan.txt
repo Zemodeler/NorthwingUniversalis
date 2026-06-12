@@ -5,8 +5,6 @@ state = {
 	history = {
 
 		owner = TCS
-		add_core_of = CHI
-		add_core_of = PRC
 
 		buildings = {
 			infrastructure = 2 #was 2

@@ -12,8 +12,6 @@ state = {
 	history = {
 
 		owner = TCS
-		add_core_of = JAP
-		add_core_of = OKN
 
 		buildings = {
 			infrastructure = 2

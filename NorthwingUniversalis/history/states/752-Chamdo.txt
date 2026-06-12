@@ -8,8 +8,6 @@ state = {
 
 	history = {
 		owner = TCS
-		add_core_of = CHI
-		add_core_of = PRC
 
 		victory_points = {
 			4999 1 # Kangding 
@@ -29,7 +27,6 @@ state = {
 					has_dlc = "No Compromise, No Surrender"
 				}
 				transfer_state_to = SIC
-				add_core_of = SIC
 			}
 		}
 
@@ -38,7 +35,6 @@ state = {
 				limit = {
 					has_dlc = "No Compromise, No Surrender" 
 				}
-				remove_core_of = SIC
 			}		
 			owner = TCS
 			controller = CHI

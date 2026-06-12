@@ -14,8 +14,6 @@ state = {
 			11050 1
 		}
 		owner = TCS
-		add_core_of = NOR
-		add_core_of = SMI
 		
 		buildings = {
 			infrastructure = 1

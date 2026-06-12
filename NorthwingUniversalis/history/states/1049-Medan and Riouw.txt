@@ -8,7 +8,6 @@ state={
 
 	history={
 		owner = TCS
-		add_core_of = SSI
 		set_resistance = 0
 		set_compliance = 60
 		buildings = {

@@ -8,8 +8,6 @@ state = {
 	history = {
 
 		owner = TCS
-		add_core_of = OMA
-		add_core_of = FSA
 
 		buildings = {
 			infrastructure = 1

@@ -6,7 +6,6 @@ state = {
 	
 	history = {
 		owner = TCS
-		add_core_of = CAN
 	}
 	
 	provinces = {

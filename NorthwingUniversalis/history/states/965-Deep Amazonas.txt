@@ -6,7 +6,6 @@ state={
 	}
 	history={
 		owner = TCS
-		add_core_of = BRA
 	}
 	manpower=21987
 	impassable = yes

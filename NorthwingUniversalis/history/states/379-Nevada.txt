@@ -14,7 +14,6 @@ state = {
 	history = {
 
 		owner = TCS
-		add_core_of = USA
 
 		buildings = {
 			infrastructure = 2

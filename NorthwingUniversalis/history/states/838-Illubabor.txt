@@ -35,8 +35,6 @@ state = {
 		}
 		
 		owner = TCS
-		add_core_of = ETH
-		add_core_of = GBA
 
 		1936.6.1 = {
 			owner = TCS
