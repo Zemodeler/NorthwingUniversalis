@@ -17,10 +17,5 @@ bookmarks = {
 			ideology = neutrality
 			minor = no
 		}
-		"UNK" = {
-			history = "NWU_UNK_BOOKMARK_DESC"
-			ideology = neutrality
-			minor = no
-		}
 	}
 }
