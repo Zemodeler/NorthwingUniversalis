@@ -11,7 +11,7 @@ state = {
 	
 	history = {
 
-		owner = CHI
+		owner = TCS
 		add_core_of = CHI
 		add_core_of = PRC
 
@@ -51,7 +51,7 @@ state = {
 		}
 
 		1938.10.25 = {
-			owner = CHI
+			owner = TCS
 			controller = JAP	
 			buildings = {
 				air_base = 1

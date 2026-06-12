@@ -11,7 +11,7 @@ state = {
 
 	history = {
 
-		owner = AST
+		owner = TCS
 		add_core_of = AST
 
 		victory_points = {

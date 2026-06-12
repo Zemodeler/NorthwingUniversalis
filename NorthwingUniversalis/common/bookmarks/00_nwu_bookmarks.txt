@@ -15,7 +15,7 @@ bookmarks = {
 		"NWK" = {
 			history = "NWU_NWK_BOOKMARK_DESC"
 			ideology = neutrality
-			minor = yes
+			minor = no
 		}
 	}
 }

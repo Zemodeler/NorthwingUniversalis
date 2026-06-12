@@ -13,7 +13,7 @@ state = {
 
 	history = {
 
-		owner = BRA
+		owner = TCS
 		add_core_of = BRA
 
 		victory_points = {

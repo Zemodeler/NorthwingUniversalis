@@ -10,7 +10,7 @@ state = {
 
 	history = {
 
-		owner = JAP
+		owner = TCS
 		add_core_of = JAP
 
 		buildings = {

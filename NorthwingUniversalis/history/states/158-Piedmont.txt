@@ -14,7 +14,7 @@ state = {
 	}
 
 	history = {
-		owner = ITA
+		owner = TCS
 		victory_points = {
 			6788 10 
 		}

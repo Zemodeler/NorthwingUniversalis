@@ -10,7 +10,7 @@ state = {
 
 	history = {
 
-		owner = POR
+		owner = TCS
 		add_core_of = ANG
 
 		buildings = {

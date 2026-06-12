@@ -12,7 +12,7 @@ state={
 	}
 
 	history={
-		owner = YUG
+		owner = TCS
 		victory_points = {
 			9894 3
 		}

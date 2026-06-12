@@ -10,7 +10,7 @@ state={
 	}
 
 	history={
-		owner = IRQ
+		owner = TCS
 		buildings = {
 			infrastructure = 2
 		}

@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = INS
+		owner = TCS
 		add_core_of = INS
 		buildings = {
 			infrastructure = 1

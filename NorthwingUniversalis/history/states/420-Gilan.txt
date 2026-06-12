@@ -7,7 +7,7 @@ state={
 	state_category = rural
 
 	history={
-		owner = PER
+		owner = TCS
 		victory_points = {
 			7969 5
 		}

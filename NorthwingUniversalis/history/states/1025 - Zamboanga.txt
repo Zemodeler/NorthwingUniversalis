@@ -11,7 +11,7 @@ state = {
 
 	history = {
 
-		owner = PHI
+		owner = TCS
 		add_core_of = PHI
 
 		buildings = {
