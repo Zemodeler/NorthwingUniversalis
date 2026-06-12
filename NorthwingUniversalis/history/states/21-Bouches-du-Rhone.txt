@@ -11,9 +11,6 @@ state={
 
 	history={
 		owner = UNK
-		victory_points = {
-			11834 10
-		}
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -21,10 +18,6 @@ state={
 			arms_factory = 1
 			fuel_silo = 1
 			air_base = 10
-			11834 = {
-				naval_base = 3
-				coastal_bunker = 1
-			}
 		}
 		1939.1.1 = {
 			buildings = {
@@ -34,7 +27,7 @@ state={
 	}
 
 	provinces={
-		958 3762 11834 11849 11875 
+		958 3762 11849 11875 
 	}
 
 	local_supplies=0.0 

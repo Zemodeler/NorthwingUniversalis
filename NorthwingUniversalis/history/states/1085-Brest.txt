@@ -1,0 +1,25 @@
+state = {
+	id = 1085
+	name = "STATE_1085" # Brest
+	manpower = 100000
+
+	state_category = city
+
+	history = {
+		owner = UNK
+		victory_points = {
+			9495 1
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 5
+			arms_factory = 5
+		}
+	}
+
+	provinces = {
+		9495
+	}
+
+	local_supplies = 0.0
+}

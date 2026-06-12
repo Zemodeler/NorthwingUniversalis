@@ -1,0 +1,25 @@
+state = {
+	id = 1083
+	name = "STATE_1083" # Paris
+	manpower = 100000
+
+	state_category = metropolis
+
+	history = {
+		owner = UNK
+		victory_points = {
+			11506 50 # Paris
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 5
+			arms_factory = 5
+		}
+	}
+
+	provinces = {
+		11506 11518
+	}
+
+	local_supplies = 0.0
+}
