@@ -1,6 +1,6 @@
 state = {
 	id = 1084
-	name = "STATE_1084" # Marseille
+	name = "STATE_1084" # Brest
 	manpower = 100000
 
 	state_category = city
@@ -8,21 +8,17 @@ state = {
 	history = {
 		owner = UNK
 		victory_points = {
-			11834 10
+			9495 1
 		}
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 5
 			arms_factory = 5
-			11834 = {
-				naval_base = 3
-				coastal_bunker = 1
-			}
 		}
 	}
 
 	provinces = {
-		11834
+		9495
 	}
 
 	local_supplies = 0.0
